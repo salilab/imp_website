@@ -7,6 +7,10 @@ IMP is currently supported on 64-bit Intel Macs running OS X 10.6
 
 <p><a href="http://salilab.org/imp/get.php?pkg=2.0.0/download/IMP-2.0.0-10.6.dmg">Download the installer</a></p>
 
+<p>(Newer Macs may complain that the installer is from an unknown developer.
+This is expected; simply right click on the installer, and select "Open"
+from the menu, rather than double-clicking on it.)</p>
+
 <h2>Signature</h2>
 
 <p>Please check the installer package against the
