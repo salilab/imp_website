@@ -12,33 +12,33 @@
 <li><a href="download-mac.html">Mac</a></li>
 <li>RedHat Enterprise Linux 5 RPMs (Python 2.4)<ul>
   <li>Base IMP package (needed for all users):
-<a href="http://salilab.org/imp/get.php?pkg=2.0.0/download/imp-2.0.0-1.el5.centos.i386.rpm">32-bit</a>;
-<a href="http://salilab.org/imp/get.php?pkg=2.0.0/download/imp-2.0.0-1.el5.centos.x86_64.rpm">x86_64</a>;
+<a href="http://salilab.org/imp/get.php?pkg=2.0.0/download/IMP-2.0.0-1.el5.centos.i386.rpm">32-bit</a>;
+<a href="http://salilab.org/imp/get.php?pkg=2.0.0/download/IMP-2.0.0-1.el5.centos.x86_64.rpm">x86_64</a>
   </li>
   <li>IMP-devel package (needed to compile C++ code using the IMP libraries):
-<a href="http://salilab.org/imp/get.php?pkg=2.0.0/download/imp-devel-2.0.0-1.el5.centos.i386.rpm">32-bit</a>;
-<a href="http://salilab.org/imp/get.php?pkg=2.0.0/download/imp-devel-2.0.0-1.el5.centos.x86_64.rpm">x86_64</a>;
+<a href="http://salilab.org/imp/get.php?pkg=2.0.0/download/IMP-devel-2.0.0-1.el5.centos.i386.rpm">32-bit</a>;
+<a href="http://salilab.org/imp/get.php?pkg=2.0.0/download/IMP-devel-2.0.0-1.el5.centos.x86_64.rpm">x86_64</a>
   </li>
 </ul>
 </li>
 
 <li>RedHat Enterprise Linux 6 RPMs (Python 2.6)<ul>
   <li>Base IMP package (needed for all users):
-<a href="http://salilab.org/imp/get.php?pkg=2.0.0/download/imp-2.0.0-1.el6.i386.rpm">32-bit</a>;
-<a href="http://salilab.org/imp/get.php?pkg=2.0.0/download/imp-2.0.0-1.el6.x86_64.rpm">x86_64</a>;
+<a href="http://salilab.org/imp/get.php?pkg=2.0.0/download/IMP-2.0.0-1.el6.i686.rpm">32-bit</a>;
+<a href="http://salilab.org/imp/get.php?pkg=2.0.0/download/IMP-2.0.0-1.el6.x86_64.rpm">x86_64</a>
   </li>
   <li>IMP-devel package (needed to compile C++ code using the IMP libraries):
-<a href="http://salilab.org/imp/get.php?pkg=2.0.0/download/imp-devel-2.0.0-1.el6.i386.rpm">32-bit</a>;
-<a href="http://salilab.org/imp/get.php?pkg=2.0.0/download/imp-devel-2.0.0-1.el6.x86_64.rpm">x86_64</a>;
+<a href="http://salilab.org/imp/get.php?pkg=2.0.0/download/IMP-devel-2.0.0-1.el6.i686.rpm">32-bit</a>;
+<a href="http://salilab.org/imp/get.php?pkg=2.0.0/download/IMP-devel-2.0.0-1.el6.x86_64.rpm">x86_64</a>;
   </li>
 </ul>
 </li>
 
 <li>Fedora 18 Linux RPMs (Python 2.7, with CGAL):<ul>
   <li>Base IMP package (needed for all users):
-<a href="http://salilab.org/imp/get.php?pkg=2.0.0/download/imp-2.0.0-1.fc18.x86_64.rpm">x86_64</a></li>
+<a href="http://salilab.org/imp/get.php?pkg=2.0.0/download/IMP-2.0.0-1.fc18.x86_64.rpm">x86_64</a></li>
   <li>IMP-devel package (needed to compile C++ code using the IMP libraries):
-<a href="http://salilab.org/imp/get.php?pkg=2.0.0/download/imp-devel-2.0.0-1.fc18.x86_64.rpm">x86_64</a></li>
+<a href="http://salilab.org/imp/get.php?pkg=2.0.0/download/IMP-devel-2.0.0-1.fc18.x86_64.rpm">x86_64</a></li>
 </ul>
 </li>
 
@@ -54,7 +54,7 @@ You can also <a href="http://salilab.org/imp/2.0.0/download/imp-doc-2.0.0.tar.gz
 <h3>Source code</h3>
 
 <ul>
-<li><a href="http://salilab.org/imp/get.php?pkg=2.0.0/download/imp-2.0.0.tar.gz">Source code tarball</a></li>
+<li><a href="http://salilab.org/imp/get.php?pkg=2.0.0/download/IMP-2.0.0.tar.gz">Source code tarball</a></li>
 </ul>
 
 <p>To build IMP from source code, please refer to the
