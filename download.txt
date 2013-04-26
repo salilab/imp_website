@@ -54,7 +54,7 @@ You can also <a href="http://salilab.org/imp/2.0.0/download/imp-doc-2.0.0.tar.gz
 <h3>Source code</h3>
 
 <ul>
-<li><a href="http://salilab.org/imp/get.php?pkg=2.0.0/download/IMP-2.0.0.tar.gz">Source code tarball</a></li>
+<li><a href="http://salilab.org/imp/get.php?pkg=2.0.0/download/imp-2.0.0.tar.gz">Source code tarball</a></li>
 </ul>
 
 <p>To build IMP from source code, please refer to the
