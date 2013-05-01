@@ -43,4 +43,10 @@ with RHEL5. We provide this for
 <a href="http://salilab.org/~ben/pubkey.asc">this GPG key</a>. We recommend
 you check your IMP RPMs for tampering by downloading the key, importing it
 (with <tt>sudo rpm --import pubkey.asc</tt>), then verifying the RPMs
-(with <tt>rpm -K IMP*.rpm</tt>).
+(with <tt>rpm -K IMP*.rpm</tt>).</p>
+
+<h2>Source RPMs</h2>
+
+<p>Source RPMs (to rebuild the package for Linux variants not listed above)
+are <a href="http://www.integrativemodeling.org/2.0.0/download/">also
+available</a>.</p>
