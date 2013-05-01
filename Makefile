@@ -7,6 +7,7 @@ include ${TOPDIR}/Makefile.include
 all: ${WEB}/groups.html ${WEB}/index.html ${WEB}/imp.css ${WEB}/pygments.css \
      ${WEB}/images ${WEB}/doc.html  ${WEB}/download.html ${WEB}/get.php \
      ${WEB}/download-windows.html ${WEB}/download-mac.html \
+     ${WEB}/download-linux.html \
      ${WEB}/libTAU.html ${SUBDIRS}
 
 ${WEB}/groups.html::
@@ -43,6 +44,11 @@ ${WEB}/download-windows.html::
 ${WEB}/download-mac.html::
 	@if [ ! -d ${WEB} ]; then mkdir -p ${WEB}; fi
 	(cat make-get.php index.php | php -- page=download-mac TOPDIR="${TOPDIR}") > phpout
+	@grep -q "</html>" phpout && cp phpout $@ && rm phpout || (echo "Error occurred during production of $@: check phpout for errors"; exit 1)
+
+${WEB}/download-linux.html::
+	@if [ ! -d ${WEB} ]; then mkdir -p ${WEB}; fi
+	(cat make-get.php index.php | php -- page=download-linux TOPDIR="${TOPDIR}") > phpout
 	@grep -q "</html>" phpout && cp phpout $@ && rm phpout || (echo "Error occurred during production of $@: check phpout for errors"; exit 1)
 
 ${WEB}/get.php: get.php get.php.in misc.inc.php header.txt footer.txt
