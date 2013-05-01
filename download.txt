@@ -32,9 +32,7 @@ You can also <a href="http://salilab.org/imp/2.0.0/download/imp-doc-2.0.0.tar.gz
 
 <h3>Signatures</h3>
 
-<p>All of the RPMs are signed with
-<a href="http://salilab.org/~ben/pubkey.asc">this GPG key</a>.
-For all other packages, please check the
+<p>Please check the
 <a href="http://salilab.org/imp/2.0.0/download/MD5SUM">MD5SUM</a> and
 <a href="http://salilab.org/imp/2.0.0/download/MD5SUM.asc">its signature</a>.
 </p>
