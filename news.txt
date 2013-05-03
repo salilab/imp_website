@@ -1,4 +1,4 @@
-<p>IMP 2.0.0 is released! Get it from the <a href="download.html">download
+<p>IMP 2.0.1 is released! Get it from the <a href="download.html">download
 page</a>.
 </p>
 
