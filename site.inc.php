@@ -14,9 +14,9 @@
    function GetDocumentation() {
 print <<< END
 <ul>
-<li>IMP 2.0.0 stable release
+<li>IMP 2.0.1 stable release
   <ul>
-  <li><a href="2.0.0/doc/html/">Manual</a></li>
+  <li><a href="2.0.1/doc/html/">Manual</a></li>
   </ul>
 </li>
 
