@@ -13,7 +13,9 @@ IMP has been used by researchers at the Centro de Investigación Príncipe Felip
 in Spain, in combination with chromosome conformation capture carbon copy (5C)
 technology, to generate high-resolution three-dimensional models of chromatin
 at the megabase scale.
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/21131981">more...</a>
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/21131981">[publication 1]</a>
+&nbsp;
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/23657480">[publication 2]</a>
 </p>
 
 <p>
