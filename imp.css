@@ -721,8 +721,8 @@ img.textfigure {
 img.ncdir {
 	border: 0;
 	height: 60px;
-	float: right;
-	padding-left: 1em;
+	float: left;
+	padding-right: 1em;
 }
 
 img.npcimg {
