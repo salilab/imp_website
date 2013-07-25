@@ -61,6 +61,12 @@ our Subversion repository</a>.</p>
 <a href="http://salilab.org/imp/nightly/doc/html/">online documentation</a>.
 </p>
 
+<a name="devel"></a>
+<h2>Development</h2>
+
+<p>The latest development version of IMP is hosted <a
+href="http://github.com/salilab/imp/">at github</a>.</p>
+
 <a name="old"></a>
 <h2>Old releases</h2>
 
