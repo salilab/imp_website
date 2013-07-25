@@ -1,6 +1,6 @@
 <div id="news">
 
-<dl>
+<dl class="newslist">
 <dt>May 02, 2013</dt>
 
 <dd>The <a href="download.html">IMP 2.0.1 release</a> contains several new

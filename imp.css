@@ -168,11 +168,11 @@ a.codeRef {
    text-align: justify;
 }
 
-dd {
+.newslist dd {
   padding-bottom: 1em;
 }
 
-dt {
+.newslist dt {
   font-style: italic;
 }
 
