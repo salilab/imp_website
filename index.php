@@ -23,9 +23,7 @@
                   echo "</div>"; 
                } elseif ($page == "doc") {
                   print_page_header("Documentation");
-                  echo "<div id=\"docs\">";
-                  GetDocumentation();              
-                  echo "</div>"; 
+                  PrintFile("doc.txt");
                } elseif (substr($page, 0, 8) == "download") {
                   print_page_header("Download");
                   echo "<div id=\"download\">";
