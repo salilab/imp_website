@@ -177,6 +177,14 @@ a.codeRef {
    text-align: justify;
 }
 
+dd {
+  padding-bottom: 1em;
+}
+
+dt {
+  font-style: italic;
+}
+
 .wel h2 {
 }
 
