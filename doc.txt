@@ -1,6 +1,6 @@
 <div id="docs">
 
-<ul>
+<ul class="docs">
 <li>IMP 2.0.1 stable release
   <ul>
   <li><a href="2.0.1/doc/html/">Manual</a></li>

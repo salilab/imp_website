@@ -128,6 +128,10 @@ a:hover {
   font-style: italic;
 }
 
+.docs>li {
+  padding-bottom: 1em;
+}
+
 .implink {
    padding-left: 15px;
    background-image: url("images/imp_link.png");
