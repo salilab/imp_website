@@ -47,16 +47,5 @@
          </td>
       </tr>
    <?PHP
-      if ($page == "home") {
-      echo "<tr>
-               <td class=\"thres\">
-                  <h3>Highlighted research</h3>
-                  <div class=\"high\">";
-                     PrintFile("hresearch.txt");
-      echo "      </div>
-               </td>
-            </tr>";
-      }
-
    print_page_footer();
    ?>
