@@ -4,10 +4,6 @@
    include("misc.inc.php");
    $page = $_GET['page'];
    if (!$page) { $page = "home"; }
-?>
-
-
-<?PHP
                if ($page == "home") {
                   print_page_header("IMP, the Integrative Modeling Platform");
                   PrintFile("home.txt");    
