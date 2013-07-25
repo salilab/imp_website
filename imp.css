@@ -724,3 +724,14 @@ img.ncdir {
 	float: right;
 	padding-left: 1em;
 }
+
+img.npcimg {
+	border: 0;
+	height: 120px;
+	float: right;
+	padding-left: 1em;
+}
+
+p.clear {
+  clear: both;
+}
