@@ -3,7 +3,7 @@
 
   print "<?php\n\n";
   print "   function print_page_header() {\nprint <<<END\n";
-  print_page_header();
+  print_page_header("Get IMP");
   print "\nEND;\n}\n\n";
 
   print "   function print_page_footer() {\nprint <<<END\n";

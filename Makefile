@@ -7,12 +7,27 @@ include ${TOPDIR}/Makefile.include
 all: ${WEB}/groups.html ${WEB}/index.html ${WEB}/imp.css ${WEB}/pygments.css \
      ${WEB}/images ${WEB}/doc.html  ${WEB}/download.html ${WEB}/get.php \
      ${WEB}/download-windows.html ${WEB}/download-mac.html \
-     ${WEB}/download-linux.html \
-     ${WEB}/libTAU.html ${SUBDIRS}
+     ${WEB}/download-linux.html ${WEB}/about.html ${WEB}/news.html \
+     ${WEB}/libTAU.html ${WEB}/contact.html ${SUBDIRS}
 
 ${WEB}/groups.html::
 	@if [ ! -d ${WEB} ]; then mkdir -p ${WEB}; fi
 	(cat make-get.php index.php | php -- page=groups TOPDIR="${TOPDIR}") > phpout
+	@grep -q "</html>" phpout && cp phpout $@ && rm phpout || (echo "Error occurred during production of $@: check phpout for errors"; exit 1)
+
+${WEB}/contact.html::
+	@if [ ! -d ${WEB} ]; then mkdir -p ${WEB}; fi
+	(cat make-get.php index.php | php -- page=contact TOPDIR="${TOPDIR}") > phpout
+	@grep -q "</html>" phpout && cp phpout $@ && rm phpout || (echo "Error occurred during production of $@: check phpout for errors"; exit 1)
+
+${WEB}/news.html::
+	@if [ ! -d ${WEB} ]; then mkdir -p ${WEB}; fi
+	(cat make-get.php index.php | php -- page=news TOPDIR="${TOPDIR}") > phpout
+	@grep -q "</html>" phpout && cp phpout $@ && rm phpout || (echo "Error occurred during production of $@: check phpout for errors"; exit 1)
+
+${WEB}/about.html::
+	@if [ ! -d ${WEB} ]; then mkdir -p ${WEB}; fi
+	(cat make-get.php index.php | php -- page=about TOPDIR="${TOPDIR}") > phpout
 	@grep -q "</html>" phpout && cp phpout $@ && rm phpout || (echo "Error occurred during production of $@: check phpout for errors"; exit 1)
 
 ${WEB}/index.html::

@@ -2,7 +2,7 @@
    #includes
    include("conf.inc.php");
 
-   function PrintFile($f) {
+   function PrintFile($f, $title='') {
       $co = GetContentsFile('./' . $f);
       $lines = preg_split("/\n/",$co);
       $topdir = $_GET['TOPDIR'];
@@ -12,7 +12,7 @@
         $topdir = $topdir . '/';
       }
       foreach ($lines as $ln_num => $line) {
-         $rline = str_replace('$title', "IMP Community", $line);
+         $rline = str_replace('$title', $title, $line);
          $rline = str_replace('@TOPDIR@', $topdir, $rline);
          echo $rline . "\n";
       }
@@ -48,13 +48,14 @@
       return($co);
    }
 
-   function print_page_header() {
-      PrintFile($_GET['TOPDIR'] . "/header.txt");
+   function print_page_header($title) {
+      PrintFile($_GET['TOPDIR'] . "/header.txt", $title);
       print <<<END
   <div id="container">
    <table class="tcon">
   <tr>
          <td class="twel" colspan="3">
+   <h1>$title</h1>
 END;
    }
 

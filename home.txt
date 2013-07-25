@@ -1,0 +1,20 @@
+<div id="home">
+
+<p>IMP's broad goal is to contribute to a comprehensive structural characterization of biomolecules ranging in size and complexity from small peptides to large macromolecular assemblies, by integrating data from diverse biochemical and biophysical experiments.</p>
+
+<p>The IMP software is used as part of the
+<a href="http://www.ncdir.org/">
+<img src="images/NCDIR.png" class="ncdir" alt="NCDIR logo" />
+</a>
+<a href="http://www.ncdir.org/">National Center for Dynamic Interactome Research</a> (NCDIR).
+</p>
+
+<p>If you use IMP, please cite
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/22272186">D. Russel, K. Lasker,
+B. Webb, D. Schneidman, J. Velázquez-Muriel, A. Sali, "Putting the pieces
+together: integrative structure determination of macromolecular assemblies",
+PLoS Biology, 2012</a>.
+The main page of each IMP module in the <a href="doc.html">documentation</a>
+also lists publications relevant to that module.</p>
+
+</div>
