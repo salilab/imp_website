@@ -2,6 +2,9 @@
 
 <p>IMP's broad goal is to contribute to a comprehensive structural characterization of biomolecules ranging in size and complexity from small peptides to large macromolecular assemblies, by integrating data from diverse biochemical and biophysical experiments.</p>
 
+<p>Get started with IMP by <a href="download.html">downloading it</a> and
+checking out the <a href="doc.html">documentation</a>.</p>
+
 <p>The IMP software is used as part of the
 <a href="http://www.ncdir.org/">
 <img src="images/NCDIR.png" class="ncdir" alt="NCDIR logo" />
