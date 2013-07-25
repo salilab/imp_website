@@ -1,10 +1,8 @@
 <?php
    include("misc.inc.php");
-   print_page_header();
+   print_page_header('The restrainer high-level interface');
 ?>
 <div id="tutorial">
-
-<h1>The restrainer high-level interface</h1>
 
 <p>The <a href="library.html">IMP C++/Python library</a> offers a great
 deal of flexibility in setting up the system and restraints. However,

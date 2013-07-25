@@ -1,11 +1,9 @@
 <?php
    include("misc.inc.php");
-   print_page_header();
+   print_page_header('Tutorial');
 ?>
+
 <div id="tutorial">
-
-<h1>Tutorial</h1>
-
 <p>
 This tutorial aims to give a simple introduction to the IMP 1.0 software
 itself and some specific applications. It cannot cover all parts of IMP in

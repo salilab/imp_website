@@ -149,6 +149,10 @@ span.filename {
 	font-weight: bold;
 }
 
+tt {
+	font-family: Courier, monospace;
+}
+
 p.textfigure {
 	text-align:center;
 }

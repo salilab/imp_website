@@ -1,11 +1,8 @@
 <?php
    include("misc.inc.php");
-   print_page_header();
+   print_page_header('Determining macromolecular assembly structures by fitting multiple structures into an electron density map');
 ?>
 <div id="tutorial">
-
-<h1>Determining macromolecular assembly structures by fitting multiple
-structures into an electron density map</h1>
 
 <p>Often, we have available high-resolution (atomic) information for the
 subunits in an assembly, and low-resolution information for the assembly

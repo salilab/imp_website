@@ -1,10 +1,8 @@
 <?php
    include("misc.inc.php");
-   print_page_header();
+   print_page_header('Introduction');
 ?>
 <div id="tutorial">
-
-<h1>Introduction</h1>
 
 <p>To understand the function of a macromolecular assembly, we must know
 the structure of its components and the interactions between them. However,

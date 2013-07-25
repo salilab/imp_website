@@ -1,10 +1,8 @@
 <?php
    include("misc.inc.php");
-   print_page_header();
+   print_page_header('Integration of comparative modeling, X-ray crystallography, and SAXS');
 ?>
 <div id="tutorial">
-
-<h1>Integration of comparative modeling, X-ray crystallography, and SAXS</h1>
 
 <p>The Nup84 complex structure determined <a href="restrainer.html">in the
 previous section</a> is consistent with all input information, but for a

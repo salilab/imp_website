@@ -1,10 +1,8 @@
 <?php
    include("misc.inc.php");
-   print_page_header();
+   print_page_header('The IMP C++/Python library');
 ?>
 <div id="tutorial">
-
-<h1>The IMP C++/Python library</h1>
 
 <p>
 The core of IMP is the C++/Python library, which provides all of the necessary
