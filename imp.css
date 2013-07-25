@@ -197,15 +197,6 @@ dt {
    height: auto;
 }
 
-#footer {
-   width: 700px;
-   margin-top: 10px;
-   padding-top: 10px;
-   border-top: 1px dotted #CCCCCC; 
-   font-family: "American Typewriter", Courier, monospace;
-   font-size: smaller;
-}
-
 .plogo {
    vertical-align: middle;
 }
