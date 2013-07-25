@@ -52,16 +52,12 @@
       PrintFile($_GET['TOPDIR'] . "/header.txt", $title);
       print <<<END
   <div id="container">
-   <table class="tcon">
-  <tr>
-         <td class="twel" colspan="3">
    <h1>$title</h1>
 END;
    }
 
    function print_page_footer() {
-      print "   </table>\n";
-      print "     </div>\n\n";
+      print "</div>\n\n";
       print "<div id=\"footer\">\n";
       PrintFile($_GET['TOPDIR'] . "/footer.txt");
       print <<<END

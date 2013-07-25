@@ -43,9 +43,5 @@
                } else {
                   error_log("Invalid page snuck through"+$page);
                }
-            ?>
-         </td>
-      </tr>
-   <?PHP
    print_page_footer();
    ?>
