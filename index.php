@@ -1,5 +1,4 @@
 <?PHP
-   include("conf.inc.php");
    include("misc.inc.php");
    $page = $_GET['page'];
    if (!$page) { $page = "home"; }

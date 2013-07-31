@@ -1,7 +1,4 @@
 <?php
-   #includes
-   include("conf.inc.php");
-
    function PrintFile($f, $title='') {
       $co = GetContentsFile('./' . $f);
       $lines = preg_split("/\n/",$co);
