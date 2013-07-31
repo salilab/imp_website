@@ -1,5 +1,5 @@
 <?php
-   include("misc.inc.php");
+   include("IMP.inc");
    print_page_header('The IMP C++/Python library');
 ?>
 <div id="tutorial">

@@ -1,5 +1,5 @@
 <?php
-  include 'misc.inc.php';
+  include 'IMP.inc';
 
   print "<?php\n\n";
   print "   function print_page_header() {\nprint <<<END\n";

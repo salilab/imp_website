@@ -1,5 +1,5 @@
 <?PHP
-   include("misc.inc.php");
+   include("IMP.inc");
    $page = $_GET['page'];
    if (!$page) { $page = "home"; }
                if ($page == "home") {

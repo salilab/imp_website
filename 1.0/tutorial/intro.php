@@ -1,5 +1,5 @@
 <?php
-   include("misc.inc.php");
+   include("IMP.inc");
    print_page_header('Introduction');
 ?>
 <div id="tutorial">

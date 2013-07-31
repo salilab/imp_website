@@ -1,5 +1,5 @@
 <?php
-   include("misc.inc.php");
+   include("IMP.inc");
    print_page_header('Integration of comparative modeling, X-ray crystallography, and SAXS');
 ?>
 <div id="tutorial">

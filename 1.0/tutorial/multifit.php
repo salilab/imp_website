@@ -1,5 +1,5 @@
 <?php
-   include("misc.inc.php");
+   include("IMP.inc");
    print_page_header('Determining macromolecular assembly structures by fitting multiple structures into an electron density map');
 ?>
 <div id="tutorial">

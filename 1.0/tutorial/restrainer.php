@@ -1,5 +1,5 @@
 <?php
-   include("misc.inc.php");
+   include("IMP.inc");
    print_page_header('The restrainer high-level interface');
 ?>
 <div id="tutorial">
