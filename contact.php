@@ -1,3 +1,8 @@
+<?php
+   include("IMP.inc");
+   print_page_header("Contact us");
+?>
+
 <div id="contact">
 
 <p>We provide several <a
@@ -8,3 +13,7 @@ mailing lists</a> for discussion on using and developing IMP.</p>
 <span class="e-mail">imp at salilab.org | IMP website admin</span>.</p>
 
 </div>
+
+<?php
+   print_page_footer();
+?>

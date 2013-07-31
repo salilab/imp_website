@@ -1,3 +1,8 @@
+<?php
+   include("IMP.inc");
+   print_page_header("Documentation");
+?>
+
 <div id="docs">
 
 <ul class="docs">
@@ -26,3 +31,7 @@ tutorial</a></li>
 </ul>
 
 </div>
+
+<?php
+   print_page_footer();
+?>

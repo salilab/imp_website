@@ -1,3 +1,10 @@
+<?php
+   include("IMP.inc");
+   print_page_header("Download");
+?>
+
+<div id="download">
+
 <h2>IMP 2.0.1 Windows installer</h2>
 
 <p>
@@ -34,3 +41,9 @@ or 2.7 from <a href="http://www.python.org/">the Python website</a>.
 Note that IMP <b>does not work</b> with Python 3.
 One way to use an IMP Python script is to open it
 in the Python 'IDLE' frontend and hit F5 to run it.</p>
+
+</div>
+
+<?php
+   print_page_footer();
+?>

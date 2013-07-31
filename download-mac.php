@@ -1,3 +1,10 @@
+<?php
+   include("IMP.inc");
+   print_page_header("Download");
+?>
+
+<div id="download">
+
 <h2>IMP 2.0.1 Mac installer</h2>
 
 <p>
@@ -40,3 +47,9 @@ in the directory containing the script. (If you have multiple versions of
 Python installed on your system, you may need to force use of the default
 system version by typing <tt>/usr/bin/python</tt> rather than just
 <tt>python</tt>.)</p>
+
+</div>
+
+<?php
+   print_page_footer();
+?>

@@ -1,3 +1,10 @@
+<?php
+   include("IMP.inc");
+   print_page_header("libTAU support code");
+?>
+
+<div id="libTAU">
+
 <a name="stable"></a>
 
 <p>libTAU is a support library needed for MultiFit, provided by
@@ -36,3 +43,9 @@ then follow the instructions in the <tt>README</tt> file.
 
 <p><i>The zipfile and RPMs are signed with
 <a href="http://salilab.org/~ben/pubkey.asc">this GPG key</a>.</i></p>
+
+</div>
+
+<?php
+   print_page_footer();
+?>

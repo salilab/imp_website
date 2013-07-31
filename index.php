@@ -1,39 +1,43 @@
-<?PHP
+<?php
    include("IMP.inc");
-   $page = $_GET['page'];
-   if (!$page) { $page = "home"; }
-               if ($page == "home") {
-                  print_page_header("IMP, the Integrative Modeling Platform");
-                  PrintFile("home.txt");    
-               } elseif ($page == "about") {
-                  print_page_header("About IMP");
-                  PrintFile("about.txt");
-               } elseif ($page == "news") {
-                  print_page_header("News");
-                  PrintFile("news.txt");
-               } elseif ($page == "contact") {
-                  print_page_header("Contact us");
-                  PrintFile("contact.txt");
-               } elseif ($page == "groups") {
-                  print_page_header("Participating groups");
-                  echo "<div id=\"groups\">";
-                  PrintFile("groups.txt");              
-                  echo "</div>"; 
-               } elseif ($page == "doc") {
-                  print_page_header("Documentation");
-                  PrintFile("doc.txt");
-               } elseif (substr($page, 0, 8) == "download") {
-                  print_page_header("Download");
-                  echo "<div id=\"download\">";
-                  PrintFile($page . ".txt");
-                  echo "</div>"; 
-               } elseif ($page == "libTAU") {
-                  print_page_header("libTAU support code");
-                  echo "<div id=\"libTAU\">";
-                  PrintFile($page . ".txt");
-                  echo "</div>"; 
-               } else {
-                  error_log("Invalid page snuck through"+$page);
-               }
+   print_page_header("IMP, the Integrative Modeling Platform");
+?>
+
+<div id="home">
+
+<p>IMP's broad goal is to contribute to a comprehensive structural characterization of biomolecules ranging in size and complexity from small peptides to large macromolecular assemblies, by integrating data from diverse biochemical and biophysical experiments.
+<img class="npcimg" src="images/nucleopore.gif"
+title="Model of the nuclear pore complex"
+alt="Model of the nuclear pore complex" />
+IMP provides an open source C++ and Python toolbox for solving complex
+modeling problems, and a number of applications for tackling some common
+problems in a user-friendly way. IMP can also be used from the 
+<a href="http://www.cgl.ucsf.edu/chimera/">Chimera</a> molecular modeling
+system, or via one of several web applications.
+</p>
+
+<p class="clear">
+Get started with IMP by <a href="download.html">downloading it</a> and
+checking out the <a href="doc.html">documentation</a>.</p>
+
+<p>The IMP software is used as part of the
+<a href="http://www.ncdir.org/">
+<img src="images/NCDIR.png" class="ncdir" alt="NCDIR logo" />
+</a>
+<a href="http://www.ncdir.org/">National Center for Dynamic Interactome Research</a> (NCDIR).
+</p>
+
+<p class="clear">
+If you use IMP, please cite
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/22272186">D. Russel, K. Lasker,
+B. Webb, D. Schneidman, J. Velázquez-Muriel, A. Sali, "Putting the pieces
+together: integrative structure determination of macromolecular assemblies",
+PLoS Biology, 2012</a>.
+The main page of each IMP module in the <a href="doc.html">documentation</a>
+also lists publications relevant to that module.</p>
+
+</div>
+
+<?php
    print_page_footer();
-   ?>
+?>

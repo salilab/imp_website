@@ -10,70 +10,9 @@ all: ${WEB}/groups.html ${WEB}/index.html ${WEB}/imp.css ${WEB}/pygments.css \
      ${WEB}/download-linux.html ${WEB}/about.html ${WEB}/news.html \
      ${WEB}/libTAU.html ${WEB}/contact.html ${SUBDIRS}
 
-${WEB}/groups.html::
-	@if [ ! -d ${WEB} ]; then mkdir -p ${WEB}; fi
-	(cat make-get.php index.php | php -- page=groups TOPDIR="${TOPDIR}") > phpout
-	@grep -q "</html>" phpout && cp phpout $@ && rm phpout || (echo "Error occurred during production of $@: check phpout for errors"; exit 1)
-
-${WEB}/contact.html::
-	@if [ ! -d ${WEB} ]; then mkdir -p ${WEB}; fi
-	(cat make-get.php index.php | php -- page=contact TOPDIR="${TOPDIR}") > phpout
-	@grep -q "</html>" phpout && cp phpout $@ && rm phpout || (echo "Error occurred during production of $@: check phpout for errors"; exit 1)
-
-${WEB}/news.html::
-	@if [ ! -d ${WEB} ]; then mkdir -p ${WEB}; fi
-	(cat make-get.php index.php | php -- page=news TOPDIR="${TOPDIR}") > phpout
-	@grep -q "</html>" phpout && cp phpout $@ && rm phpout || (echo "Error occurred during production of $@: check phpout for errors"; exit 1)
-
-${WEB}/about.html::
-	@if [ ! -d ${WEB} ]; then mkdir -p ${WEB}; fi
-	(cat make-get.php index.php | php -- page=about TOPDIR="${TOPDIR}") > phpout
-	@grep -q "</html>" phpout && cp phpout $@ && rm phpout || (echo "Error occurred during production of $@: check phpout for errors"; exit 1)
-
-${WEB}/index.html::
-	@if [ ! -d ${WEB} ]; then mkdir -p ${WEB}; fi
-	(cat make-get.php index.php | php -- page=home TOPDIR="${TOPDIR}") > phpout
-	@grep -q "</html>" phpout && cp phpout $@ && rm phpout || (echo "Error occurred during production of $@: check phpout for errors"; exit 1)
-
-${WEB}/pubs.html::
-	@if [ ! -d ${WEB} ]; then mkdir -p ${WEB}; fi
-	(cat make-get.php index.php | php -- page=pubs TOPDIR="${TOPDIR}") > phpout
-	@grep -q "</html>" phpout && cp phpout $@ && rm phpout || (echo "Error occurred during production of $@: check phpout for errors"; exit 1)
-
-${WEB}/doc.html::
-	@if [ ! -d ${WEB} ]; then mkdir -p ${WEB}; fi
-	(cat make-get.php index.php | php -- page=doc TOPDIR="${TOPDIR}") > phpout
-	@grep -q "</html>" phpout && cp phpout $@ && rm phpout || (echo "Error occurred during production of $@: check phpout for errors"; exit 1)
-
-
-${WEB}/download.html::
-	@if [ ! -d ${WEB} ]; then mkdir -p ${WEB}; fi
-	(cat make-get.php index.php | php -- page=download TOPDIR="${TOPDIR}") > phpout
-	@grep -q "</html>" phpout && cp phpout $@ && rm phpout || (echo "Error occurred during production of $@: check phpout for errors"; exit 1)
-
-${WEB}/download-windows.html::
-	@if [ ! -d ${WEB} ]; then mkdir -p ${WEB}; fi
-	(cat make-get.php index.php | php -- page=download-windows TOPDIR="${TOPDIR}") > phpout
-	@grep -q "</html>" phpout && cp phpout $@ && rm phpout || (echo "Error occurred during production of $@: check phpout for errors"; exit 1)
-
-${WEB}/download-mac.html::
-	@if [ ! -d ${WEB} ]; then mkdir -p ${WEB}; fi
-	(cat make-get.php index.php | php -- page=download-mac TOPDIR="${TOPDIR}") > phpout
-	@grep -q "</html>" phpout && cp phpout $@ && rm phpout || (echo "Error occurred during production of $@: check phpout for errors"; exit 1)
-
-${WEB}/download-linux.html::
-	@if [ ! -d ${WEB} ]; then mkdir -p ${WEB}; fi
-	(cat make-get.php index.php | php -- page=download-linux TOPDIR="${TOPDIR}") > phpout
-	@grep -q "</html>" phpout && cp phpout $@ && rm phpout || (echo "Error occurred during production of $@: check phpout for errors"; exit 1)
-
 ${WEB}/get.php: get.php get.php.in IMP.inc header.txt footer.txt
 	@if [ ! -d ${WEB} ]; then mkdir -p ${WEB}; fi
 	(php get.php.in; cat get.php) > phpout
-	@grep -q "</html>" phpout && cp phpout $@ && rm phpout || (echo "Error occurred during production of $@: check phpout for errors"; exit 1)
-
-${WEB}/libTAU.html::
-	@if [ ! -d ${WEB} ]; then mkdir -p ${WEB}; fi
-	(cat make-get.php index.php | php -- page=libTAU TOPDIR="${TOPDIR}") > phpout
 	@grep -q "</html>" phpout && cp phpout $@ && rm phpout || (echo "Error occurred during production of $@: check phpout for errors"; exit 1)
 
 ${WEB}/imp.css: imp.css

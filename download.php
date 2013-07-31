@@ -1,3 +1,10 @@
+<?php
+   include("IMP.inc");
+   print_page_header("Download");
+?>
+
+<div id="download">
+
 <a name="stable"></a>
 <h2>IMP 2.0.1 stable release</h2>
 
@@ -70,3 +77,9 @@ for the most recent nightly build that compiled successfully.</p>
 <li><a href="2.0.0/download/">2.0.0</a></li>
 <li><a href="1.0/download/">1.0</a></li>
 </ul>
+
+</div>
+
+<?php
+   print_page_footer();
+?>

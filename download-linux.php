@@ -1,3 +1,10 @@
+<?php
+   include("IMP.inc");
+   print_page_header("Download");
+?>
+
+<div id="download">
+
 <h2>IMP 2.0.1 Linux packages</h2>
 
 <ul>
@@ -50,3 +57,9 @@ you check your IMP RPMs for tampering by downloading the key, importing it
 <p>Source RPMs (to rebuild the package for Linux variants not listed above)
 are <a href="http://www.integrativemodeling.org/2.0.1/download/">also
 available</a>.</p>
+
+</div>
+
+<?php
+   print_page_footer();
+?>

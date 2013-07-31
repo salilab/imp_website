@@ -1,3 +1,8 @@
+<?php
+   include("IMP.inc");
+   print_page_header("News");
+?>
+
 <div id="news">
 
 <dl class="newslist">
@@ -54,3 +59,7 @@ Researchers from UCSF and the Rockefeller University have used IMP for modeling 
 </dl>
 
 </div>
+
+<?php
+   print_page_footer();
+?>

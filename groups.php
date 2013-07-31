@@ -1,3 +1,10 @@
+<?php
+   include("IMP.inc");
+   print_page_header("Participating groups");
+?>
+
+<div id="groups">
+
 <table>
    <tr>
       <td><img src="images/groups.png" alt="World map" /></td>
@@ -15,3 +22,9 @@
        </td>
    </tr>
 </table>
+
+</div>
+
+<?php
+   print_page_footer();
+?>
