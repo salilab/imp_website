@@ -15,21 +15,6 @@
       }
    }
    
-   # Get content of a directory based on ter
-   function lsDir($path,$ter) {
-      $files = array();
-      $dir_handle = @opendir($path) or die("Unable to open $path");
-      while ($file = readdir($dir_handle)) {
-         if (strchr($file,$ter)) {
-            $file = $path."/".$file;
-            array_push($files,$file);
-         }
-      }
-      rsort($files);
-      closedir($dir_handle);
-      return($files);
-   }
-
    function GetContentsFile($f) {
       $fd = fopen($f,"r");
       if (!$fd) {
