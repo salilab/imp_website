@@ -44,18 +44,18 @@ window.onload = linkEmail;
 <div id="impnav">
    <table class="imptnav">
       <tr>
-         <td><a href="http://www.integrativemodeling.org/">
-             <img src="http://www.integrativemodeling.org/images/the_imp.png" height="60" alt="IMP logo" border="0"/></a></td>
+         <td><a href="//integrativemodeling.org/">
+             <img src="//integrativemodeling.org/images/the_imp.png" height="60" alt="IMP logo" border="0"/></a></td>
          <td>
             <div id="implinks">
              <ul>
-               <li><a href="http://www.integrativemodeling.org/">home</a></li>
-               <li><a href="http://www.integrativemodeling.org/about.html">about</a></li>
-               <li><a href="http://www.integrativemodeling.org/news.html">news</a></li>
-               <li><a href="http://www.integrativemodeling.org/download.html">download</a></li>
-               <li><a href="http://www.integrativemodeling.org/doc.html">doc</a></li>
+               <li><a href="//integrativemodeling.org/">home</a></li>
+               <li><a href="//integrativemodeling.org/about.html">about</a></li>
+               <li><a href="//integrativemodeling.org/news.html">news</a></li>
+               <li><a href="//integrativemodeling.org/download.html">download</a></li>
+               <li><a href="//integrativemodeling.org/doc.html">doc</a></li>
                <li><a href="https://github.com/salilab/imp/wiki">wiki</a></li>
-               <li><a href="http://www.integrativemodeling.org/contact.html">contact</a></li>
+               <li><a href="//integrativemodeling.org/contact.html">contact</a></li>
            </ul>
             </div>
          </td>
