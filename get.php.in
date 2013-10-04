@@ -1,6 +1,7 @@
 <?php
   include 'IMP.inc';
 
+  $_GET["TOPDIR"] = ".";
   print "<?php\n\n";
   print "   function print_page_header() {\nprint <<<END\n";
   print_page_header("Get IMP");
