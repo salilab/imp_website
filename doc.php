@@ -15,9 +15,9 @@
 
 <li>Latest nightly build
   <ul>
-  <li><a href="http://salilab.org/imp/nightly/doc/tutorial/">Introductory
+  <li><a href="nightly/doc/tutorial/">Introductory
 tutorial</a></li>
-  <li><a href="http://salilab.org/imp/nightly/doc/html/">Manual</a></li>
+  <li><a href="nightly/doc/html/">Manual</a></li>
   </ul>
 </li>
 
