@@ -16,6 +16,11 @@ problems in a user-friendly way. IMP can also be used from the
 system, or via one of several web applications.
 </p>
 
+<p>IMP is open source software, mostly available under the terms of the
+<a href="http://www.gnu.org/licenses/lgpl.html">GNU Lesser General Public
+License (LGPL)</a>. (Some IMP modules are available under the 
+<a href="http://www.gnu.org/licenses/gpl.html">GNU GPL</a> instead.)
+
 <p class="clear">
 Get started with IMP by <a href="download.html">downloading it</a> and
 checking out the <a href="doc.html">documentation</a>.</p>
