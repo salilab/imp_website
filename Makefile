@@ -1,6 +1,6 @@
 WEB=${WEBTOP}
 TOPDIR=.
-INCLUDE=IMP.inc
+INCLUDE=IMP.inc header.txt
 SUBDIRS=1.0/tutorial
 
 include ${TOPDIR}/Makefile.include
