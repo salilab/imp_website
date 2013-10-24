@@ -8,9 +8,11 @@
 <dl class="newslist">
 <dt>Oct 24, 2013</dt>
 
-<dd>The <a href="download.html">IMP 2.1.0 release</a> contains bug fixes and
-updates. We now provide several <a href="systems/">fully worked examples</a> of
-biological systems that were investigated with IMP, from our own publications.
+<dd>The <a href="download.html">IMP 2.1.0 release</a> contains
+<a href="https://github.com/salilab/imp/releases/tag/2.1.0">bug fixes and
+updates</a>. We now provide several <a href="systems/">fully worked examples</a>
+of biological systems that were investigated with IMP, from our own
+publications.
 </dd>
 
 <dt>May 02, 2013</dt>
