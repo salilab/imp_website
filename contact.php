@@ -5,10 +5,40 @@
 
 <div id="contact">
 
-<p>We provide several <a
-href="2.0.1/doc/html/maillists.html">
-mailing lists</a> for discussion on using and developing IMP.</p>
+<h2>Mailing lists</h2>
+<p>We provide several mailing lists for discussion on using and
+developing IMP.</p>
 
+<p>The <a href="http://salilab.org/mailman/listinfo/imp-users">imp-users</a>
+mailing list is provided for <i>users</i> of IMP. It is for discussion of and
+help with the use of IMP. Both users and developers are encouraged to subscribe
+to the list. Prior postings are also
+<a href="http://salilab.org/imp/archives/imp-users/">archived</a>.</p>
+
+<p>The <a href="http://salilab.org/mailman/listinfo/imp-dev">imp-dev</a>
+mailing list is provided for <i>developers</i> of IMP. It is for technical
+discussion of the development of new features in IMP, such as the design of
+new C++ or Python classes. Developers are encouraged to subscribe, but regular
+users are encouraged to use the
+<a href="http://salilab.org/mailman/listinfo/imp-users">imp-users</a> list
+instead. Prior postings are also
+<a href="http://salilab.org/imp/archives/imp-dev/">archived</a>.</p>
+
+<p>The <a href="http://salilab.org/mailman/listinfo/imp-dev">imp-build</a>
+list sends out an email every morning with the results of the nightly builds
+of IMP. All developers are encouraged to subscribe to this list, so they can
+be notified if they break the build. Developers that work only on a subset
+of modules can choose to be notified only if one of those modules fails
+(go to the <a href="http://salilab.org/mailman/listinfo/imp-dev">imp-build</a>
+page, select 'Unsubscribe or edit options', log in, then select one or more
+modules, systems or applications from the topic filters.)</p>
+
+<p>The <a href="http://salilab.org/mailman/listinfo/imp-commits">imp-commits</a>
+list sends out an email every time code is changed in the IMP git repository.
+It can be a high traffic list, and is only recommended for developers that
+want to keep an eye on new developments.</p>
+
+<h2>Website admin</h2>
 <p>To report problems with this website, you can also contact the
 <span class="e-mail">imp at salilab.org | IMP website admin</span>.</p>
 
