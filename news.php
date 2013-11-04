@@ -6,6 +6,13 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>Nov 4, 2013</dt>
+
+<dd>The <a href="download.html">IMP 2.1.1 release</a> contains
+minor updates to 2.1.0, most notably support for the new Mac OS X release
+(Mavericks).
+</dd>
+
 <dt>Oct 24, 2013</dt>
 
 <dd>The <a href="download.html">IMP 2.1.0 release</a> contains

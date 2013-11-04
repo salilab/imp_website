@@ -6,10 +6,10 @@
 <div id="docs">
 
 <ul class="docs">
-<li>IMP 2.1.0 stable release
+<li>IMP 2.1.1 stable release
   <ul>
-  <li><a href="2.1.0/doc/tutorial/">Introductory tutorial</a></li>
-  <li><a href="2.1.0/doc/html/">Manual</a></li>
+  <li><a href="2.1.1/doc/tutorial/">Introductory tutorial</a></li>
+  <li><a href="2.1.1/doc/html/">Manual</a></li>
   </ul>
 </li>
 
