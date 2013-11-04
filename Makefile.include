@@ -1,6 +1,6 @@
 WEBTOP=~www/html/imp/
 
-.PHONY: all ${SUBDIRS}
+.PHONY: check all ${SUBDIRS}
 
 all: ${FILES} ${SUBDIRS}
 

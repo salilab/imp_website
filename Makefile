@@ -3,13 +3,16 @@ TOPDIR=.
 INCLUDE=IMP.inc header.txt
 SUBDIRS=1.0/tutorial
 
-include ${TOPDIR}/Makefile.include
+check: all
+	./check-links.py ${WEBTOP}
 
-all: ${WEB}/groups.html ${WEB}/index.html ${WEB}/imp.css ${WEB}/pygments.css \
-     ${WEB}/images ${WEB}/doc.html  ${WEB}/download.html ${WEB}/get.php \
-     ${WEB}/download-windows.html ${WEB}/download-mac.html \
-     ${WEB}/download-linux.html ${WEB}/about.html ${WEB}/news.html \
-     ${WEB}/libTAU.html ${WEB}/contact.html ${SUBDIRS}
+FILES=${WEB}/groups.html ${WEB}/index.html ${WEB}/imp.css ${WEB}/pygments.css \
+      ${WEB}/images ${WEB}/doc.html  ${WEB}/download.html ${WEB}/get.php \
+      ${WEB}/download-windows.html ${WEB}/download-mac.html \
+      ${WEB}/download-linux.html ${WEB}/about.html ${WEB}/news.html \
+      ${WEB}/libTAU.html ${WEB}/contact.html
+
+include ${TOPDIR}/Makefile.include
 
 ${WEB}/get.php: get.php get.php.in IMP.inc header.txt footer.txt
 	@if [ ! -d ${WEB} ]; then mkdir -p ${WEB}; fi
