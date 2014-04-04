@@ -30,6 +30,9 @@ tutorial</a></li>
 
 </ul>
 
+<p>See also <a href="talks.html">the talks page</a> for various talks and other
+presentations about IMP.</p>
+
 </div>
 
 <?php
