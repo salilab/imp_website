@@ -6,6 +6,14 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>Apr 9, 2014</dt>
+
+<dd>The <a href="download.html">IMP 2.2.0 release</a> contains
+<a href="https://github.com/salilab/imp/releases/tag/2.2.0">a number of new
+features</a>, notably support for <a href="http://salilab.org/SOAP/">SOAP
+scoring</a> and a more reliable RMF file format.
+</dd>
+
 <dt>Nov 4, 2013</dt>
 
 <dd>The <a href="download.html">IMP 2.1.1 release</a> contains

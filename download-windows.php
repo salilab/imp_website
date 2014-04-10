@@ -5,16 +5,16 @@
 
 <div id="download">
 
-<h2>IMP 2.1.1 Windows installer</h2>
+<h2>IMP 2.2.0 Windows installer</h2>
 
 <p>
-<a href="get.php?pkg=2.1.1/download/IMP-2.1.1.exe">Download</a>
+<a href="get.php?pkg=2.2.0/download/IMP-2.2.0.exe">Download</a>
 </p>
 
 <h2>Signature</h2>
 
 <p>Please check the installer package against the
-<a href="2.1.1/download/MD5SUM">MD5SUM</a> file
+<a href="2.2.0/download/MD5SUM">MD5SUM</a> file
 to make sure it has not been tampered with.
 (One way to do this is to download the
 <a href="http://www.colonywest.us/index.php?option=com_content&view=article&id=46&Itemid=56">digestIT</a>
@@ -24,7 +24,7 @@ MD5SUM file.)</p>
 
 <p>
 The MD5SUM file in turn
-<a href="2.1.1/download/MD5SUM.asc">is signed</a> with
+<a href="2.2.0/download/MD5SUM.asc">is signed</a> with
 <a href="http://salilab.org/~ben/pubkey.asc">this GPG key</a>; you can check
 to make sure this has also not been tampered with using the
 <a href="http://www.gnupg.org/download/">GnuPG</a> software.
