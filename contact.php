@@ -13,7 +13,8 @@ developing IMP.</p>
 mailing list is provided for <i>users</i> of IMP. It is for discussion of and
 help with the use of IMP. Both users and developers are encouraged to subscribe
 to the list. Prior postings are also
-<a href="http://salilab.org/imp/archives/imp-users/">archived</a>.</p>
+<a href="http://salilab.org/imp/archives/imp-users/">archived</a>
+and <a href="https://www.google.com/cse/publicurl?cx=007962136437956578014:w5qndf11v-q">can be searched</a>.</p>
 
 <p>The <a href="http://salilab.org/mailman/listinfo/imp-dev">imp-dev</a>
 mailing list is provided for <i>developers</i> of IMP. It is for technical
@@ -22,14 +23,15 @@ new C++ or Python classes. Developers are encouraged to subscribe, but regular
 users are encouraged to use the
 <a href="http://salilab.org/mailman/listinfo/imp-users">imp-users</a> list
 instead. Prior postings are also
-<a href="http://salilab.org/imp/archives/imp-dev/">archived</a>.</p>
+<a href="http://salilab.org/imp/archives/imp-dev/">archived</a>
+and <a href="https://www.google.com/cse/publicurl?cx=007962136437956578014:7wsdhs8knqu">can be search</a>.</p>
 
-<p>The <a href="http://salilab.org/mailman/listinfo/imp-dev">imp-build</a>
+<p>The <a href="http://salilab.org/mailman/listinfo/imp-build">imp-build</a>
 list sends out an email every morning with the results of the nightly builds
 of IMP. All developers are encouraged to subscribe to this list, so they can
 be notified if they break the build. Developers that work only on a subset
 of modules can choose to be notified only if one of those modules fails
-(go to the <a href="http://salilab.org/mailman/listinfo/imp-dev">imp-build</a>
+(go to the <a href="http://salilab.org/mailman/listinfo/imp-build">imp-build</a>
 page, select 'Unsubscribe or edit options', log in, then select one or more
 modules, systems or applications from the topic filters.)</p>
 
