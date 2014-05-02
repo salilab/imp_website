@@ -24,7 +24,7 @@ users are encouraged to use the
 <a href="http://salilab.org/mailman/listinfo/imp-users">imp-users</a> list
 instead. Prior postings are also
 <a href="http://salilab.org/imp/archives/imp-dev/">archived</a>
-and <a href="https://www.google.com/cse/publicurl?cx=007962136437956578014:7wsdhs8knqu">can be search</a>.</p>
+and <a href="https://www.google.com/cse/publicurl?cx=007962136437956578014:7wsdhs8knqu">can be searched</a>.</p>
 
 <p>The <a href="http://salilab.org/mailman/listinfo/imp-build">imp-build</a>
 list sends out an email every morning with the results of the nightly builds
