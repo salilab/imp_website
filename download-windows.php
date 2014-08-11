@@ -5,26 +5,24 @@
 
 <div id="download">
 
-<h2>IMP 2.2.0 Windows installer</h2>
+<h2>IMP 2.2.1 Windows installer</h2>
 
 <p>
-<a href="get.php?pkg=2.2.0/download/IMP-2.2.0.exe">Download</a>
+<a href="get.php?pkg=2.2.1/download/IMP-2.2.1.exe">Download</a>
 </p>
 
 <h2>Signature</h2>
 
 <p>Please check the installer package against the
-<a href="2.2.0/download/MD5SUM">MD5SUM</a> file
+<a href="2.2.1/download/SHA256SUM">SHA256SUM</a> file
 to make sure it has not been tampered with.
-(One way to do this is to download the
-<a href="http://www.colonywest.us/index.php?option=com_content&view=article&id=46&Itemid=56">digestIT</a>
-software, right click on the IMP installer package, select "digestIT 2004",
-then "Verify MD5 Hash" and paste in the line for the IMP .exe file from the
-MD5SUM file.)</p>
+(One way to do this is
+<a href="http://bhoover.com/how-to-verify-checksum-windows/">detailed here</a>.)
+</p>
 
 <p>
-The MD5SUM file in turn
-<a href="2.2.0/download/MD5SUM.asc">is signed</a> with
+The SHA256SUM file in turn
+<a href="2.2.1/download/SHA256SUM.asc">is signed</a> with
 <a href="http://salilab.org/~ben/pubkey.asc">this GPG key</a>; you can check
 to make sure this has also not been tampered with using the
 <a href="http://www.gnupg.org/download/">GnuPG</a> software.

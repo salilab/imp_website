@@ -6,7 +6,7 @@
 <div id="download">
 
 <a name="stable"></a>
-<h2>IMP 2.2.0 stable release</h2>
+<h2>IMP 2.2.1 stable release</h2>
 
 <p>This release is recommended for beginners, and should be stable.
 (For the very latest features, use the
@@ -23,25 +23,25 @@
 <h3>Documentation</h3>
 
 <p>Please refer to the
-<a href="2.2.0/doc/html/">online documentation</a>.
-You can also <a href="2.2.0/download/imp-doc-2.2.0.tar.gz">download the documentation</a>.</p>
+<a href="2.2.1/doc/html/">online documentation</a>.
+You can also <a href="2.2.1/download/imp-doc-2.2.1.tar.gz">download the documentation</a>.</p>
 
 <a name="source"></a>
 <h3>Source code</h3>
 
 <ul>
-<li><a href="get.php?pkg=2.2.0/download/imp-2.2.0.tar.gz">Source code tarball</a></li>
+<li><a href="get.php?pkg=2.2.1/download/imp-2.2.1.tar.gz">Source code tarball</a></li>
 </ul>
 
 <p>To build IMP from source code, please refer to the
-<a href="2.2.0/doc/html/md_doxygen_generated_installation.html">Getting started guide</a>.
+<a href="2.2.1/doc/html/md_doxygen_generated_installation.html">Getting started guide</a>.
 </p>
 
 <h3>Signatures</h3>
 
 <p>Please check the
-<a href="2.2.0/download/MD5SUM">MD5SUM</a> and
-<a href="2.2.0/download/MD5SUM.asc">its signature</a>.
+<a href="2.2.1/download/SHA256SUM">SHA256SUM</a> and
+<a href="2.2.1/download/SHA256SUM.asc">its signature</a>.
 </p>
 
 <hr />
@@ -57,7 +57,7 @@ version is tested every night; please check out the
 <a href="nightly/results/">nightly builds results
 page</a> to see if the code is currently stable enough for your purposes.</p>
 
-<p>Binary installers for Windows, Linux (Fedora 19, RHEL 5, RHEL 6),
+<p>Binary installers for Windows, Linux (Fedora 20, RHEL 5, RHEL 6, RHEL 7),
 and Mac OS X 10.6 or later
 <a href="nightly/download/">are also available</a>
 for the most recent nightly build that compiled successfully.</p>
@@ -74,6 +74,7 @@ for the most recent nightly build that compiled successfully.</p>
 <h2>Old releases</h2>
 
 <ul>
+<li><a href="2.2.0/download/">2.2.0</a></li>
 <li><a href="2.1.1/download/">2.1.1</a></li>
 <li><a href="2.1.0/download/">2.1.0</a></li>
 <li><a href="2.0.1/download/">2.0.1</a></li>

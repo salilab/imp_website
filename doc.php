@@ -6,10 +6,10 @@
 <div id="docs">
 
 <ul class="docs">
-<li>IMP 2.2.0 stable release
+<li>IMP 2.2.1 stable release
   <ul>
-  <li><a href="2.2.0/doc/tutorial/">Introductory tutorial</a></li>
-  <li><a href="2.2.0/doc/html/">Manual</a></li>
+  <li><a href="2.2.1/doc/tutorial/">Introductory tutorial</a></li>
+  <li><a href="2.2.1/doc/html/">Manual</a></li>
   </ul>
 </li>
 
@@ -30,6 +30,9 @@ presentations about IMP.</p>
 <h2>Old releases</h2>
 
 <ul>
+<li>2.2.0 <a href="2.2.0/doc/html">manual</a>;
+<a href="2.2.0/doc/tutorial/">tutorial</a></li>
+
 <li>2.1.1 <a href="2.1.1/doc/html">manual</a>;
 <a href="2.1.1/doc/tutorial/">tutorial</a></li>
 
