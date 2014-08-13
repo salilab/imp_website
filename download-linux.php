@@ -31,7 +31,7 @@ with RHEL5. We provide this for
   </li>
   <li>IMP-devel package (needed to compile C++ code using the IMP libraries):
 <a href="get.php?pkg=2.2.1/download/IMP-devel-2.2.1-1.el6.i686.rpm">32-bit</a>;
-<a href="get.php?pkg=2.2.1/download/IMP-devel-2.2.1-1.el6.x86_64.rpm">x86_64</a>;
+<a href="get.php?pkg=2.2.1/download/IMP-devel-2.2.1-1.el6.x86_64.rpm">x86_64</a>
   </li>
 </ul>
 </li>
