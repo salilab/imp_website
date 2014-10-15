@@ -34,10 +34,10 @@ machines. (They may also work on similar systems, such as Ubuntu.)<p/>
 <dt>Manual install for Mac, Windows or Linux users</dt>
 <dd>
 We provide binaries for 32-bit or 64-bit Intel Macs running OS X 10.6 or
-later, 32-bit Windows, and 32-bit (i386) or 64-bit (x86_64) Linux.
-Download the <a href="libTAU/libTAU-1.0.0.zip">libTAU zipfile</a>, extract it,
+later, 32-bit or 64-bit Windows, and 32-bit (i386) or 64-bit (x86_64) Linux.
+Download the <a href="libTAU/libTAU-1.0.1.zip">libTAU zipfile</a>, extract it,
 then follow the instructions in the <tt>README</tt> file.
-(<a href="libTAU/libTAU-1.0.0.zip.asc">GPG signature</a>)<p/>
+(<a href="libTAU/libTAU-1.0.1.zip.asc">GPG signature</a>)<p/>
 </dd>
 
 </dl>
