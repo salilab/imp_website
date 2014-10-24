@@ -52,6 +52,17 @@ with RHEL5. We provide this for
   <li>IMP-devel package (needed to compile C++ code using the IMP libraries):
 <a href="get.php?pkg=2.3.0/download/IMP-devel-2.3.0-1.fc20.x86_64.rpm">x86_64</a></li>
 </ul>
+</li>
+
+<li>Ubuntu LTS (14.04, Trusty Tahr) .deb packages<ul>
+  <li>Base IMP package (needed for all users):
+<a href="get.php?pkg=2.3.0/download/imp_2.3.0-1_amd64.deb">64-bit</a>
+  </li>
+  <li>IMP-devel package (needed to compile C++ code using the IMP libraries):
+<a href="get.php?pkg=2.3.0/download/imp-dev_2.3.0-1_amd64.deb">64-bit</a>
+  </li>
+</ul>
+</li>
 </ul>
 
 <h2>Signature</h2>
