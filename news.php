@@ -6,6 +6,18 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>Oct 24, 2014</dt>
+
+<dd>The <a href="download.html">IMP 2.3.0 release</a> contains
+<a href="https://github.com/salilab/imp/releases/tag/2.3.0">bug fixes and
+updates</a>. Most notably the experimental
+<a href="2.3.0/doc/html/namespaceIMP_1_1pmi.html">IMP::pmi module</a> is
+now available. This provides a variety of high-level Python classes to
+simplify the construction of a modeling protocol in IMP. One recent use
+of PMI is the modeling of the <a href="http://salilab.org/nup84/">Nup84
+subcomplex of the nuclear pore complex</a>.
+</dd>
+
 <dt>Aug 11, 2014</dt>
 
 <dd>The <a href="download.html">IMP 2.2.1 release</a> contains
