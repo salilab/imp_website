@@ -15,7 +15,8 @@ updates</a>. Most notably the experimental
 now available. This provides a variety of high-level Python classes to
 simplify the construction of a modeling protocol in IMP. One recent use
 of PMI is the modeling of the <a href="http://salilab.org/nup84/">Nup84
-subcomplex of the nuclear pore complex</a>.
+subcomplex of the nuclear pore complex</a>. We also now provide binary packages
+for Ubuntu LTS and 64-bit Windows.
 </dd>
 
 <dt>Aug 11, 2014</dt>
