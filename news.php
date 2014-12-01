@@ -6,6 +6,20 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>Dec 01, 2014</dt>
+
+<dd>The <a href="download.html">IMP 2.3.1 release</a> is
+<a href="https://github.com/salilab/imp/releases/tag/2.3.1">a bug fix
+and minor update release</a>. Most notably two complete modeling examples
+that use the
+<a href="2.3.1/doc/html/namespaceIMP_1_1pmi.html">IMP::pmi module</a>
+are now fully functional: modeling of the
+<a href="http://salilab.org/nup84/">Nup84 subcomplex of the nuclear pore
+complex</a>
+and of
+<a href="https://github.com/salilab/imp_tutorial/">RNA Polymerase II</a>.
+</dd>
+
 <dt>Oct 24, 2014</dt>
 
 <dd>The <a href="download.html">IMP 2.3.0 release</a> contains
