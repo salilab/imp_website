@@ -55,12 +55,11 @@ with RHEL5. We provide this for
 </li>
 
 <li>Ubuntu LTS (14.04, Trusty Tahr) .deb packages<ul>
-  <li>Base IMP package (needed for all users):
-<a href="get.php?pkg=2.3.1/download/imp_2.3.1-1_amd64.deb">64-bit</a>
-  </li>
-  <li>IMP-devel package (needed to compile C++ code using the IMP libraries):
-<a href="get.php?pkg=2.3.1/download/imp-dev_2.3.1-1_amd64.deb">64-bit</a>
-  </li>
+  <li>Just add the following line to your <tt>/etc/apt/sources.list</tt>:<br />
+<tt>deb http://integrativemodeling.org/latest/download trusty/</tt></li>
+  <li>Run <tt>sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 745E6093</tt> to get the signing key.
+  <li>Then simply install the <tt>imp</tt> package to get IMP itself
+(needed for all users) or the <tt>imp-dev</tt> package if you need to compile C++ code using the IMP libraries. (From the command line, use <tt>sudo apt-get update; sudo apt-get install imp</tt>)</li>
 </ul>
 </li>
 </ul>
