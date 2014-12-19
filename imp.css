@@ -155,6 +155,7 @@ span.filename {
 
 tt {
 	font-family: Courier, monospace;
+        background: #EEE;
 }
 
 p.textfigure {
