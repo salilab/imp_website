@@ -19,8 +19,8 @@
   </li>
   <li><b>Note</b> that you will also need a newer version of HDF5 than ships
 with RHEL5. We provide this for
-<a href="nightly/download/libhdf5-187-1.8.7-2.el5.centos.i386.rpm">32-bit</a> and
-<a href="nightly/download/libhdf5-187-1.8.7-2.el5.centos.x86_64.rpm">64-bit</a>.</li>
+<a href="nightly/download/hdf518-1.8.11-2.el5.centos.i386.rpm">32-bit</a> and
+<a href="nightly/download/hdf518-1.8.11-2.el5.centos.x86_64.rpm">64-bit</a>.</li>
 </ul>
 </li>
 
