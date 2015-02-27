@@ -6,6 +6,17 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>Feb 27, 2015</dt>
+
+<dd>The <a href="download.html">IMP 2.4.0 release</a> contains
+<a href="https://github.com/salilab/imp/releases/tag/2.4.0">bug fixes and
+updates</a>. Most notably Python 3 is now supported, and a
+<a href="2.4.0/doc/tutorial/rnapolii_stalk.html">new tutorial example</a>
+that determines the structure of part of RNA Polymerase II, using the
+<a href="2.4.0/doc/html/namespaceIMP_1_1pmi.html">IMP::pmi module</a>, is
+now available.
+</dd>
+
 <dt>Dec 01, 2014</dt>
 
 <dd>The <a href="download.html">IMP 2.3.1 release</a> is

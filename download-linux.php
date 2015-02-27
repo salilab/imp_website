@@ -5,17 +5,17 @@
 
 <div id="download">
 
-<h2>IMP 2.3.1 Linux packages</h2>
+<h2>IMP 2.4.0 Linux packages</h2>
 
 <ul>
 <li>RedHat Enterprise Linux 5 RPMs (needs Python 2.6 from EPEL)<ul>
   <li>Base IMP package (needed for all users):
-<a href="get.php?pkg=2.3.1/download/IMP-2.3.1-1.el5.centos.i386.rpm">32-bit</a>;
-<a href="get.php?pkg=2.3.1/download/IMP-2.3.1-1.el5.centos.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.4.0/download/IMP-2.4.0-1.el5.centos.i386.rpm">32-bit</a>;
+<a href="get.php?pkg=2.4.0/download/IMP-2.4.0-1.el5.centos.x86_64.rpm">x86_64</a>
   </li>
   <li>IMP-devel package (needed to compile C++ code using the IMP libraries):
-<a href="get.php?pkg=2.3.1/download/IMP-devel-2.3.1-1.el5.centos.i386.rpm">32-bit</a>;
-<a href="get.php?pkg=2.3.1/download/IMP-devel-2.3.1-1.el5.centos.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.4.0/download/IMP-devel-2.4.0-1.el5.centos.i386.rpm">32-bit</a>;
+<a href="get.php?pkg=2.4.0/download/IMP-devel-2.4.0-1.el5.centos.x86_64.rpm">x86_64</a>
   </li>
   <li><b>Note</b> that you will also need a newer version of HDF5 than ships
 with RHEL5. We provide this for
@@ -26,31 +26,33 @@ with RHEL5. We provide this for
 
 <li>RedHat Enterprise Linux 6 RPMs<ul>
   <li>Base IMP package (needed for all users):
-<a href="get.php?pkg=2.3.1/download/IMP-2.3.1-1.el6.i686.rpm">32-bit</a>;
-<a href="get.php?pkg=2.3.1/download/IMP-2.3.1-1.el6.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.4.0/download/IMP-2.4.0-1.el6.i686.rpm">32-bit</a>;
+<a href="get.php?pkg=2.4.0/download/IMP-2.4.0-1.el6.x86_64.rpm">x86_64</a>
   </li>
   <li>IMP-devel package (needed to compile C++ code using the IMP libraries):
-<a href="get.php?pkg=2.3.1/download/IMP-devel-2.3.1-1.el6.i686.rpm">32-bit</a>;
-<a href="get.php?pkg=2.3.1/download/IMP-devel-2.3.1-1.el6.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.4.0/download/IMP-devel-2.4.0-1.el6.i686.rpm">32-bit</a>;
+<a href="get.php?pkg=2.4.0/download/IMP-devel-2.4.0-1.el6.x86_64.rpm">x86_64</a>
   </li>
 </ul>
 </li>
 
 <li>RedHat Enterprise Linux 7 RPMs<ul>
   <li>Base IMP package (needed for all users):
-<a href="get.php?pkg=2.3.1/download/IMP-2.3.1-1.el6.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.4.0/download/IMP-2.4.0-1.el6.x86_64.rpm">x86_64</a>
   </li>
   <li>IMP-devel package (needed to compile C++ code using the IMP libraries):
-<a href="get.php?pkg=2.3.1/download/IMP-devel-2.3.1-1.el6.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.4.0/download/IMP-devel-2.4.0-1.el6.x86_64.rpm">x86_64</a>
   </li>
 </ul>
 </li>
 
-<li>Fedora 20 Linux RPMs (with CGAL):<ul>
+<li>Fedora 21 Linux RPMs:<ul>
   <li>Base IMP package (needed for all users):
-<a href="get.php?pkg=2.3.1/download/IMP-2.3.1-1.fc20.x86_64.rpm">x86_64</a></li>
+<a href="get.php?pkg=2.4.0/download/IMP-2.4.0-1.fc20.x86_64.rpm">x86_64</a></li>
+  <li>IMP-python3 package (needed if you want to use Python 3 rather than 2):
+<a href="get.php?pkg=2.4.0/download/IMP-python3-2.4.0-1.fc20.x86_64.rpm">x86_64</a></li>
   <li>IMP-devel package (needed to compile C++ code using the IMP libraries):
-<a href="get.php?pkg=2.3.1/download/IMP-devel-2.3.1-1.fc20.x86_64.rpm">x86_64</a></li>
+<a href="get.php?pkg=2.4.0/download/IMP-devel-2.4.0-1.fc20.x86_64.rpm">x86_64</a></li>
 </ul>
 </li>
 
@@ -59,7 +61,9 @@ with RHEL5. We provide this for
 <tt>deb http://integrativemodeling.org/latest/download trusty/</tt></li>
   <li>Run <tt>sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 745E6093</tt> to get the signing key.
   <li>Then simply install the <tt>imp</tt> package to get IMP itself
-(needed for all users) or the <tt>imp-dev</tt> package if you need to compile C++ code using the IMP libraries. (From the command line, use <tt>sudo apt-get update; sudo apt-get install imp</tt>)</li>
+(needed for all users),
+the <tt>imp-python3</tt> package if you want Python 3 support,
+and the <tt>imp-dev</tt> package if you need to compile C++ code using the IMP libraries. (From the command line, use <tt>sudo apt-get update; sudo apt-get install imp</tt>)</li>
 </ul>
 </li>
 </ul>
@@ -75,7 +79,7 @@ you check your IMP RPMs for tampering by downloading the key, importing it
 <h2>Source RPMs</h2>
 
 <p>Source RPMs (to rebuild the package for Linux variants not listed above)
-are <a href="2.3.1/download/">also available</a>.</p>
+are <a href="2.4.0/download/">also available</a>.</p>
 
 </div>
 
