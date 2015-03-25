@@ -18,8 +18,8 @@ libTAU:</p>
 <dt>For Mac users</dt>
 <dd>We recommend you install the <a
 href="http://mxcl.github.com/homebrew/">homebrew</a> package manager; then you
-can install libTAU by simplying typing "<code>brew tap salilab/salilab;
-brew install libTAU</code>".<p/>
+can install libTAU by simplying typing <tt>brew tap salilab/salilab;
+brew install libTAU</tt>.<p/>
 </dd>
 
 <dt>For Linux users with RPM</dt>
