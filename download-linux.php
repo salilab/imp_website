@@ -8,7 +8,12 @@
 <h2>IMP 2.4.0 Linux packages</h2>
 
 <ul>
-<li>RedHat Enterprise Linux 5 RPMs (needs Python 2.6 from EPEL)<ul>
+<li>RedHat Enterprise Linux (or variants, such as CentOS or Scientific Linux)<br />
+These packages also require that you have the
+<a href="https://fedoraproject.org/wiki/EPEL">EPEL</a> repository installed.<br />
+The easiest way to install these RPMs is to use something like<br /><tt>yum localinstall IMP-*.rpm</tt>
+<ul>
+<li>RHEL 5 RPMs (needs Python 2.6 from EPEL)<ul>
   <li>Base IMP package (needed for all users):
 <a href="get.php?pkg=2.4.0/download/IMP-2.4.0-1.el5.centos.i386.rpm">32-bit</a>;
 <a href="get.php?pkg=2.4.0/download/IMP-2.4.0-1.el5.centos.x86_64.rpm">x86_64</a>
@@ -24,7 +29,7 @@ with RHEL5. We provide this for
 </ul>
 </li>
 
-<li>RedHat Enterprise Linux 6 RPMs<ul>
+<li>RHEL 6 RPMs<ul>
   <li>Base IMP package (needed for all users):
 <a href="get.php?pkg=2.4.0/download/IMP-2.4.0-1.el6.i686.rpm">32-bit</a>;
 <a href="get.php?pkg=2.4.0/download/IMP-2.4.0-1.el6.x86_64.rpm">x86_64</a>
@@ -36,7 +41,7 @@ with RHEL5. We provide this for
 </ul>
 </li>
 
-<li>RedHat Enterprise Linux 7 RPMs<ul>
+<li>RHEL 7 RPMs<ul>
   <li>Base IMP package (needed for all users):
 <a href="get.php?pkg=2.4.0/download/IMP-2.4.0-1.el6.x86_64.rpm">x86_64</a>
   </li>
@@ -45,8 +50,12 @@ with RHEL5. We provide this for
   </li>
 </ul>
 </li>
+</ul>
+<p /></li>
 
-<li>Fedora 21 Linux RPMs:<ul>
+<li>Fedora 21 Linux RPMs<br />
+The easiest way to install these RPMs is to use something like<br /><tt>yum localinstall IMP-*.rpm</tt>
+<ul>
   <li>Base IMP package (needed for all users):
 <a href="get.php?pkg=2.4.0/download/IMP-2.4.0-1.fc20.x86_64.rpm">x86_64</a></li>
   <li>IMP-python3 package (needed if you want to use Python 3 rather than 2):
@@ -54,12 +63,12 @@ with RHEL5. We provide this for
   <li>IMP-devel package (needed to compile C++ code using the IMP libraries):
 <a href="get.php?pkg=2.4.0/download/IMP-devel-2.4.0-1.fc20.x86_64.rpm">x86_64</a></li>
 </ul>
-</li>
+<p /></li>
 
 <li>Ubuntu LTS (14.04, Trusty Tahr) .deb packages<ul>
   <li>Just add the following line to your <tt>/etc/apt/sources.list</tt>:<br />
 <tt>deb http://integrativemodeling.org/latest/download trusty/</tt></li>
-  <li>Run <tt>sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 745E6093</tt> to get the signing key.
+  <li>Run <tt>sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 745E6093</tt> to get the signing key.</li>
   <li>Then simply install the <tt>imp</tt> package to get IMP itself
 (needed for all users),
 the <tt>imp-python3</tt> package if you want Python 3 support,
@@ -79,7 +88,8 @@ you check your IMP RPMs for tampering by downloading the key, importing it
 <h2>Source RPMs</h2>
 
 <p>Source RPMs (to rebuild the package for Linux variants not listed above)
-are <a href="2.4.0/download/">also available</a>.</p>
+are <a href="2.4.0/download/">also available</a>. See the comments in the
+<tt>IMP.spec</tt> file for building details.</p>
 
 </div>
 
