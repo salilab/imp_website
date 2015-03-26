@@ -65,7 +65,7 @@ for the most recent nightly build that compiled successfully.</p>
 <h3>Documentation</h3>
 
 <p>Please refer to the
-<a href="nightly/doc/html/">online documentation</a>.
+<a href="nightly/doc/manual/">online documentation</a>.
 </p>
 
 <hr />

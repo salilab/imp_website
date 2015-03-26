@@ -15,9 +15,7 @@
 
 <li>Latest nightly build
   <ul>
-  <li><a href="nightly/doc/tutorial/">Introductory
-tutorial</a></li>
-  <li><a href="nightly/doc/html/">Manual</a></li>
+  <li><a href="nightly/doc/manual/">Manual</a></li>
   </ul>
 </li>
 
