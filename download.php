@@ -73,17 +73,8 @@ for the most recent nightly build that compiled successfully.</p>
 <a name="old"></a>
 <h2>Old releases</h2>
 
-<ul>
-<li><a href="2.3.1/download/">2.3.1</a></li>
-<li><a href="2.3.0/download/">2.3.0</a></li>
-<li><a href="2.2.1/download/">2.2.1</a></li>
-<li><a href="2.2.0/download/">2.2.0</a></li>
-<li><a href="2.1.1/download/">2.1.1</a></li>
-<li><a href="2.1.0/download/">2.1.0</a></li>
-<li><a href="2.0.1/download/">2.0.1</a></li>
-<li><a href="2.0.0/download/">2.0.0</a></li>
-<li><a href="1.0/download/">1.0</a></li>
-</ul>
+For reference, old versions of IMP
+<a href="old-versions.html">are archived</a>.
 
 </div>
 
