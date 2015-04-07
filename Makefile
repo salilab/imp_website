@@ -10,7 +10,8 @@ FILES=${WEB}/groups.html ${WEB}/index.html ${WEB}/imp.css ${WEB}/pygments.css \
       ${WEB}/images ${WEB}/doc.html  ${WEB}/download.html ${WEB}/get.php \
       ${WEB}/download-windows.html ${WEB}/download-mac.html \
       ${WEB}/download-linux.html ${WEB}/about.html ${WEB}/news.html \
-      ${WEB}/libTAU.html ${WEB}/contact.html ${WEB}/talks.html
+      ${WEB}/libTAU.html ${WEB}/contact.html ${WEB}/talks.html \
+      ${WEB}/search-imp-users.html ${WEB}/search-imp-dev.html
 
 include ${TOPDIR}/Makefile.include
 

@@ -14,7 +14,7 @@ mailing list is provided for <i>users</i> of IMP. It is for discussion of and
 help with the use of IMP. Both users and developers are encouraged to subscribe
 to the list. Prior postings are also
 <a href="http://salilab.org/imp/archives/imp-users/">archived</a>
-and <a href="https://www.google.com/cse/publicurl?cx=007962136437956578014:w5qndf11v-q">can be searched</a>.</p>
+and <a href="search-imp-users.html">can be searched</a>.</p>
 
 <p>The <a href="http://salilab.org/mailman/listinfo/imp-dev">imp-dev</a>
 mailing list is provided for <i>developers</i> of IMP. It is for technical
@@ -24,7 +24,7 @@ users are encouraged to use the
 <a href="http://salilab.org/mailman/listinfo/imp-users">imp-users</a> list
 instead. Prior postings are also
 <a href="http://salilab.org/imp/archives/imp-dev/">archived</a>
-and <a href="https://www.google.com/cse/publicurl?cx=007962136437956578014:7wsdhs8knqu">can be searched</a>.</p>
+and <a href="search-imp-dev.html">can be searched</a>.</p>
 
 <p>The <a href="http://salilab.org/mailman/listinfo/imp-build">imp-build</a>
 list sends out an email every morning with the results of the nightly builds
