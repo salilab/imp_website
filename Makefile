@@ -1,7 +1,7 @@
 WEB=${WEBTOP}
 TOPDIR=.
 INCLUDE=IMP.inc header.txt
-SUBDIRS=1.0/tutorial js
+SUBDIRS=1.0/tutorial
 
 check: all
 	./check-links.py ${WEBTOP}
