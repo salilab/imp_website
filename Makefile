@@ -30,3 +30,7 @@ ${WEB}/pygments.css::
 ${WEB}/images: images/*
 	@if [ ! -d ${WEB}/images ]; then mkdir -p ${WEB}/images; fi
 	cp images/* ${WEB}/images
+
+js::
+	@if [ ! -d ${WEB}/js ]; then mkdir -p ${WEB}/js; fi
+	tar -C js --exclude .git --exclude .gitignore --exclude test --exclude unpacked --exclude docs -cf - . | tar -C ${WEB}/js -xf -
