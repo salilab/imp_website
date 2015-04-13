@@ -174,13 +174,28 @@ img.ncdir {
 	padding-right: 1em;
 }
 
-img.npcimg {
+img.rightimg {
 	border: 0;
 	height: 120px;
 	float: right;
 	padding-left: 1em;
 }
 
+img.leftimg {
+	border: 0;
+	height: 120px;
+	float: left;
+	padding-right: 1em;
+}
+
 p.clear {
   clear: both;
+}
+
+p.ncdir {
+  vertical-align: center;
+}
+
+div.pagesection {
+  overflow: hidden;
 }
