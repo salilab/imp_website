@@ -39,9 +39,13 @@ modules, systems or applications from the topic filters.)</p>
 list sends out an email every time code is changed in the IMP git repository.
 It can be a high traffic list, and is only recommended for developers that
 want to keep an eye on new developments.
-(There is a similar
-<a href="http://salilab.org/mailman/listinfo/rmf-commits">rmf-commits</a>
-list for <a href="http://integrativemodeling.org/rmf/nightly/doc/">RMF</a>.)</p>
+(There are similar
+<a href="http://salilab.org/mailman/listinfo/rmf-commits">RMF-commits</a>
+and
+<a href="http://salilab.org/mailman/listinfo/pmi-commits">PMI-commits</a>
+lists for <a href="http://integrativemodeling.org/rmf/nightly/doc/">RMF</a>
+and <a href="http://integrativemodeling.org/nightly/doc/ref/namespaceIMP_1_1pmi.html">PMI</a>
+respectively.)</p>
 
 <h2>Website admin</h2>
 <p>To report problems with this website, you can also contact the
