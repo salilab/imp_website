@@ -6,6 +6,18 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>Jun 30, 2015</dt>
+
+<dd>The <a href="download.html">IMP 2.5.0 release</a> contains
+<a href="https://github.com/salilab/imp/releases/tag/2.5.0">bug fixes and
+minor updates</a>. Most notably the documentation has been revised and updated;
+we now provide binary packages for Ubuntu 12.04 (Precise Pangolin) in addition
+to 14.04 (Trusty Tahr); a lot of obsolete and deprecated functionality has
+been removed; support for OpenMP and MPI is improved; and the IMP::base and
+IMP::kernel namespaces are now deprecated in favor of the top-level "IMP"
+namespace.
+</dd>
+
 <dt>Feb 27, 2015</dt>
 
 <dd>The <a href="download.html">IMP 2.4.0 release</a> contains

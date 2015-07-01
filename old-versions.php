@@ -6,6 +6,10 @@
 <div id="download">
 
 <ul>
+<li>2.4.0: <a href="2.4.0/download/">download</a>;
+<a href="2.4.0/doc/html">manual</a>;
+<a href="2.4.0/doc/tutorial/">tutorial</a></li>
+
 <li>2.3.1: <a href="2.3.1/download/">download</a>;
 <a href="2.3.1/doc/html">manual</a>;
 <a href="2.3.1/doc/tutorial/">tutorial</a></li>

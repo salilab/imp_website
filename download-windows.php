@@ -5,17 +5,17 @@
 
 <div id="download">
 
-<h2>IMP 2.4.0 Windows installer</h2>
+<h2>IMP 2.5.0 Windows installer</h2>
 
 <ul>
-<li><a href="get.php?pkg=2.4.0/download/IMP-2.4.0-32bit.exe">For 32 bit</a></li>
-<li><a href="get.php?pkg=2.4.0/download/IMP-2.4.0-64bit.exe">For 64 bit</a></li>
+<li><a href="get.php?pkg=2.5.0/download/IMP-2.5.0-32bit.exe">For 32 bit</a></li>
+<li><a href="get.php?pkg=2.5.0/download/IMP-2.5.0-64bit.exe">For 64 bit</a></li>
 </ul>
 
 <h2>Signature</h2>
 
 <p>Please check the installer package against the
-<a href="2.4.0/download/SHA256SUM">SHA256SUM</a> file
+<a href="2.5.0/download/SHA256SUM">SHA256SUM</a> file
 to make sure it has not been tampered with.
 (One way to do this is
 <a href="http://bhoover.com/how-to-verify-checksum-windows/">detailed here</a>.)
@@ -23,7 +23,7 @@ to make sure it has not been tampered with.
 
 <p>
 The SHA256SUM file in turn
-<a href="2.4.0/download/SHA256SUM.asc">is signed</a> with
+<a href="2.5.0/download/SHA256SUM.asc">is signed</a> with
 <a href="http://salilab.org/~ben/pubkey.asc">this GPG key</a>; you can check
 to make sure this has also not been tampered with using the
 <a href="http://www.gnupg.org/download/">GnuPG</a> software.
