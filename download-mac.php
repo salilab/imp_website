@@ -7,6 +7,8 @@
 
 <h2>IMP 2.5.0 Mac installer</h2>
 
+<p><i>Homebrew users, <a href="#homebrew">see below</a>.</i></p>
+
 <p>
 IMP is currently supported on 64-bit Intel Macs running OS X 10.6
 (Snow Leopard) or above.
@@ -48,6 +50,15 @@ in the directory containing the script. (If you have multiple versions of
 Python installed on your system, you may need to force use of the default
 system version by typing <tt>/usr/bin/python</tt> rather than just
 <tt>python</tt>.)</p>
+
+<a name="homebrew"></a>
+<h2>Homebrew</h2>
+
+<p>
+If you use the <a href="http://brew.sh/">Homebrew</a> package manager
+you can install IMP by running<br/>
+<tt>brew tap salilab/salilab; brew install imp</tt>
+</p>
 
 </div>
 
