@@ -31,9 +31,23 @@
    }
 
    function print_page_header($title) {
+      $pagename = $_GET['FILENAME'];
+      $github_top = "https://github.com/salilab/imp_website/edit/master/";
+      $topdir = $_GET['TOPDIR'];
+      $subdir = substr($_GET['WEB'], strlen($_GET['WEBTOP']));
+      if ($subdir == '') {
+        $github = $github_top . $pagename;
+      } else {
+        $github = $github_top . trim($subdir, '/') . '/' . $pagename;
+      }
       PrintFile($_GET['TOPDIR'] . "/header.txt", $title);
       print <<<END
   <div id="container">
+   <div class="editlink">
+     <a href="${github}" title="Edit on GitHub">
+       <img src="$topdir/images/edit.png" alt="Edit on GitHub"/>
+     </a>
+   </div>
    <h1>$title</h1>
 END;
    }

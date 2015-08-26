@@ -200,3 +200,11 @@ p.ncdir {
 div.pagesection {
   overflow: hidden;
 }
+
+div.editlink {
+  text-align: right;
+}
+
+div.editlink img {
+    height: 1.4em;
+}
