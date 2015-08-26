@@ -33,7 +33,7 @@ be notified if they break the build. Developers that work only on a subset
 of modules can choose to be notified only if one of those modules fails
 (go to the <a href="http://salilab.org/mailman/listinfo/imp-build">imp-build</a>
 page, select 'Unsubscribe or edit options', log in, then select one or more
-modules, systems or applications from the topic filters.)</p>
+modules from the topic filters.)</p>
 
 <p>The <a href="http://salilab.org/mailman/listinfo/imp-commits">imp-commits</a>
 list sends out an email every time code is changed in the IMP git repository.
