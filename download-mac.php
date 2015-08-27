@@ -5,7 +5,8 @@
 
 <div id="download">
 
-<h2>IMP 2.5.0 Mac installer</h2>
+<h2 class="download_title"><img src="images/apple.svg" alt="Apple logo"/>
+IMP 2.5.0 Mac installer</h2>
 
 <p><i>Homebrew users, <a href="#homebrew">see below</a>.</i></p>
 

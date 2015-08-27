@@ -5,7 +5,8 @@
 
 <div id="download">
 
-<h2>IMP 2.5.0 Windows installer</h2>
+<h2 class="download_title"><img src="images/windows.svg" alt="Windows logo"/>
+IMP 2.5.0 Windows installer</h2>
 
 <ul>
 <li><a href="get.php?pkg=2.5.0/download/IMP-2.5.0-32bit.exe">For 32 bit</a></li>

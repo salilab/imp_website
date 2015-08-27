@@ -5,7 +5,8 @@
 
 <div id="download">
 
-<h2>IMP 2.5.0 Anaconda Python installer</h2>
+<h2 class="download_title"><img src="images/anaconda.png" alt="Anaconda logo"/>
+IMP 2.5.0 Anaconda Python installer</h2>
 
 <p>IMP is packaged to use with the
 <a href="https://store.continuum.io/cshop/anaconda/">Anaconda scientific
@@ -16,6 +17,8 @@ To install IMP using the 'conda' package manager, simply run from a command
 line</p>
 
 <p><tt>conda install -c salilab imp</tt></p>
+
+</div>
 
 <?php
    print_page_footer();

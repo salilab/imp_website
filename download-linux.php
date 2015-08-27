@@ -5,7 +5,8 @@
 
 <div id="download">
 
-<h2>IMP 2.5.0 Linux packages</h2>
+<h2 class="download_title"><img src="images/linux.svg" alt="Linux logo"/>
+IMP 2.5.0 Linux packages</h2>
 
 <ul>
 <li>RedHat Enterprise Linux (or variants, such as CentOS or Scientific Linux)<br />

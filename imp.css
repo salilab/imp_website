@@ -220,3 +220,7 @@ ul.bininst_list li {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
+
+.download_title img {
+    height: 1.4em;
+}
