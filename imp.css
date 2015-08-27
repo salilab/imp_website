@@ -193,10 +193,6 @@ p.clear {
   clear: both;
 }
 
-p.ncdir {
-  vertical-align: center;
-}
-
 div.pagesection {
   overflow: hidden;
 }
