@@ -12,7 +12,7 @@ FILES=${WEB}/groups.html ${WEB}/index.html ${WEB}/imp.css ${WEB}/pygments.css \
       ${WEB}/download-linux.html ${WEB}/about.html ${WEB}/news.html \
       ${WEB}/libTAU.html ${WEB}/contact.html ${WEB}/talks.html \
       ${WEB}/search-imp-users.html ${WEB}/search-imp-dev.html \
-      ${WEB}/old-versions.html
+      ${WEB}/old-versions.html ${WEB}/download-anaconda.html
 
 include ${TOPDIR}/Makefile.include
 

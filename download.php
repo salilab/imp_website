@@ -15,6 +15,7 @@
 <h3>Binary installers</h3>
 
 <ul>
+<li><a href="download-anaconda.html">Anaconda Python ("conda")</a></li>
 <li><a href="download-windows.html">Windows</a></li>
 <li><a href="download-mac.html">Mac</a></li>
 <li><a href="download-linux.html">Linux</a></li>
