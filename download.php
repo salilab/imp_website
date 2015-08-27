@@ -14,11 +14,15 @@
 
 <h3>Binary installers</h3>
 
-<ul>
-<li><a href="download-anaconda.html">Anaconda Python ("conda")</a></li>
-<li><a href="download-windows.html">Windows</a></li>
-<li><a href="download-mac.html">Mac</a></li>
-<li><a href="download-linux.html">Linux</a></li>
+<ul class="bininst_list">
+<li><img src="images/anaconda.png" alt="Anaconda logo"/>
+    <a href="download-anaconda.html">Anaconda Python ("conda")</a></li>
+<li><img src="images/windows.svg" alt="Windows logo"/>
+    <a href="download-windows.html">Windows</a></li>
+<li><img src="images/apple.svg" alt="Apple logo"/>
+    <a href="download-mac.html">Mac</a></li>
+<li><img src="images/linux.svg" alt="Linux logo"/>
+    <a href="download-linux.html">Linux</a></li>
 </ul>
 
 <h3>Documentation</h3>
