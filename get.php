@@ -5,7 +5,7 @@
     return $_SERVER['REMOTE_HOST'];
   }
   function pkg_url($pkg) {
-    return "http://salilab.org/imp/$pkg";
+    return "http://integrativemodeling.org/$pkg";
   }
   function redirect($pkg) {
     header("HTTP/1.1 307 Temporary Redirect");

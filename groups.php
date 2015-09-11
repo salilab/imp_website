@@ -10,7 +10,7 @@
       <td><img src="images/groups.png" alt="World map" /></td>
       <td>
          
-         <h4><a href="http://www.salilab.org" target="_blank">The Sali Lab</a></h4>
+         <h4><a href="http://salilab.org" target="_blank">The Sali Lab</a></h4>
          Departments of Biopharmaceutical Sciences and Pharmaceutical Chemistry,<br /> 
          and California Institute for Quantitative Biosciences. UCSF.<br />
          San Francisco, CA. US.<br />

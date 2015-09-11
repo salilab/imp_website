@@ -3,7 +3,7 @@
    print_page_header("Search imp-users");
 ?>
 
-<form method="get" action="//salilab.org/imp/search/htsearch">
+<form method="get" action="//integrativemodeling.org/search/htsearch">
 <font size="-1">
 <input type="hidden" name="config" value="htdig-imp-users">
 <input type="hidden" name="restrict" value="">

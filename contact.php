@@ -13,7 +13,7 @@ developing IMP.</p>
 mailing list is provided for <i>users</i> of IMP. It is for discussion of and
 help with the use of IMP. Both users and developers are encouraged to subscribe
 to the list. Prior postings are also
-<a href="http://salilab.org/imp/archives/imp-users/">archived</a>
+<a href="//integrativemodeling.org/archives/imp-users/">archived</a>
 and <a href="search-imp-users.html">can be searched</a>.</p>
 
 <p>The <a href="http://salilab.org/mailman/listinfo/imp-dev">imp-dev</a>
@@ -23,7 +23,7 @@ new C++ or Python classes. Developers are encouraged to subscribe, but regular
 users are encouraged to use the
 <a href="http://salilab.org/mailman/listinfo/imp-users">imp-users</a> list
 instead. Prior postings are also
-<a href="http://salilab.org/imp/archives/imp-dev/">archived</a>
+<a href="//integrativemodeling.org/archives/imp-dev/">archived</a>
 and <a href="search-imp-dev.html">can be searched</a>.</p>
 
 <p>The <a href="http://salilab.org/mailman/listinfo/imp-build">imp-build</a>
