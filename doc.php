@@ -6,18 +6,9 @@
 <div id="docs">
 
 <ul class="docs">
-<li>IMP 2.5.0 stable release
-  <ul>
-  <li><a href="2.5.0/doc/manual/">Manual</a></li>
-  </ul>
-</li>
+<li><a href="2.5.0/doc/manual/">IMP 2.5.0 stable release</a></li>
 
-<li>Latest nightly build
-  <ul>
-  <li><a href="nightly/doc/manual/">Manual</a></li>
-  </ul>
-</li>
-
+<li><a href="nightly/doc/manual/">Latest nightly build</a></li>
 </ul>
 
 <p>See also <a href="talks.html">the talks page</a> for various talks and other
