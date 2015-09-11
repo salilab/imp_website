@@ -1,5 +1,17 @@
 <?php
    function PrintFile($f, $title='') {
+      $canon_top = 'http://integrativemodeling.org/';
+      $subdir = substr($_GET['WEB'], strlen($_GET['WEBTOP']));
+      $htmlname = basename($_GET['HTMLNAME']);
+      if ($htmlname == 'index.html') {
+        $htmlname = '';
+      }
+      if ($subdir == '') {
+        $canon = $canon_top . $htmlname;
+      } else {
+        $canon = $canon_top . trim($subdir, '/') . '/' . $htmlname;
+      }
+
       $co = GetContentsFile('./' . $f);
       $lines = preg_split("/\n/",$co);
       $topdir = $_GET['TOPDIR'];
@@ -11,6 +23,7 @@
       foreach ($lines as $ln_num => $line) {
          $rline = str_replace('$title', $title, $line);
          $rline = str_replace('@TOPDIR@', $topdir, $rline);
+         $rline = str_replace('@CANON@', $canon, $rline);
          echo $rline . "\n";
       }
    }

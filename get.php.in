@@ -3,6 +3,7 @@
 
   $_GET["TOPDIR"] = ".";
   $_GET["FILENAME"] = "get.php";
+  $_GET["HTMLNAME"] = "get.php";
   $_GET["WEB"] = "foo";
   $_GET["WEBTOP"] = "foo";
   print "<?php\n\n";

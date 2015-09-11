@@ -6,7 +6,7 @@ all: ${FILES} ${SUBDIRS}
 
 ${WEB}/%.html: %.php ${INCLUDE}
 	@if [ ! -d ${WEB} ]; then mkdir -p ${WEB}; fi
-	(cat ${TOPDIR}/make-get.php $< | php -d include_path=${TOPDIR} -- TOPDIR="${TOPDIR}" FILENAME="$<" WEB="${WEB}" WEBTOP="${WEBTOP}") > phpout
+	(cat ${TOPDIR}/make-get.php $< | php -d include_path=${TOPDIR} -- TOPDIR="${TOPDIR}" FILENAME="$<" HTMLNAME="$@" WEB="${WEB}" WEBTOP="${WEBTOP}") > phpout
 	@grep -q "</html>" phpout && cp phpout $@ && rm phpout || (echo "Error occurred during production of $@: check phpout for errors"; exit 1)
 
 ${SUBDIRS}:
