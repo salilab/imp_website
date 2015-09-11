@@ -1,6 +1,6 @@
 <?php
    function PrintFile($f, $title='') {
-      $canon_top = 'http://integrativemodeling.org/';
+      $canon_top = 'https://integrativemodeling.org/';
       $subdir = substr($_GET['WEB'], strlen($_GET['WEBTOP']));
       $htmlname = basename($_GET['HTMLNAME']);
       if ($htmlname == 'index.html') {
