@@ -5,7 +5,7 @@
 
 <div id="goal">
 <div class="pagesection">
-<a href="http://salilab.org/40S-eIF1-eIF3">
+<a href="//salilab.org/40S-eIF1-eIF3">
 <img class="rightimg" src="images/40S-eIF1-eIF3.png"
 title="40S•eIF1•eIF3 translation initiation complex"
 alt="40S•eIF1•eIF3 translation initiation complex" />
@@ -22,7 +22,7 @@ We formulate the hybrid approach to structure determination as an optimization p
 </ul>
 
 <div class="pagesection">
-<a href="http://salilab.org/phoq">
+<a href="//salilab.org/phoq">
 <img class="rightimg" src="images/phoq.png"
 title="Model of the PhoQ two-component system"
 alt="Model of the PhoQ two-component system" />

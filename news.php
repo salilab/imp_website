@@ -37,7 +37,7 @@ and minor update release</a>. Most notably two complete modeling examples
 that use the
 <a href="2.3.1/doc/html/namespaceIMP_1_1pmi.html">IMP::pmi module</a>
 are now fully functional: modeling of the
-<a href="http://salilab.org/nup84/">Nup84 subcomplex of the nuclear pore
+<a href="//salilab.org/nup84/">Nup84 subcomplex of the nuclear pore
 complex</a>
 and of
 <a href="https://github.com/salilab/imp_tutorial/">RNA Polymerase II</a>.
@@ -51,7 +51,7 @@ updates</a>. Most notably the experimental
 <a href="2.3.0/doc/html/namespaceIMP_1_1pmi.html">IMP::pmi module</a> is
 now available. This provides a variety of high-level Python classes to
 simplify the construction of a modeling protocol in IMP. One recent use
-of PMI is the modeling of the <a href="http://salilab.org/nup84/">Nup84
+of PMI is the modeling of the <a href="//salilab.org/nup84/">Nup84
 subcomplex of the nuclear pore complex</a>. We also now provide binary packages
 for Ubuntu LTS and 64-bit Windows.
 </dd>
@@ -67,7 +67,7 @@ ligand_score application.</dd>
 
 <dd>The <a href="download.html">IMP 2.2.0 release</a> contains
 <a href="https://github.com/salilab/imp/releases/tag/2.2.0">a number of new
-features</a>, notably support for <a href="http://salilab.org/SOAP/">SOAP
+features</a>, notably support for <a href="//salilab.org/SOAP/">SOAP
 scoring</a> and a more reliable RMF file format.
 </dd>
 
@@ -134,7 +134,7 @@ of chromatin at the megabase scale.
 <dt>2007</dt>
 <dd>
 Researchers from UCSF and the Rockefeller University have used IMP for modeling the Nuclear Pore Complex.
-<a href="http://salilab.org/npc.html">more...</a>
+<a href="//salilab.org/npc.html">more...</a>
 </dd>
 
 </dl>

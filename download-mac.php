@@ -34,7 +34,7 @@ file.)
 <p>
 The SHA256SUM file in turn
 <a href="2.5.0/download/SHA256SUM.asc">is signed</a> with
-<a href="http://salilab.org/~ben/pubkey.asc">this GPG key</a>; you can check
+<a href="//salilab.org/~ben/pubkey.asc">this GPG key</a>; you can check
 to make sure this has also not been tampered with using the
 <a href="https://gpgtools.org/">GPGtools</a> software.
 </p>

@@ -93,7 +93,7 @@ and the <tt>imp-dev</tt> package if you need to compile C++ code using the IMP l
 <h2>Signature</h2>
 
 <p>All of the RPMs are signed with
-<a href="http://salilab.org/~ben/pubkey.asc">this GPG key</a>. We recommend
+<a href="//salilab.org/~ben/pubkey.asc">this GPG key</a>. We recommend
 you check your IMP RPMs for tampering by downloading the key, importing it
 (with <tt>sudo rpm --import pubkey.asc</tt>), then verifying the RPMs
 (with <tt>rpm -K IMP*.rpm</tt>).</p>

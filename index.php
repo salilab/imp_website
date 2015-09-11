@@ -6,7 +6,7 @@
 <div id="home">
 
 <div class="pagesection">
-<a href="http://salilab.org/npc">
+<a href="//salilab.org/npc">
 <img class="leftimg" src="images/nucleopore.gif"
 title="Model of the nuclear pore complex"
 alt="Model of the nuclear pore complex" />
@@ -22,7 +22,7 @@ system, or via one of several web applications.
 </div>
 
 <div class="pagesection">
-<a href="http://salilab.org/pde6">
+<a href="//salilab.org/pde6">
 <img class="rightimg" src="images/pde6.png"
 title="Model of the phosphodiesterase (PDE6)"
 alt="Model of the phosphodiesterase (PDE6)" />
@@ -49,7 +49,7 @@ checking out the <a href="doc.html">documentation</a>.</p>
 </div>
 
 <div class="pagesection">
-<a href="http://salilab.org/sea">
+<a href="//salilab.org/sea">
 <img class="rightimg" src="images/sea.png"
 title="Model of the SEA complex"
 alt="Model of the SEA complex" />

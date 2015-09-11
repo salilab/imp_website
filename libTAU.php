@@ -43,7 +43,7 @@ then follow the instructions in the <tt>README</tt> file.
 </dl>
 
 <p><i>The zipfile and RPMs are signed with
-<a href="http://salilab.org/~ben/pubkey.asc">this GPG key</a>.</i></p>
+<a href="//salilab.org/~ben/pubkey.asc">this GPG key</a>.</i></p>
 
 </div>
 
