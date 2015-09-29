@@ -1,5 +1,6 @@
 WEB=${WEBTOP}/1.0/tutorial
 TOPDIR=../..
+INCLUDE=${TOPDIR}/IMP.inc ${TOPDIR}/header.txt
 FILES=${WEB}/index.html ${WEB}/intro.html ${WEB}/library.html \
       ${WEB}/restrainer.html ${WEB}/saxs.html ${WEB}/multifit.html
 SUBDIRS=images
