@@ -16,7 +16,8 @@ Python distribution</a> for Windows, Linux and Mac.</p>
 To install IMP using the 'conda' package manager, simply run from a command
 line</p>
 
-<p><tt>conda install -c salilab imp</tt></p>
+<p><tt>conda config --add channels salilab</tt><br />
+<tt>conda install imp</tt></p>
 
 </div>
 
