@@ -35,9 +35,11 @@ brew install libTAU</tt>.<p/>
 <dd>
 We provide RPMs for <a href="libTAU/rhel5/">RedHat Enterprise 5</a>,
 <a href="libTAU/rhel6/">RedHat Enterprise 6</a>,
-<a href="libTAU/rhel7/">RedHat Enterprise 7</a>, and
-<a href="libTAU/fedora/">Fedora</a>, for both 32-bit (i386) and 64-bit (x86_64)
-machines. (They may also work on similar systems, such as Ubuntu.)<p/>
+<a href="libTAU/rhel7/">RedHat Enterprise 7</a>,
+<a href="libTAU/fedora/">Fedora 20</a>, and
+<a href="libTAU/fedora23/">Fedora 23</a>, for both 32-bit (i386) and
+64-bit (x86_64) machines. (They may also work on similar systems, such
+as Ubuntu.)<p/>
 </dd>
 
 <dt>Manual install for Mac, Windows or Linux users</dt>
