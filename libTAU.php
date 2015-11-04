@@ -15,6 +15,15 @@ want to build MultiFit from source code, you will first need to download
 libTAU:</p>
 
 <dl>
+<dt>For <a href="https://store.continuum.io/cshop/anaconda/">Anaconda Python</a>
+users</dt>
+<dd>
+Simply run:<br/>
+<tt>conda config --add channels salilab</tt><br/>
+<tt>conda install libTAU</tt>
+<p/>
+</dd>
+
 <dt>For Mac users</dt>
 <dd>We recommend you install the <a
 href="http://mxcl.github.com/homebrew/">homebrew</a> package manager; then you
