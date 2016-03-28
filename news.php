@@ -6,6 +6,18 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>Mar 28, 2016</dt>
+
+<dd>The <a href="download.html">IMP 2.6.0 release</a> contains
+<a href="https://github.com/salilab/imp/releases/tag/2.6.0">bug fixes and
+minor updates</a>. Most notably we include most of the functionality of PMI2.
+This is an improved version of PMI that is faster than PMI1, more modular,
+and easier to use. See
+<a href="https://integrativemodeling.org/2.6.0/doc/ref/namespaceIMP_1_1pmi.html">IMP::pmi</a>
+for more information. This release also includes a number of bug fixes,
+most notably in the creation of sampled electron microscopy density maps.
+</dd>
+
 <dt>Jun 30, 2015</dt>
 
 <dd>The <a href="download.html">IMP 2.5.0 release</a> contains

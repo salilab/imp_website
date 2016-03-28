@@ -6,7 +6,7 @@
 <div id="download">
 
 <a name="stable"></a>
-<h2>IMP 2.5.0 stable release</h2>
+<h2>IMP 2.6.0 stable release</h2>
 
 <p>This release is recommended for beginners, and should be stable.
 (For the very latest features, use the
@@ -28,25 +28,25 @@
 <h3>Documentation</h3>
 
 <p>Please refer to the
-<a href="2.5.0/doc/manual/">online documentation</a>.
-You can also <a href="2.5.0/download/imp-doc-2.5.0.tar.gz">download the documentation</a>.</p>
+<a href="2.6.0/doc/manual/">online documentation</a>.
+You can also <a href="2.6.0/download/imp-doc-2.6.0.tar.gz">download the documentation</a>.</p>
 
 <a name="source"></a>
 <h3>Source code</h3>
 
 <ul>
-<li><a href="get.php?pkg=2.5.0/download/imp-2.5.0.tar.gz">Source code tarball</a></li>
+<li><a href="get.php?pkg=2.6.0/download/imp-2.6.0.tar.gz">Source code tarball</a></li>
 </ul>
 
 <p>To build IMP from source code, please refer to the
-<a href="2.5.0/doc/manual/installation.html">installation guide</a>.
+<a href="2.6.0/doc/manual/installation.html">installation guide</a>.
 </p>
 
 <h3>Signatures</h3>
 
 <p>Please check the
-<a href="2.5.0/download/SHA256SUM">SHA256SUM</a> and
-<a href="2.5.0/download/SHA256SUM.asc">its signature</a>.
+<a href="2.6.0/download/SHA256SUM">SHA256SUM</a> and
+<a href="2.6.0/download/SHA256SUM.asc">its signature</a>.
 </p>
 
 <hr />
