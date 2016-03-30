@@ -104,6 +104,13 @@ you check your IMP RPMs for tampering by downloading the key, importing it
 are <a href="2.6.0/download/">also available</a>. See the comments in the
 <tt>IMP.spec</tt> file for building details.</p>
 
+<h2>Linuxbrew</h2>
+
+If you are using <a href="http://linuxbrew.sh/">Linuxbrew</a>, you can also
+install IMP by following the <a href="download-mac.html#homebrew">Homebrew
+instructions</a>. (Note that this package is still experimental; if you run
+into issues with it, please <a href="contact.html">let us know<a>.)
+
 </div>
 
 <?php
