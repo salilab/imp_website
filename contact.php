@@ -47,6 +47,11 @@ lists for <a href="http://integrativemodeling.org/rmf/nightly/doc/">RMF</a>
 and <a href="http://integrativemodeling.org/nightly/doc/ref/namespaceIMP_1_1pmi.html">PMI</a>
 respectively.)</p>
 
+<h2>Bug reports</h2>
+<p>The best way to report a bug in IMP is to use the
+<a href="https://github.com/salilab/imp/issues">GitHub issue tracker</a>.
+</p>
+
 <h2>Website admin</h2>
 <p>To report problems with this website, you can also contact the
 <span class="e-mail">imp at salilab.org | IMP website admin</span>.</p>
