@@ -19,6 +19,9 @@ line</p>
 <p><tt>conda config --add channels salilab</tt><br />
 <tt>conda install imp</tt></p>
 
+<p>We currently support both Anaconda 2 (Python 2.7) and Anaconda 3
+(Python 3.5).</p>
+
 </div>
 
 <?php
