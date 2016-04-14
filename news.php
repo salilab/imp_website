@@ -6,6 +6,13 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>Apr 14, 2016</dt>
+
+<dd>The <a href="download.html">IMP 2.6.1 release</a> contains
+<a href="https://github.com/salilab/imp/releases/tag/2.6.1">minor bug and
+documentation fixes</a>.
+</dd>
+
 <dt>Mar 28, 2016</dt>
 
 <dd>The <a href="download.html">IMP 2.6.0 release</a> contains

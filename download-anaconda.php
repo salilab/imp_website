@@ -6,7 +6,7 @@
 <div id="download">
 
 <h2 class="download_title"><img src="images/anaconda.png" alt="Anaconda logo"/>
-IMP 2.6.0 Anaconda Python installer</h2>
+IMP 2.6.1 Anaconda Python installer</h2>
 
 <p>IMP is packaged to use with the
 <a href="https://store.continuum.io/cshop/anaconda/">Anaconda scientific
