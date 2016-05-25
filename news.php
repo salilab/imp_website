@@ -6,6 +6,13 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>May 25, 2016</dt>
+
+<dd>The <a href="download.html">IMP 2.6.2 release</a> contains
+<a href="https://github.com/salilab/imp/releases/tag/2.6.2">minor bug and
+documentation fixes</a>, including support for Ubuntu 16.04 (Xenial Xerus).
+</dd>
+
 <dt>Apr 14, 2016</dt>
 
 <dd>The <a href="download.html">IMP 2.6.1 release</a> contains
