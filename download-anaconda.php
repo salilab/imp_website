@@ -5,7 +5,7 @@
 
 <div id="download">
 
-<h2 class="download_title"><img src="images/anaconda.png" alt="Anaconda logo"/>
+<h2 class="download_title"><img src="images/anaconda-symbol.svg" alt="Anaconda logo"/>
 IMP 2.6.2 Anaconda Python installer</h2>
 
 <p>IMP is packaged to use with the

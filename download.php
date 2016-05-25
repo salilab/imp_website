@@ -15,7 +15,7 @@
 <h3>Binary installers</h3>
 
 <ul class="bininst_list">
-<li><img src="images/anaconda.png" alt="Anaconda logo"/>
+<li><img src="images/anaconda-symbol.svg" alt="Anaconda logo"/>
     <a href="download-anaconda.html">Anaconda Python ("conda")</a></li>
 <li><img src="images/windows.svg" alt="Windows logo"/>
     <a href="download-windows.html">Windows</a></li>
