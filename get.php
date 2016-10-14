@@ -48,7 +48,8 @@
                "institution='"
                . mysql_real_escape_string($details['institution'], $db) .
                "', hostname='"
-               . mysql_real_escape_string($host, $db) . "'";
+               . mysql_real_escape_string($host, $db) . "', " .
+               "first_download_utc=UTC_TIMESTAMP()";
     }
     mysql_query($query, $db);
     return true;
