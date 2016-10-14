@@ -2,7 +2,7 @@
   include '/guitar3/home/www/imp/mysql_connect.php';
 
   function get_hostname() {
-    return $_SERVER['REMOTE_HOST'];
+    return gethostbyaddr($_SERVER["REMOTE_ADDR"]);
   }
   function pkg_url($pkg) {
     return "https://integrativemodeling.org/$pkg";
