@@ -7,6 +7,8 @@
 and its applications.</p>
 
 <ul>
+<li><a href="talks/IMP_tutorial_ACA_2016.key">Tutorial on using IMP and SAXS</a></li>
+<li><a href="talks/lawberk.pptx">Talk on AllosMod</a></li>
 <li><a href="talks/2014-04-05 Keystone 30min.key.zip">2014-04-05 Keystone 30min.key.zip</a></li>
 <li><a href="talks/Hybrid methods '13.key.tar.gz">Hybrid methods '13.key.tar.gz</a></li>
 <li><a href="talks/ISB '12.key">ISB '12.key</a></li>
