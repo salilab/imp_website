@@ -11,8 +11,8 @@ and its applications.</p>
 <a href="https://www-s.ks.uiuc.edu/Training/Workshop/SanFrancisco2016/index.html">joint workshop with TCBG (VMD, NAMD, etc.)</a>
   <ul>
   <li><a href="talks/dec_2016_workshop/2016-12-14 Schulten Sali Workshop UCSF 90min.pdf">Introduction to Integrative Modeling and IMP</a></li>
-  <li><a href="talks/dec_2016_workshop/IMP software introduction and tutorial.pdf">IMP software introduction and tutorial</a></li>
   <li><a href="talks/dec_2016_workshop/Modeling of the Nup84 complex.pdf">Modeling of the Nup84 complex</a></li>
+  <li><a href="talks/dec_2016_workshop/IMP software introduction and tutorial.pdf">IMP software introduction and tutorial</a></li>
   </ul>
 </li>
 
