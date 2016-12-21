@@ -16,6 +16,7 @@ and its applications.</p>
   <li><a href="talks/dec_2016_workshop/SJ_SEA_1216_2016.pdf">Modeling of the SEA complex</a></li>
   <li><a href="talks/dec_2016_workshop/SEA_Complex_Workshop.pdf">Tutorial: modeling of the SEA complex</a></li>
   <li><a href="talks/dec_2016_workshop/SJ_Nup82_workshop.pdf">Modeling of the Nup82 complex</a></li>
+  <li><a href="talks/dec_2016_workshop/Using_new_data_in_IMP.pdf">Using new data in IMP</a></li>
   <li><a href="talks/dec_2016_workshop/121216_workshop_validation.pdf">Validation of integrative models</a></li>
   </ul>
 </li>
