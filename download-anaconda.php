@@ -22,6 +22,14 @@ line</p>
 <p>We currently support both Anaconda 2 (Python 2.7) and Anaconda 3
 (Python 3.5).</p>
 
+<p>Note that on Windows Anaconda is currently buggy. IMP will install, but
+will fail at runtime with an error ending in "<tt>IMP is not 
+installed or set up correctly</tt>" mentioning a path containing lots of
+"<tt>placehold_placehold</tt>". A workaround for now is to run</p>
+<p><tt>conda uninstall imp</tt><br />
+<tt>conda install conda=4.2.9</tt><br />
+<tt>conda install imp conda=4.2.9</tt></p>
+
 </div>
 
 <?php
