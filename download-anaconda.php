@@ -6,10 +6,10 @@
 <div id="download">
 
 <h2 class="download_title"><img src="images/anaconda-symbol.svg" alt="Anaconda logo"/>
-IMP 2.6.2 Anaconda Python installer</h2>
+IMP 2.7.0 Anaconda Python installer</h2>
 
 <p>IMP is packaged to use with the
-<a href="https://store.continuum.io/cshop/anaconda/">Anaconda scientific
+<a href="https://www.continuum.io/downloads">Anaconda scientific
 Python distribution</a> for Windows, Linux and Mac.</p>
 
 <p>
@@ -20,7 +20,7 @@ line</p>
 <tt>conda install imp</tt></p>
 
 <p>We currently support both Anaconda 2 (Python 2.7) and Anaconda 3
-(Python 3.5).</p>
+(Python 3.6).</p>
 
 </div>
 
