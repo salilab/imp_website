@@ -43,8 +43,8 @@ want to keep an eye on new developments.
 <a href="//salilab.org/mailman/listinfo/rmf-commits">RMF-commits</a>
 and
 <a href="//salilab.org/mailman/listinfo/pmi-commits">PMI-commits</a>
-lists for <a href="http://integrativemodeling.org/rmf/nightly/doc/">RMF</a>
-and <a href="http://integrativemodeling.org/nightly/doc/ref/namespaceIMP_1_1pmi.html">PMI</a>
+lists for <a href="https://integrativemodeling.org/rmf/nightly/doc/">RMF</a>
+and <a href="https://integrativemodeling.org/nightly/doc/ref/namespaceIMP_1_1pmi.html">PMI</a>
 respectively.)</p>
 
 <h2>Bug reports</h2>

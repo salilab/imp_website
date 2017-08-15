@@ -55,7 +55,7 @@ You can also <a href="2.8.0/download/imp-doc-2.8.0.tar.gz">download the document
 <h2>Development version</h2>
 
 <p>The latest development version of the IMP source code is hosted <a
-href="http://github.com/salilab/imp/">at github</a>. Note that this may not
+href="https://github.com/salilab/imp/">at github</a>. Note that this may not
 always work, but does include new functionality not in the 
 <a href="#stable">stable release</a>. This
 version is tested every night; please check out the

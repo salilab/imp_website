@@ -168,7 +168,7 @@ genome structures. Statistical analysis of the resulting population
 demonstrates that the indiscriminate properties of interchromosomal
 interactions are consistent with the well-known architectural features of
 the human genome.
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/22198700">more...</a>
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22198700">more...</a>
 </dd>
 
 <dt>Jan 2011</dt>
@@ -176,9 +176,9 @@ the human genome.
 Felipe in Spain, in combination with chromosome conformation capture carbon
 copy (5C) technology, to generate high-resolution three-dimensional models
 of chromatin at the megabase scale.
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/21131981">[publication 1]</a>
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/21131981">[publication 1]</a>
 &nbsp;
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/23657480">[publication 2]</a>
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/23657480">[publication 2]</a>
 </dd>
 
 <dt>2007</dt>

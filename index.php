@@ -29,9 +29,9 @@ alt="Model of the phosphodiesterase (PDE6)" />
 </a>
 <p>
 IMP is open source software, mostly available under the terms of the
-<a href="http://www.gnu.org/licenses/lgpl.html">GNU Lesser General Public
+<a href="https://www.gnu.org/licenses/lgpl.html">GNU Lesser General Public
 License (LGPL)</a>. (Some IMP modules are available under the 
-<a href="http://www.gnu.org/licenses/gpl.html">GNU GPL</a> instead.)
+<a href="https://www.gnu.org/licenses/gpl.html">GNU GPL</a> instead.)
 </p>
 
 <p>
@@ -56,7 +56,7 @@ alt="Model of the SEA complex" />
 </a>
 <p>
 If you use IMP, please cite
-<a href="http://www.ncbi.nlm.nih.gov/pubmed/22272186">D. Russel, K. Lasker,
+<a href="https://www.ncbi.nlm.nih.gov/pubmed/22272186">D. Russel, K. Lasker,
 B. Webb, D. Schneidman, J. Velázquez-Muriel, A. Sali, "Putting the pieces
 together: integrative structure determination of macromolecular assemblies",
 PLoS Biology, 2012</a>.

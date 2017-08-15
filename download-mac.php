@@ -56,7 +56,7 @@ system version by typing <tt>/usr/bin/python</tt> rather than just
 <h2>Homebrew</h2>
 
 <p>
-If you use the <a href="http://brew.sh/">Homebrew</a> package manager
+If you use the <a href="https://brew.sh/">Homebrew</a> package manager
 you can install IMP by running<br/>
 <tt>brew tap salilab/salilab; brew install imp</tt>
 </p>

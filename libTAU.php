@@ -9,8 +9,8 @@
 
 <p>libTAU is a support library needed for MultiFit, provided by
 <a href="http://bioinfo3d.cs.tau.ac.il/">Haim Wolfson's group</a> at
-<a href="http://tau.ac.il">Tel Aviv University</a>. It is not open source, but
-we have permission to distribute its binaries with MultiFit and IMP. If you
+<a href="https://www.tau.ac.il">Tel Aviv University</a>. It is not open source,
+but we have permission to distribute its binaries with MultiFit and IMP. If you
 want to build MultiFit from source code, you will first need to download
 libTAU:</p>
 
@@ -26,7 +26,7 @@ Simply run:<br/>
 
 <dt>For Mac users</dt>
 <dd>We recommend you install the <a
-href="http://mxcl.github.com/homebrew/">homebrew</a> package manager; then you
+href="https://brew.sh/">homebrew</a> package manager; then you
 can install libTAU by simplying typing <tt>brew tap salilab/salilab;
 brew install libTAU</tt>.<p/>
 </dd>

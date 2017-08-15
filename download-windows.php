@@ -19,7 +19,7 @@ IMP 2.8.0 Windows installer</h2>
 <a href="2.8.0/download/SHA256SUM">SHA256SUM</a> file
 to make sure it has not been tampered with.
 (One way to do this is
-<a href="http://bhoover.com/how-to-verify-checksum-windows/">detailed here</a>.)
+<a href="https://bhoover.com/how-to-verify-checksum-windows/">detailed here</a>.)
 </p>
 
 <p>
@@ -27,7 +27,7 @@ The SHA256SUM file in turn
 <a href="2.8.0/download/SHA256SUM.asc">is signed</a> with
 <a href="//salilab.org/~ben/pubkey.asc">this GPG key</a>; you can check
 to make sure this has also not been tampered with using the
-<a href="http://www.gnupg.org/download/">GnuPG</a> software.
+<a href="https://www.gnupg.org/download/">GnuPG</a> software.
 </p>
 
 <h2>Installation and getting started</h2>
@@ -38,7 +38,7 @@ in a directory of your choosing on your Windows machine.</p>
 <p>If you want to use the Python interface (e.g. if you want to run any
 of the example Python scripts) you will need to install Python 2.6, 2.7,
 3.4, 3.5, or 3.6
-from <a href="http://www.python.org/">the Python website</a> (if you installed
+from <a href="https://www.python.org/">the Python website</a> (if you installed
 the 32-bit version of IMP, you'll need the 32-bit version of Python, and
 likewise for the 64-bit version).
 One way to use an IMP Python script is to open it
