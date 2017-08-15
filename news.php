@@ -6,6 +6,17 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>Aug 16, 2017</dt>
+
+<dd>The <a href="download.html">IMP 2.8.0 release</a> contains
+<a href="https://github.com/salilab/imp/releases/tag/2.8.0">bug fixes and
+minor updates</a>, including two new applications of IMP, and the Anaconda and
+Windows pre-built binary packages are now MPI-enabled. This release also
+includes a number of bug fixes and performance improvements. Note that this
+will be the last release that includes packages for Ubuntu 12.04
+(Precise Pangolin) since it has reached end of life.
+</dd>
+
 <dt>Apr 13, 2017</dt>
 
 <dd>The <a href="download.html">IMP 2.7.0 release</a> contains
