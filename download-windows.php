@@ -44,6 +44,12 @@ likewise for the 64-bit version).
 One way to use an IMP Python script is to open it
 in the Python 'IDLE' frontend and hit F5 to run it.</p>
 
+<p>These packages are MPI-enabled (but do not <b>require</b> MPI).
+This allows IMP parallel jobs that use the IMP.mpi or IMP.spb modules to
+be run via <tt>mpiexec</tt>. This uses Microsoft MPI, which needs to be
+<a href="https://msdn.microsoft.com/en-us/library/bb524831.aspx">installed
+separately</a>.</p>
+
 </div>
 
 <?php

@@ -22,6 +22,14 @@ line</p>
 <p>We currently support both Anaconda 2 (Python 2.7) and Anaconda 3
 (Python 3.6).</p>
 
+<p>The Anaconda packages are MPI-enabled (but do not <b>require</b> MPI).
+This allows IMP parallel jobs that use the IMP.mpi or IMP.spb modules to
+be run via <tt>mpirun</tt> or <tt>mpiexec</tt>. On Mac and Linux this uses
+the <tt>openmpi</tt> and <tt>mpich</tt> Anaconda packages, respectively.
+On Windows, this uses Microsoft MPI, which needs to be
+<a href="https://msdn.microsoft.com/en-us/library/bb524831.aspx">installed
+separately</a>.</p>
+
 </div>
 
 <?php
