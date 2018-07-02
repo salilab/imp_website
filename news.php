@@ -6,6 +6,14 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>Jul 02, 2018</dt>
+
+<dd>The <a href="download.html">IMP 2.9.0 release</a> contains
+<a href="https://github.com/salilab/imp/releases/tag/2.9.0">bug fixes and
+major updates</a>, including elucidation of the structure of the entire yeast
+nuclear pore complex.
+</dd>
+
 <dt>Aug 16, 2017</dt>
 
 <dd>The <a href="download.html">IMP 2.8.0 release</a> contains
