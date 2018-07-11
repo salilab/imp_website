@@ -68,7 +68,7 @@ The easiest way to install these RPMs is to use something like<br /><tt>dnf loca
     (<i>for Ubuntu 16.04, Xenial Xerus</i>)<br/>
 <tt>deb https://integrativemodeling.org/latest/download trusty/</tt>
     (<i>for Ubuntu 14.04, Trusty Tahr</i>)<br/>
-  <li>Run <tt>sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 745E6093</tt> to get the signing key.</li>
+  <li>Run <tt>sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 22A3BF2B</tt> to get the signing key.</li>
   <li>Then simply install the <tt>imp</tt> package to get IMP itself
 (needed for all users),
 the <tt>imp-python3</tt> package if you want Python 3 support,
