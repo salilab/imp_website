@@ -15,7 +15,7 @@ want to build MultiFit from source code, you will first need to download
 libTAU:</p>
 
 <dl>
-<dt>For <a href="https://store.continuum.io/cshop/anaconda/">Anaconda Python</a>
+<dt>For <a href="https://www.continuum.io/downloads">Anaconda Python</a>
 users</dt>
 <dd>
 Simply run:<br/>
