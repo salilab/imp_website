@@ -7,6 +7,7 @@
 and its applications.</p>
 
 <ul>
+<li><a href="talks/IMP coding intro.pdf">Introduction to writing IMP code</a>, December 2018</li>
 <li><a href="talks/IMP intro UCSF Nov 2018.pdf">IMP software introduction and demonstration</a> from a mini workshop at UCSF, November 2018</li>
 <li>Slides from our December 2016
 <a href="https://www-s.ks.uiuc.edu/Training/Workshop/SanFrancisco2016/index.html">joint workshop with TCBG (VMD, NAMD, etc.)</a>
