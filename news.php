@@ -6,6 +6,13 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>Jan 08, 2019</dt>
+
+<dd>The <a href="download.html">IMP 2.10.0 release</a> contains
+<a href="https://github.com/salilab/imp/releases/tag/2.10.0">bug fixes and
+major updates</a>, most notably an overhaul of the IMP::pmi module.
+</dd>
+
 <dt>Jul 02, 2018</dt>
 
 <dd>The <a href="download.html">IMP 2.9.0 release</a> contains

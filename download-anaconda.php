@@ -6,7 +6,7 @@
 <div id="download">
 
 <h2 class="download_title"><img src="images/anaconda-symbol.svg" alt="Anaconda logo"/>
-IMP 2.9.0 Anaconda Python installer</h2>
+IMP 2.10.0 Anaconda Python installer</h2>
 
 <p>IMP is packaged to use with the
 <a href="https://www.continuum.io/downloads">Anaconda scientific
@@ -20,7 +20,7 @@ line</p>
 <tt>conda install imp</tt></p>
 
 <p>We currently support both Anaconda 2 (Python 2.7) and Anaconda 3
-(Python 3.6).</p>
+(Python 3.7).</p>
 
 <p>The Anaconda packages are MPI-enabled (but do not <b>require</b> MPI).
 This allows IMP parallel jobs that use the IMP.mpi or IMP.spb modules to
