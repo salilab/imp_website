@@ -9,7 +9,7 @@
 IMP 2.10.0 Anaconda Python installer</h2>
 
 <p>IMP is packaged to use with the
-<a href="https://www.continuum.io/downloads">Anaconda scientific
+<a href="https://www.anaconda.com/download/">Anaconda scientific
 Python distribution</a> for Windows, Linux and Mac.</p>
 
 <p>
