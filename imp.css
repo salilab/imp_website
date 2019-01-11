@@ -224,3 +224,9 @@ ul.bininst_list li {
 .download_title img {
     height: 1.4em;
 }
+
+.tutorials>dt {
+  display: list-item;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
