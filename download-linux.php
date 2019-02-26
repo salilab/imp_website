@@ -6,7 +6,7 @@
 <div id="download">
 
 <h2 class="download_title"><img src="images/linux.svg" alt="Linux logo"/>
-IMP 2.10.0 Linux packages</h2>
+IMP 2.10.1 Linux packages</h2>
 
 <ul>
 <li>RedHat Enterprise Linux (or variants, such as CentOS or Scientific Linux)<br />
@@ -16,29 +16,29 @@ The easiest way to install these RPMs is to use something like<br /><tt>yum loca
 <ul>
 <li>RHEL 6 RPMs<ul>
   <li>Base IMP package (needed for all users):
-<a href="get.php?pkg=2.10.0/download/IMP-2.10.0-1.el6.i686.rpm">32-bit</a>;
-<a href="get.php?pkg=2.10.0/download/IMP-2.10.0-1.el6.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.10.1/download/IMP-2.10.1-1.el6.i686.rpm">32-bit</a>;
+<a href="get.php?pkg=2.10.1/download/IMP-2.10.1-1.el6.x86_64.rpm">x86_64</a>
   </li>
   <li>IMP-mpich package (needed if you want to use the IMP.mpi module):
-<a href="get.php?pkg=2.10.0/download/IMP-mpich-2.10.0-1.el6.i686.rpm">32-bit</a>;
-<a href="get.php?pkg=2.10.0/download/IMP-mpich-2.10.0-1.el6.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.10.1/download/IMP-mpich-2.10.1-1.el6.i686.rpm">32-bit</a>;
+<a href="get.php?pkg=2.10.1/download/IMP-mpich-2.10.1-1.el6.x86_64.rpm">x86_64</a>
   </li>
   <li>IMP-devel package (needed to compile C++ code using the IMP libraries):
-<a href="get.php?pkg=2.10.0/download/IMP-devel-2.10.0-1.el6.i686.rpm">32-bit</a>;
-<a href="get.php?pkg=2.10.0/download/IMP-devel-2.10.0-1.el6.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.10.1/download/IMP-devel-2.10.1-1.el6.i686.rpm">32-bit</a>;
+<a href="get.php?pkg=2.10.1/download/IMP-devel-2.10.1-1.el6.x86_64.rpm">x86_64</a>
   </li>
 </ul>
 </li>
 
 <li>RHEL 7 RPMs<ul>
   <li>Base IMP package (needed for all users):
-<a href="get.php?pkg=2.10.0/download/IMP-2.10.0-1.el7.centos.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.10.1/download/IMP-2.10.1-1.el7.centos.x86_64.rpm">x86_64</a>
   </li>
   <li>IMP-mpich package (needed if you want to use the IMP.mpi module):
-<a href="get.php?pkg=2.10.0/download/IMP-mpich-2.10.0-1.el7.centos.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.10.1/download/IMP-mpich-2.10.1-1.el7.centos.x86_64.rpm">x86_64</a>
   </li>
   <li>IMP-devel package (needed to compile C++ code using the IMP libraries):
-<a href="get.php?pkg=2.10.0/download/IMP-devel-2.10.0-1.el7.centos.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.10.1/download/IMP-devel-2.10.1-1.el7.centos.x86_64.rpm">x86_64</a>
   </li>
 </ul>
 </li>
@@ -49,13 +49,13 @@ The easiest way to install these RPMs is to use something like<br /><tt>yum loca
 The easiest way to install these RPMs is to use something like<br /><tt>dnf localinstall IMP-*.rpm</tt>
 <ul>
   <li>Base IMP package (needed for all users):
-<a href="get.php?pkg=2.10.0/download/IMP-2.10.0-1.fc29.x86_64.rpm">x86_64</a></li>
+<a href="get.php?pkg=2.10.1/download/IMP-2.10.1-1.fc29.x86_64.rpm">x86_64</a></li>
   <li>IMP-python3 package (needed if you want to use Python 3 rather than 2):
-<a href="get.php?pkg=2.10.0/download/IMP-python3-2.10.0-1.fc29.x86_64.rpm">x86_64</a></li>
+<a href="get.php?pkg=2.10.1/download/IMP-python3-2.10.1-1.fc29.x86_64.rpm">x86_64</a></li>
   <li>IMP-mpich package (needed if you want to use the IMP.mpi module):
-<a href="get.php?pkg=2.10.0/download/IMP-mpich-2.10.0-1.fc29.x86_64.rpm">x86_64</a></li>
+<a href="get.php?pkg=2.10.1/download/IMP-mpich-2.10.1-1.fc29.x86_64.rpm">x86_64</a></li>
   <li>IMP-devel package (needed to compile C++ code using the IMP libraries):
-<a href="get.php?pkg=2.10.0/download/IMP-devel-2.10.0-1.fc29.x86_64.rpm">x86_64</a></li>
+<a href="get.php?pkg=2.10.1/download/IMP-devel-2.10.1-1.fc29.x86_64.rpm">x86_64</a></li>
 </ul>
 <p /></li>
 
@@ -80,15 +80,15 @@ and the <tt>imp-dev</tt> package if you need to compile C++ code using the IMP l
 <h2>Signature</h2>
 
 <p>All of the RPMs are signed with
-<a href="//salilab.org/~ben/pubkey.asc">this GPG key</a>. We recommend
+<a href="//salilab.org/~ben/pubkey4.asc">this GPG key</a>. We recommend
 you check your IMP RPMs for tampering by downloading the key, importing it
-(with <tt>sudo rpm --import pubkey.asc</tt>), then verifying the RPMs
+(with <tt>sudo rpm --import pubkey4.asc</tt>), then verifying the RPMs
 (with <tt>rpm -K IMP*.rpm</tt>).</p>
 
 <h2>Source RPMs</h2>
 
 <p>Source RPMs (to rebuild the package for Linux variants not listed above)
-are <a href="2.10.0/download/">also available</a>. See the comments in the
+are <a href="2.10.1/download/">also available</a>. See the comments in the
 <tt>IMP.spec</tt> file for building details.</p>
 
 <h2>Linuxbrew</h2>
