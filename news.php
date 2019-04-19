@@ -44,7 +44,7 @@ will be the last release that includes packages for Ubuntu 12.04
 <dd>The <a href="download.html">IMP 2.7.0 release</a> contains
 <a href="https://github.com/salilab/imp/releases/tag/2.7.0">bug fixes and
 major updates</a>, including a preview of mmCIF support for deposition of
-integrative models in <a href="https://pdb-dev.rcsb.rutgers.edu/">PDB-dev</a>.
+integrative models in <a href="https://pdb-dev.wwpdb.org/">PDB-Dev</a>.
 See the <a href="https://integrativemodeling.org/2.7.0/doc/ref/namespaceIMP_1_1pmi_1_1mmcif.html">IMP::pmi::mmcif</a>
 module for more details. This release also includes a number of bug fixes
 and performance improvements. Note that this will be the last release that
