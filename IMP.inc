@@ -57,9 +57,7 @@
       print <<<END
   <div id="container">
    <div class="editlink">
-     <a href="${github}" title="Edit on GitHub">
-       <img src="$topdir/images/edit.png" alt="Edit on GitHub"/>
-     </a>
+     <a href="${github}"><i class="fab fa-github"></i> Edit on GitHub</a>
    </div>
    <h1>$title</h1>
 END;

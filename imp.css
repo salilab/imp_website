@@ -199,6 +199,9 @@ div.pagesection {
 
 div.editlink {
   text-align: right;
+  font-size: 13px;
+  font-family: "Lucida Grande","Geneva","Helvetica",Arial,sans-serif;
+  font-weight: bold;
 }
 
 div.editlink img {
