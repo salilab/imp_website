@@ -27,7 +27,7 @@ Simply run:<br/>
 <dt>For Mac users</dt>
 <dd>We recommend you install the <a
 href="https://brew.sh/">homebrew</a> package manager; then you
-can install libTAU by simplying typing <tt>brew tap salilab/salilab;
+can install libTAU by simply typing <tt>brew tap salilab/salilab;
 brew install libTAU</tt>.<p/>
 </dd>
 
