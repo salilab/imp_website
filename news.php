@@ -6,6 +6,14 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>Dec 06, 2019</dt>
+
+<dd>The <a href="download.html">IMP 2.12.0 release</a> contains
+<a href="https://github.com/salilab/imp/releases/tag/2.12.0">major updates</a>,
+most notably support for Python 3.8 and RHEL/CentOS, 8 and a new IMP::bayesianem
+module for Bayesian handling of cryo-electron microscopy density map data.
+</dd>
+
 <dt>Jul 18, 2019</dt>
 
 <dd>The <a href="download.html">IMP 2.11.1 release</a> contains
