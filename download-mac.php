@@ -15,6 +15,16 @@ you can install IMP by running<br/>
 <tt>brew tap salilab/salilab; brew install imp</tt>
 </p>
 
+<p>Next, to run an IMP Python script called
+<tt>foo.py</tt>, simply run <tt>python3 foo.py</tt> from a Terminal window
+in the directory containing the script. (Note that Homebrew no longer
+officially supports Python 2. If you want to use the Homebrew IMP package
+with Python 2, you may need to add the Homebrew Python location,
+<tt>/usr/local/lib/python2.7/site-packages</tt>, to your
+<tt>PYTHONPATH</tt>.)</p>
+
+<hr />
+
 <h2>Legacy installer</h2>
 
 <p>
@@ -29,7 +39,19 @@ or above.
 This is expected; simply right click or Ctrl-click on the installer, and
 select "Open" from the menu, rather than double-clicking on it.)</p>
 
-<h2>Signature</h2>
+<p>The installer will install IMP in the <tt>/usr/local/</tt> directory
+on your Mac.</p>
+
+<p>The IMP Python libraries are automatically set up to run with the default
+version of Python on your Mac. To run an IMP Python script called
+<tt>foo.py</tt>, simply run <tt>python foo.py</tt> from a Terminal window
+in the directory containing the script. (If you have multiple versions of
+Python installed on your system, you may need to force use of the default
+system version by typing <tt>/usr/bin/python</tt> rather than just
+<tt>python</tt>.)</p>
+
+
+<h3>Signature</h3>
 
 <p>Please check the installer package against the
 <a href="2.12.0/download/SHA256SUM">SHA256SUM</a> file
@@ -45,19 +67,6 @@ The SHA256SUM file in turn is signed with
 to make sure this has also not been tampered with using the
 <a href="https://gpgtools.org/">GPGtools</a> software.
 </p>
-
-<h2>Installation and getting started</h2>
-
-<p>The installer will install IMP in the <tt>/usr/local/</tt> directory
-on your Mac.</p>
-
-<p>The IMP Python libraries are automatically set up to run with the default
-version of Python on your Mac. To run an IMP Python script called
-<tt>foo.py</tt>, simply run <tt>python foo.py</tt> from a Terminal window
-in the directory containing the script. (If you have multiple versions of
-Python installed on your system, you may need to force use of the default
-system version by typing <tt>/usr/bin/python</tt> rather than just
-<tt>python</tt>.)</p>
 
 </div>
 
