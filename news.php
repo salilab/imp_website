@@ -6,6 +6,14 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>May 14, 2020</dt>
+
+<dd>The <a href="download.html">IMP 2.13.0 release</a> contains
+<a href="https://github.com/salilab/imp/releases/tag/2.13.0">major updates</a>,
+most notably support for Ubuntu 20.04, Focal Fossa, and a new IMP::sampcon
+module to estimate the highest precision at which the sampling is exhaustive.
+</dd>
+
 <dt>Dec 06, 2019</dt>
 
 <dd>The <a href="download.html">IMP 2.12.0 release</a> contains
