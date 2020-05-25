@@ -14,11 +14,11 @@
   }
   function get_db_details($db, $host) {
     $query = "SELECT name,institution FROM addresses WHERE hostname = '"
-             . mysql_real_escape_string($host, $db) . "'";
-    $result = mysql_query($query, $db);
+             . $db->real_escape_string($host) . "'";
+    $result = $db->query($query);
     if (!$result) { return NULL; }
-    $line = mysql_fetch_array($result, MYSQL_ASSOC);
-    mysql_free_result($result);
+    $line = $result->fetch_array($result, MYSQLI_ASSOC);
+    $result->close();
     return $line;
   }
 
@@ -37,21 +37,21 @@
 
     if ($known) {
       $query = "UPDATE addresses SET name='"
-               . mysql_real_escape_string($details['name'], $db) . "', " .
+               . $db->real_escape_string($details['name']) . "', " .
                "institution='"
-               . mysql_real_escape_string($details['institution'], $db) .
+               . $db->real_escape_string($details['institution']) .
                "' WHERE hostname='"
-               . mysql_real_escape_string($host, $db) . "'";
+               . $db->real_escape_string($host) . "'";
     } else {
       $query = "INSERT INTO addresses SET name='"
-               . mysql_real_escape_string($details['name'], $db) . "', " .
+               . $db->real_escape_string($details['name']) . "', " .
                "institution='"
-               . mysql_real_escape_string($details['institution'], $db) .
+               . $db->real_escape_string($details['institution']) .
                "', hostname='"
-               . mysql_real_escape_string($host, $db) . "', " .
+               . $db->real_escape_string($host) . "', " .
                "first_download_utc=UTC_TIMESTAMP()";
     }
-    mysql_query($query, $db);
+    $db->query($query);
     return true;
   }
 
