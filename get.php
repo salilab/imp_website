@@ -17,7 +17,7 @@
              . $db->real_escape_string($host) . "'";
     $result = $db->query($query);
     if (!$result) { return NULL; }
-    $line = $result->fetch_array($result, MYSQLI_ASSOC);
+    $line = $result->fetch_array(MYSQLI_ASSOC);
     $result->close();
     return $line;
   }
