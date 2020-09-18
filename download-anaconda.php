@@ -20,7 +20,7 @@ line</p>
 <tt>conda install imp</tt></p>
 
 <p>We currently support both Anaconda 2 (Python 2.7) and Anaconda 3
-(Python 3.7).</p>
+(Python 3.7 and Python 3.8).</p>
 
 <p>The Anaconda packages are MPI-enabled (but do not <b>require</b> MPI).
 This allows IMP parallel jobs that use the IMP.mpi or IMP.spb modules to
