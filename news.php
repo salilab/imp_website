@@ -6,6 +6,14 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>Dec 02, 2020</dt>
+
+<dd>The <a href="download.html">IMP 2.14.0 release</a> contains
+<a href="https://github.com/salilab/imp/releases/tag/2.14.0">minor updates</a>,
+most notably an overhaul of the IMP::kinematics and IMP::parallel modules,
+and support for Python 3.9.
+</dd>
+
 <dt>May 14, 2020</dt>
 
 <dd>The <a href="download.html">IMP 2.13.0 release</a> contains

@@ -6,7 +6,7 @@
 <div id="download">
 
 <a name="stable"></a>
-<h2>IMP 2.13.0 stable release</h2>
+<h2>IMP 2.14.0 stable release</h2>
 
 <p>This release is recommended for beginners, and should be stable.
 (For the very latest features, use the
@@ -28,24 +28,24 @@
 <h3>Documentation</h3>
 
 <p>Please refer to the
-<a href="2.13.0/doc/manual/">online documentation</a>.
-You can also <a href="2.13.0/download/imp-doc-2.13.0.tar.gz">download the documentation</a>.</p>
+<a href="2.14.0/doc/manual/">online documentation</a>.
+You can also <a href="2.14.0/download/imp-doc-2.14.0.tar.gz">download the documentation</a>.</p>
 
 <a name="source"></a>
 <h3>Source code</h3>
 
 <ul>
-<li><a href="get.php?pkg=2.13.0/download/imp-2.13.0.tar.gz">Source code tarball</a></li>
+<li><a href="get.php?pkg=2.14.0/download/imp-2.14.0.tar.gz">Source code tarball</a></li>
 </ul>
 
 <p>To build IMP from source code, please refer to the
-<a href="2.13.0/doc/manual/installation.html">installation guide</a>.
+<a href="2.14.0/doc/manual/installation.html">installation guide</a>.
 </p>
 
 <h3>Signatures</h3>
 
 <p>Please check the
-<a href="2.13.0/download/SHA256SUM">SHA256SUM</a> file, which in turn is signed
+<a href="2.14.0/download/SHA256SUM">SHA256SUM</a> file, which in turn is signed
 with <a href="//salilab.org/~ben/pubkey4.asc">this GPG key</a>.
 </p>
 
