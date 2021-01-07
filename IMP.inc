@@ -45,7 +45,7 @@
 
    function print_page_header($title) {
       $pagename = $_GET['FILENAME'];
-      $github_top = "https://github.com/salilab/imp_website/blob/master/";
+      $github_top = "https://github.com/salilab/imp_website/blob/main/";
       $topdir = $_GET['TOPDIR'];
       $subdir = substr($_GET['WEB'], strlen($_GET['WEBTOP']));
       if ($subdir == '') {
