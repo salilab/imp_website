@@ -87,7 +87,7 @@ The easiest way to install these RPMs is to use something like<br /><tt>dnf loca
   <li>Run <tt>sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 22A3BF2B</tt> to get the signing key.</li>
   <li>Then simply install the <tt>imp</tt> package to get IMP itself
 (needed for all users),
-the <tt>imp-python3</tt> package if you want Python 3 support,
+the <tt>imp-python2</tt> package if you want Python 2 support,
 and the <tt>imp-dev</tt> package if you need to compile C++ code using the IMP libraries. (From the command line, use <tt>sudo apt-get update; sudo apt-get install imp</tt>)</li>
 </ul>
 </li>
