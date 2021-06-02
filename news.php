@@ -6,6 +6,14 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>Jun 02, 2021</dt>
+
+<dd>The <a href="download.html">IMP 2.15.0 release</a> contains
+<a href="https://github.com/salilab/imp/releases/tag/2.15.0">minor updates</a>,
+most notably improved handling of MRC files, a new scoring function for
+cryo-EM data, and support for Apple Silicon.
+</dd>
+
 <dt>Dec 02, 2020</dt>
 
 <dd>The <a href="download.html">IMP 2.14.0 release</a> contains

@@ -6,7 +6,7 @@
 <div id="download">
 
 <h2 class="download_title"><img src="images/linux.svg" alt="Linux logo"/>
-IMP 2.14.0 Linux packages</h2>
+IMP 2.15.0 Linux packages</h2>
 
 <ul>
 <li>RedHat Enterprise Linux (or variants, such as CentOS or Scientific Linux)<br />
@@ -14,64 +14,48 @@ These packages also require that you have the
 <a href="https://fedoraproject.org/wiki/EPEL">EPEL</a> repository installed.<br />
 The easiest way to install these RPMs is to use something like<br /><tt>yum localinstall IMP-*.rpm</tt>
 <ul>
-<li>RHEL 6 RPMs<ul>
-  <li>Base IMP package (needed for all users):
-<a href="get.php?pkg=2.14.0/download/IMP-2.14.0-1.el6.i686.rpm">32-bit</a>;
-<a href="get.php?pkg=2.14.0/download/IMP-2.14.0-1.el6.x86_64.rpm">x86_64</a>
-  </li>
-  <li>IMP-mpich package (needed if you want to use the IMP.mpi module):
-<a href="get.php?pkg=2.14.0/download/IMP-mpich-2.14.0-1.el6.i686.rpm">32-bit</a>;
-<a href="get.php?pkg=2.14.0/download/IMP-mpich-2.14.0-1.el6.x86_64.rpm">x86_64</a>
-  </li>
-  <li>IMP-devel package (needed to compile C++ code using the IMP libraries):
-<a href="get.php?pkg=2.14.0/download/IMP-devel-2.14.0-1.el6.i686.rpm">32-bit</a>;
-<a href="get.php?pkg=2.14.0/download/IMP-devel-2.14.0-1.el6.x86_64.rpm">x86_64</a>
-  </li>
-</ul>
-</li>
-
 <li>RHEL 7 RPMs<ul>
   <li>Base IMP package (needed for all users):
-<a href="get.php?pkg=2.14.0/download/IMP-2.14.0-1.el7.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.15.0/download/IMP-2.15.0-1.el7.x86_64.rpm">x86_64</a>
   </li>
   <li>IMP-mpich package (needed if you want to use the IMP.mpi module):
-<a href="get.php?pkg=2.14.0/download/IMP-mpich-2.14.0-1.el7.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.15.0/download/IMP-mpich-2.15.0-1.el7.x86_64.rpm">x86_64</a>
   </li>
   <li>IMP-devel package (needed to compile C++ code using the IMP libraries):
-<a href="get.php?pkg=2.14.0/download/IMP-devel-2.14.0-1.el7.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.15.0/download/IMP-devel-2.15.0-1.el7.x86_64.rpm">x86_64</a>
   </li>
 </ul>
 </li>
 
 <li>RHEL 8 RPMs<ul>
   <li>Base IMP package (needed for all users):
-<a href="get.php?pkg=2.14.0/download/IMP-2.14.0-1.el8.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.15.0/download/IMP-2.15.0-1.el8.x86_64.rpm">x86_64</a>
   </li>
   <li>IMP-python2 package (needed if you want to use Python 2 rather than 3):
-<a href="get.php?pkg=2.14.0/download/IMP-python2-2.14.0-1.el8.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.15.0/download/IMP-python2-2.15.0-1.el8.x86_64.rpm">x86_64</a>
   </li>
   <li>IMP-mpich package (needed if you want to use the IMP.mpi module):
-<a href="get.php?pkg=2.14.0/download/IMP-mpich-2.14.0-1.el8.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.15.0/download/IMP-mpich-2.15.0-1.el8.x86_64.rpm">x86_64</a>
   </li>
   <li>IMP-devel package (needed to compile C++ code using the IMP libraries):
-<a href="get.php?pkg=2.14.0/download/IMP-devel-2.14.0-1.el8.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.15.0/download/IMP-devel-2.15.0-1.el8.x86_64.rpm">x86_64</a>
   </li>
 </ul>
 </li>
 </ul>
 <p /></li>
 
-<li>Fedora 33 Linux RPMs<br />
+<li>Fedora 34 Linux RPMs<br />
 The easiest way to install these RPMs is to use something like<br /><tt>dnf localinstall IMP-*.rpm</tt>
 <ul>
   <li>Base IMP package (needed for all users):
-<a href="get.php?pkg=2.14.0/download/IMP-2.14.0-1.fc33.x86_64.rpm">x86_64</a></li>
+<a href="get.php?pkg=2.15.0/download/IMP-2.15.0-1.fc34.x86_64.rpm">x86_64</a></li>
   <li>IMP-python2 package (needed if you want to use Python 2 rather than 3):
-<a href="get.php?pkg=2.14.0/download/IMP-python2-2.14.0-1.fc33.x86_64.rpm">x86_64</a></li>
+<a href="get.php?pkg=2.15.0/download/IMP-python2-2.15.0-1.fc34.x86_64.rpm">x86_64</a></li>
   <li>IMP-mpich package (needed if you want to use the IMP.mpi module):
-<a href="get.php?pkg=2.14.0/download/IMP-mpich-2.14.0-1.fc33.x86_64.rpm">x86_64</a></li>
+<a href="get.php?pkg=2.15.0/download/IMP-mpich-2.15.0-1.fc34.x86_64.rpm">x86_64</a></li>
   <li>IMP-devel package (needed to compile C++ code using the IMP libraries):
-<a href="get.php?pkg=2.14.0/download/IMP-devel-2.14.0-1.fc33.x86_64.rpm">x86_64</a></li>
+<a href="get.php?pkg=2.15.0/download/IMP-devel-2.15.0-1.fc34.x86_64.rpm">x86_64</a></li>
 </ul>
 <p /></li>
 
@@ -104,7 +88,7 @@ you check your IMP RPMs for tampering by downloading the key, importing it
 <h2>Source RPMs</h2>
 
 <p>Source RPMs (to rebuild the package for Linux variants not listed above)
-are <a href="2.14.0/download/">also available</a>. See the comments in the
+are <a href="2.15.0/download/">also available</a>. See the comments in the
 <tt>IMP.spec</tt> file for building details.</p>
 
 <h2>Linuxbrew</h2>

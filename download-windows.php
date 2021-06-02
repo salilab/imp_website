@@ -6,17 +6,17 @@
 <div id="download">
 
 <h2 class="download_title"><img src="images/windows.svg" alt="Windows logo"/>
-IMP 2.14.0 Windows installer</h2>
+IMP 2.15.0 Windows installer</h2>
 
 <ul>
-<li><a href="get.php?pkg=2.14.0/download/IMP-2.14.0-32bit.exe">For 32 bit</a></li>
-<li><a href="get.php?pkg=2.14.0/download/IMP-2.14.0-64bit.exe">For 64 bit</a></li>
+<li><a href="get.php?pkg=2.15.0/download/IMP-2.15.0-32bit.exe">For 32 bit</a></li>
+<li><a href="get.php?pkg=2.15.0/download/IMP-2.15.0-64bit.exe">For 64 bit</a></li>
 </ul>
 
 <h2>Signature</h2>
 
 <p>Please check the installer package against the
-<a href="2.14.0/download/SHA256SUM">SHA256SUM</a> file
+<a href="2.15.0/download/SHA256SUM">SHA256SUM</a> file
 to make sure it has not been tampered with.
 (One way to do this is
 <a href="https://bhoover.com/how-to-verify-checksum-windows/">detailed here</a>.)
