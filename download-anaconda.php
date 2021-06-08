@@ -10,8 +10,8 @@ IMP 2.15.0 Anaconda Python installer</h2>
 
 <p>IMP is packaged to use with the
 <a href="https://www.anaconda.com/download/">Anaconda scientific
-Python distribution</a> for 64-bit Windows, Linux, and Mac (both Intel and Apple
-Silicon). It uses dependencies provided by
+Python distribution</a> for 64-bit Windows, x86_64 Linux, and Mac (both
+Intel and Apple Silicon). It uses dependencies provided by
 <a href="https://conda-forge.org/">conda-forge</a>
 (unlike previous releases of IMP).</p>
 
