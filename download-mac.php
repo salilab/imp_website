@@ -9,9 +9,9 @@
 IMP 2.15.0 Mac installer</h2>
 
 <p>
-On the Mac we recommend using <a href="https://brew.sh/">Homebrew</a>.
-If using this package manager, 
-you can install IMP by running<br/>
+On the Mac we recommend using either <a href="https://brew.sh/">Homebrew</a>
+or <a href="download-anaconda.html">Anaconda</a>.
+If using Homebrew, you can install IMP by running<br/>
 <tt>brew tap salilab/salilab; brew install imp</tt>
 </p>
 
@@ -23,7 +23,7 @@ with Python 2, you may need to add the Homebrew Python location,
 <tt>/usr/local/lib/python2.7/site-packages</tt>, to your
 <tt>PYTHONPATH</tt>.)</p>
 
-<p>The Homebrew package supports recent MacOS releases on both Intel and
+<p>The Homebrew package supports recent macOS releases on both Intel and
 Apple Silicon hardware. Note, however, that not all IMP dependencies are
 easily available for Apple Silicon yet (e.g.
 <a href="https://github.com/scikit-learn/scikit-learn/issues/19137">scikit-learn</a>).</p>
@@ -33,9 +33,9 @@ easily available for Apple Silicon yet (e.g.
 <h2>Legacy installer</h2>
 
 <p>
-If you don't want to use Homebrew, you can use our legacy standalone Mac
-installer. It supports 64-bit Intel Macs running OS X 10.8 (Mountain Lion)
-or above.
+If you don't want to use Homebrew or Anaconda, you can use our legacy
+standalone Mac installer. It supports 64-bit Intel Macs running OS X 10.8
+(Mountain Lion) or above. (It does not include Apple Silicon support.)
 </p>
 
 <p><a href="get.php?pkg=2.15.0/download/IMP-2.15.0-10.8.dmg">Download the installer</a></p>
