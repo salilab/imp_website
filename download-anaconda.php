@@ -23,8 +23,8 @@ line</p>
 <tt>conda config --add channels salilab</tt><br />
 <tt>conda install imp</tt></p>
 
-<p>We support the two most recent versions of Python 3 (Python 3.8
-and Python 3.9). For compatibility with old workflows, we also provide
+<p>We support recent versions of Python 3 (Python 3.6 through to 3.9 on most
+platforms). For compatibility with old workflows, we also provide
 a Python 2.7 package for Mac and Linux (although this is deprecated and will
 be removed in a future release; we encourage you to move your workflows to
 Python 3).</p>
@@ -42,6 +42,10 @@ while on Windows
 <a href="https://msdn.microsoft.com/en-us/library/bb524831.aspx">msmpi</a>
 is used instead.</p>
 
+<p>Note that most Anaconda packages only include open-source IMP modules.
+The closed-source <a href="https://integrativemodeling.org/nightly/doc/ref/namespaceIMP_1_1cnmultifit.html">IMP.cnmultifit</a>
+module is not included. If you need this with Anaconda, please
+<a href="contact.html">contact us</a>.</p>
 </div>
 
 <?php
