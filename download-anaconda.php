@@ -20,14 +20,14 @@ To install IMP using the 'conda' package manager, simply run from a command
 line</p>
 
 <p><tt>conda config --add channels conda-forge</tt><br />
-<tt>conda config --add channels salilab</tt><br />
 <tt>conda install imp</tt></p>
 
 <p>We support recent versions of Python 3 (Python 3.6 through to 3.9 on most
 platforms). For compatibility with old workflows, we also provide
-a Python 2.7 package for Mac and Linux (although this is deprecated and will
-be removed in a future release; we encourage you to move your workflows to
-Python 3).</p>
+a Python 2.7 package for Mac and Linux in the <tt>salilab</tt> channel
+(add <tt>conda config --add channels salilab</tt>). Note though that this is
+deprecated and will be removed in a future release; we encourage you to
+move your workflows to Python 3.
 
 <p>(We no longer provide Python 2 Anaconda packages for 64-bit Windows, or any
 conda packages for 32-bit Windows, as these platforms have been dropped
