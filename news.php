@@ -6,6 +6,14 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>Dec 16, 2021</dt>
+
+<dd>The <a href="download.html">IMP 2.16.0 release</a> contains
+<a href="https://github.com/salilab/imp/releases/tag/2.16.0">major updates</a>,
+most notably improved NumPy integration, support for Python 3.10, and a faster
+scoring function for Monte Carlo sampling.
+</dd>
+
 <dt>Jun 02, 2021</dt>
 
 <dd>The <a href="download.html">IMP 2.15.0 release</a> contains

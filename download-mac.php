@@ -6,7 +6,7 @@
 <div id="download">
 
 <h2 class="download_title"><img src="images/apple.svg" alt="Apple logo"/>
-IMP 2.15.0 Mac installer</h2>
+IMP 2.16.0 Mac installer</h2>
 
 <p>
 On the Mac we recommend using either <a href="https://brew.sh/">Homebrew</a>
@@ -38,7 +38,7 @@ standalone Mac installer. It supports 64-bit Intel Macs running OS X 10.8
 (Mountain Lion) or above. (It does not include Apple Silicon support.)
 </p>
 
-<p><a href="get.php?pkg=2.15.0/download/IMP-2.15.0-10.8.dmg">Download the installer</a></p>
+<p><a href="get.php?pkg=2.16.0/download/IMP-2.16.0-10.8.dmg">Download the installer</a></p>
 
 <p>(Newer Macs may complain that the installer is from an unknown developer.
 This is expected; simply right click or Ctrl-click on the installer, and
@@ -59,7 +59,7 @@ system version by typing <tt>/usr/bin/python</tt> rather than just
 <h3>Signature</h3>
 
 <p>Please check the installer package against the
-<a href="2.15.0/download/SHA256SUM">SHA256SUM</a> file
+<a href="2.16.0/download/SHA256SUM">SHA256SUM</a> file
 to make sure it has not been tampered with (open a Terminal window, change
 into the directory where you downloaded the .dmg file, run
 "<tt>shasum -a 256 foo.dmg</tt>" where <tt>foo.dmg</tt> is the name of the

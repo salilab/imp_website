@@ -6,7 +6,7 @@
 <div id="docs">
 
 <ul class="docs">
-<li><a href="2.15.0/doc/manual/">IMP 2.15.0 stable release</a></li>
+<li><a href="2.16.0/doc/manual/">IMP 2.16.0 stable release</a></li>
 
 <li><a href="nightly/doc/manual/">Latest nightly build</a></li>
 </ul>
