@@ -24,9 +24,7 @@ with Python 2, you may need to add the Homebrew Python location,
 <tt>PYTHONPATH</tt>.)</p>
 
 <p>The Homebrew package supports recent macOS releases on both Intel and
-Apple Silicon hardware. Note, however, that not all IMP dependencies are
-easily available for Apple Silicon yet (e.g.
-<a href="https://github.com/scikit-learn/scikit-learn/issues/19137">scikit-learn</a>).</p>
+Apple Silicon hardware.</p>
 
 <hr />
 
