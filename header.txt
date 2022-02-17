@@ -9,6 +9,7 @@
 <title>$title</title>
 <link href="@TOPDIR@imp.css" rel="stylesheet" type="text/css"/>
 <link href="@TOPDIR@pygments.css" rel="stylesheet" type="text/css"/>
+<link href="@TOPDIR@fontawesome6/css/fontawesome.min.css" rel="stylesheet" type="text/css" >
 <link href="@TOPDIR@fontawesome6/css/brands.min.css" rel="stylesheet" type="text/css" >
 <link rel="icon" type="image/png" href="@TOPDIR@/images/the_imp.png"/>
 <link rel="canonical" href="@CANON@"/>
