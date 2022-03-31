@@ -18,10 +18,7 @@ If using Homebrew, you can install IMP by running<br/>
 <p>Next, to run an IMP Python script called
 <tt>foo.py</tt>, simply run <tt>python3 foo.py</tt> from a Terminal window
 in the directory containing the script. (Note that Homebrew no longer
-officially supports Python 2. If you want to use the Homebrew IMP package
-with Python 2, you may need to add the Homebrew Python location,
-<tt>/usr/local/lib/python2.7/site-packages</tt>, to your
-<tt>PYTHONPATH</tt>.)</p>
+supports Python 2.)</p>
 
 <p>The Homebrew package supports recent macOS releases on both Intel and
 Apple Silicon hardware.</p>
