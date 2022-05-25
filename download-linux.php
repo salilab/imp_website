@@ -66,7 +66,7 @@ The easiest way to install these RPMs is to use something like<br /><tt>dnf loca
     (<i>for Ubuntu 20.04, Focal Fossa</i>)<br/>
 <tt>deb https://integrativemodeling.org/latest/download bionic/</tt>
     (<i>for Ubuntu 18.04, Bionic Beaver</i>)<br/></li>
-  <li>Run <tt>sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 22A3BF2B</tt> to get the signing key.</li>
+  <li>Run <tt>sudo wget -O /etc/apt/trusted.gpg.d/salilab.asc https://salilab.org/~ben/pubkey4.asc</tt> to get the signing key.</li>
   <li>Then simply install the <tt>imp</tt> package to get IMP itself
 (needed for all users),
 the <tt>imp-python2</tt> package if you want Python 2 support,
