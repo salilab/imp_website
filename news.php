@@ -6,6 +6,13 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>Jun 23, 2022</dt>
+
+<dd>The <a href="download.html">IMP 2.17.0 release</a> contains
+<a href="https://github.com/salilab/imp/releases/tag/2.17.0">minor updates</a>,
+with a number of performance improvements and support for newer C++ standards.
+</dd>
+
 <dt>Dec 16, 2021</dt>
 
 <dd>The <a href="download.html">IMP 2.16.0 release</a> contains

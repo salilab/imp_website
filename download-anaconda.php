@@ -6,7 +6,7 @@
 <div id="download">
 
 <h2 class="download_title"><img src="images/anaconda-symbol.svg" alt="Anaconda logo"/>
-IMP 2.16.0 Anaconda Python installer</h2>
+IMP 2.17.0 Anaconda Python installer</h2>
 
 <p>IMP is packaged to use with the
 <a href="https://www.anaconda.com/download/">Anaconda scientific
@@ -29,10 +29,9 @@ a Python 2.7 package for Linux in the <tt>salilab</tt> channel
 deprecated and will be removed in a future release; we encourage you to
 move your workflows to Python 3.
 
-<p>(We no longer provide Python 2 Anaconda packages for 64-bit Windows, or any
-conda packages for 32-bit Windows, as these platforms have been dropped
-upstream. For these, use the <a href="download-windows.html">standalone
-installer</a> instead.)</p>
+<p>(We no longer provide Anaconda packages for 32-bit Windows, as this
+platform has been dropped upstream. For this platform, use the
+<a href="download-windows.html">standalone installer</a> instead.)</p>
 
 <p>The Anaconda packages are MPI-enabled (but will also run serially).
 This allows IMP parallel jobs that use the IMP.mpi or IMP.spb modules to
