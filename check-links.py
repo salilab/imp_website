@@ -4,6 +4,12 @@ import os
 import sys
 import subprocess
 
+# Disable linkchecker; it takes forever and needs Python 2
+# todo: replace with new Python 3 linkchecker from
+# https://github.com/linkchecker/linkchecker
+print("linkchecker is temporarily disabled")
+sys.exit(0)
+
 dir_to_check = sys.argv[1]
 os.chdir(dir_to_check)
 
