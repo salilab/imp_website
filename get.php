@@ -89,7 +89,7 @@ END;
     print "</div>\n";
   }
 
-  if (!$_GET['pkg']) {
+  if (!array_key_exists('pkg', $_GET) || !$_GET['pkg']) {
     print_page_header();
     print "<p>Missing 'pkg' parameter.</p>\n";
     print_page_footer();
