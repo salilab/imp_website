@@ -11,6 +11,14 @@
 <li><a href="nightly/doc/manual/">Latest nightly build</a></li>
 </ul>
 
+<a name="tutorials"></a>
+<h2>Tutorials</h2>
+
+<p>A number of introductory tutorials on using IMP <a href="tutorials/">are available</a>.</p>
+
+<a name="talks"></a>
+<h2>Talks</h2>
+
 <p>See also <a href="talks.html">the talks page</a> for various talks and other
 presentations about IMP.</p>
 
