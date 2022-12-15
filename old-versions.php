@@ -7,10 +7,13 @@
 
 <ul>
 
+<li>2.17.0: <a href="2.17.0/download/">download</a>;
+<a href="2.17.0/doc/manual/">manual</a>;
+<a href="2.17.0/doc/ref/">reference guide</a></li>
+
 <li>2.16.0: <a href="2.16.0/download/">download</a>;
 <a href="2.16.0/doc/manual/">manual</a>;
 <a href="2.16.0/doc/ref/">reference guide</a></li>
-
 
 <li>2.15.0: <a href="2.15.0/download/">download</a>;
 <a href="2.15.0/doc/manual/">manual</a>;

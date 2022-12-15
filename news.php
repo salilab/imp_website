@@ -6,6 +6,15 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>Dec 15, 2022</dt>
+
+<dd>The <a href="download.html">IMP 2.18.0 release</a> contains
+<a href="https://github.com/salilab/imp/releases/tag/2.18.0">minor updates</a>,
+including preliminary support for serialization, improvements in constructing
+topology from primary sequence, and support for the PrISM method for annotation
+of ensemble precision.
+</dd>
+
 <dt>Jun 23, 2022</dt>
 
 <dd>The <a href="download.html">IMP 2.17.0 release</a> contains

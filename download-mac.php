@@ -6,7 +6,7 @@
 <div id="download">
 
 <h2 class="download_title"><img src="images/apple.svg" alt="Apple logo"/>
-IMP 2.17.0 Mac installer</h2>
+IMP 2.18.0 Mac installer</h2>
 
 <p>
 On the Mac we recommend using either <a href="https://brew.sh/">Homebrew</a>
@@ -33,7 +33,7 @@ standalone Mac installer. It supports 64-bit Intel Macs running OS X 10.10
 (Yosemite) or above. (It does not include Apple Silicon support.)
 </p>
 
-<p><a href="get.php?pkg=2.17.0/download/IMP-2.17.0-10.10.dmg">Download the installer</a></p>
+<p><a href="get.php?pkg=2.18.0/download/IMP-2.18.0-10.10.dmg">Download the installer</a></p>
 
 <p>(Newer Macs may complain that the installer is from an unknown developer.
 This is expected; simply right click or Ctrl-click on the installer, and
@@ -54,7 +54,7 @@ system version by typing <tt>/usr/bin/python</tt> rather than just
 <h3>Signature</h3>
 
 <p>Please check the installer package against the
-<a href="2.17.0/download/SHA256SUM">SHA256SUM</a> file
+<a href="2.18.0/download/SHA256SUM">SHA256SUM</a> file
 to make sure it has not been tampered with (open a Terminal window, change
 into the directory where you downloaded the .dmg file, run
 "<tt>shasum -a 256 foo.dmg</tt>" where <tt>foo.dmg</tt> is the name of the
@@ -63,7 +63,7 @@ file.)
 
 <p>
 The SHA256SUM file in turn is signed with
-<a href="//salilab.org/~ben/pubkey4.asc">this GPG key</a>; you can check
+<a href="//salilab.org/~ben/pubkey256.asc">this GPG key</a>; you can check
 to make sure this has also not been tampered with using the
 <a href="https://gpgtools.org/">GPGtools</a> software.
 </p>
