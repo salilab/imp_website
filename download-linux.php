@@ -81,7 +81,7 @@ The easiest way to install these RPMs is to use something like<br /><tt>dnf loca
     (<i>for Ubuntu 20.04, Focal Fossa</i>)<br/>
 <tt>deb https://integrativemodeling.org/latest/download bionic/</tt>
     (<i>for Ubuntu 18.04, Bionic Beaver</i>)<br/></li>
-  <li>Run <tt>sudo wget -O /etc/apt/trusted.gpg.d/salilab.asc https://salilab.org/~ben/pubkey256.asc</tt> to get the signing key.</li>
+  <li>Run <tt>sudo wget -O /etc/apt/trusted.gpg.d/salilab.asc https://salilab.org/~ben/pubkey256.asc</tt> to get the signing key (note this is a different key from that used for older IMP versions).</li>
   <li>Then simply install the <tt>imp</tt> package to get IMP itself
 (needed for all users),
 the <tt>imp-python2</tt> package if you want Python 2 support,
@@ -93,7 +93,9 @@ and the <tt>imp-dev</tt> package if you need to compile C++ code using the IMP l
 <h2>Signature</h2>
 
 <p>All of the RPMs are signed with
-<a href="//salilab.org/~ben/pubkey256.asc">this GPG key</a>. We recommend
+<a href="//salilab.org/~ben/pubkey256.asc">this GPG key</a>
+(note this is a different key from that used for older IMP versions).
+We recommend
 you check your IMP RPMs for tampering by downloading the key, importing it
 (with <tt>sudo rpm --import pubkey256.asc</tt>), then verifying the RPMs
 (with <tt>rpm -K IMP*.rpm</tt>).</p>
