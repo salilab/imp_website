@@ -6,6 +6,14 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>Jun 22, 2023</dt>
+
+<dd>The <a href="download.html">IMP 2.19.0 release</a> contains
+<a href="https://github.com/salilab/imp/releases/tag/2.19.0">minor updates</a>,
+including serialization support for many commonly-used IMP classes, and
+support for capturing information on most IMP restraints in output RMF files.
+</dd>
+
 <dt>Dec 15, 2022</dt>
 
 <dd>The <a href="download.html">IMP 2.18.0 release</a> contains

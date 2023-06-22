@@ -6,7 +6,7 @@
 <div id="download">
 
 <h2 class="download_title"><img src="images/linux.svg" alt="Linux logo"/>
-IMP 2.18.0 Linux packages</h2>
+IMP 2.19.0 Linux packages</h2>
 
 <ul>
 <li>RedHat Enterprise Linux (or variants, such as CentOS or Rocky Linux)<br />
@@ -16,59 +16,59 @@ The easiest way to install these RPMs is to use something like<br /><tt>yum loca
 <ul>
 <li>RHEL 7 RPMs<ul>
   <li>Base IMP package (needed for all users):
-<a href="get.php?pkg=2.18.0/download/IMP-2.18.0-1.el7.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.19.0/download/IMP-2.19.0-1.el7.x86_64.rpm">x86_64</a>
   </li>
   <li>IMP-mpich package (needed if you want to use the IMP.mpi module):
-<a href="get.php?pkg=2.18.0/download/IMP-mpich-2.18.0-1.el7.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.19.0/download/IMP-mpich-2.19.0-1.el7.x86_64.rpm">x86_64</a>
   </li>
   <li>IMP-devel package (needed to compile C++ code using the IMP libraries):
-<a href="get.php?pkg=2.18.0/download/IMP-devel-2.18.0-1.el7.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.19.0/download/IMP-devel-2.19.0-1.el7.x86_64.rpm">x86_64</a>
   </li>
 </ul>
 </li>
 
 <li>RHEL 8 RPMs<ul>
   <li>Base IMP package (needed for all users):
-<a href="get.php?pkg=2.18.0/download/IMP-2.18.0-1.el8.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.19.0/download/IMP-2.19.0-1.el8.x86_64.rpm">x86_64</a>
   </li>
   <li>IMP-python2 package (needed if you want to use Python 2 rather than 3):
-<a href="get.php?pkg=2.18.0/download/IMP-python2-2.18.0-1.el8.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.19.0/download/IMP-python2-2.19.0-1.el8.x86_64.rpm">x86_64</a>
   </li>
   <li>IMP-mpich package (needed if you want to use the IMP.mpi module):
-<a href="get.php?pkg=2.18.0/download/IMP-mpich-2.18.0-1.el8.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.19.0/download/IMP-mpich-2.19.0-1.el8.x86_64.rpm">x86_64</a>
   </li>
   <li>IMP-devel package (needed to compile C++ code using the IMP libraries):
-<a href="get.php?pkg=2.18.0/download/IMP-devel-2.18.0-1.el8.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.19.0/download/IMP-devel-2.19.0-1.el8.x86_64.rpm">x86_64</a>
   </li>
 </ul>
 </li>
 
 <li>RHEL 9 RPMs<ul>
   <li>Base IMP package (needed for all users):
-<a href="get.php?pkg=2.18.0/download/IMP-2.18.0-1.el9.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.19.0/download/IMP-2.19.0-1.el9.x86_64.rpm">x86_64</a>
   </li>
   <li>IMP-mpich package (needed if you want to use the IMP.mpi module):
-<a href="get.php?pkg=2.18.0/download/IMP-mpich-2.18.0-1.el9.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.19.0/download/IMP-mpich-2.19.0-1.el9.x86_64.rpm">x86_64</a>
   </li>
   <li>IMP-devel package (needed to compile C++ code using the IMP libraries):
-<a href="get.php?pkg=2.18.0/download/IMP-devel-2.18.0-1.el9.x86_64.rpm">x86_64</a>
+<a href="get.php?pkg=2.19.0/download/IMP-devel-2.19.0-1.el9.x86_64.rpm">x86_64</a>
   </li>
 </ul>
 </li>
 </ul>
 <p /></li>
 
-<li>Fedora 37 Linux RPMs<br />
+<li>Fedora 38 Linux RPMs<br />
 The easiest way to install these RPMs is to use something like<br /><tt>dnf localinstall IMP-*.rpm</tt>
 <ul>
   <li>Base IMP package (needed for all users):
-<a href="get.php?pkg=2.18.0/download/IMP-2.18.0-1.fc37.x86_64.rpm">x86_64</a></li>
+<a href="get.php?pkg=2.19.0/download/IMP-2.19.0-1.fc38.x86_64.rpm">x86_64</a></li>
   <li>IMP-python2 package (needed if you want to use Python 2 rather than 3):
-<a href="get.php?pkg=2.18.0/download/IMP-python2-2.18.0-1.fc37.x86_64.rpm">x86_64</a></li>
+<a href="get.php?pkg=2.19.0/download/IMP-python2-2.19.0-1.fc38.x86_64.rpm">x86_64</a></li>
   <li>IMP-mpich package (needed if you want to use the IMP.mpi module):
-<a href="get.php?pkg=2.18.0/download/IMP-mpich-2.18.0-1.fc37.x86_64.rpm">x86_64</a></li>
+<a href="get.php?pkg=2.19.0/download/IMP-mpich-2.19.0-1.fc38.x86_64.rpm">x86_64</a></li>
   <li>IMP-devel package (needed to compile C++ code using the IMP libraries):
-<a href="get.php?pkg=2.18.0/download/IMP-devel-2.18.0-1.fc37.x86_64.rpm">x86_64</a></li>
+<a href="get.php?pkg=2.19.0/download/IMP-devel-2.19.0-1.fc38.x86_64.rpm">x86_64</a></li>
 </ul>
 <p /></li>
 
@@ -103,7 +103,7 @@ you check your IMP RPMs for tampering by downloading the key, importing it
 <h2>Source RPMs</h2>
 
 <p>Source RPMs (to rebuild the package for Linux variants not listed above)
-are <a href="2.18.0/download/">also available</a>. See the comments in the
+are <a href="2.19.0/download/">also available</a>. See the comments in the
 <tt>IMP.spec</tt> file for building details.</p>
 
 <h2>Linuxbrew</h2>
