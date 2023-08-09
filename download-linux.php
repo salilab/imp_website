@@ -9,67 +9,25 @@
 IMP 2.19.0 Linux packages</h2>
 
 <ul>
-<li>RedHat Enterprise Linux (or variants, such as CentOS or Rocky Linux)<br />
-These packages also require that you have the
-<a href="https://fedoraproject.org/wiki/EPEL">EPEL</a> repository installed.<br />
-The easiest way to install these RPMs is to use something like<br /><tt>yum localinstall IMP-*.rpm</tt>
+<li>RPM packages are provided for currently supported versions of
+RedHat Enterprise Linux (RHEL) (or variants, such as CentOS or Rocky Linux)
+and Fedora, for both 64-bit Intel (x86_64) and 64-bit ARM (aarch64), by the
+<a href="https://copr.fedorainfracloud.org/coprs/salilab/salilab/">COPR project</a>.
+
 <ul>
-<li>RHEL 7 RPMs<ul>
-  <li>Base IMP package (needed for all users):
-<a href="get.php?pkg=2.19.0/download/IMP-2.19.0-1.el7.x86_64.rpm">x86_64</a>
-  </li>
-  <li>IMP-mpich package (needed if you want to use the IMP.mpi module):
-<a href="get.php?pkg=2.19.0/download/IMP-mpich-2.19.0-1.el7.x86_64.rpm">x86_64</a>
-  </li>
-  <li>IMP-devel package (needed to compile C++ code using the IMP libraries):
-<a href="get.php?pkg=2.19.0/download/IMP-devel-2.19.0-1.el7.x86_64.rpm">x86_64</a>
-  </li>
+  <li>To set up, run<br />
+<tt>dnf copr enable salilab/salilab</tt></li>
+  <li>Then simply install the <tt>IMP</tt> package to get IMP itself
+(needed for all users),
+the <tt>IMP-python2</tt> package if you want Python 2 support,
+the <tt>IMP-mpich</tt> package if you want to use the IMP.mpi module,
+and the <tt>IMP-devel</tt> package if you need to compile C++ code using the IMP libraries. (From the command line, use <tt>dnf install IMP</tt>)</li>
+  <li>(Note that on RHEL systems you will first need to activate the
+<a href="https://fedoraproject.org/wiki/EPEL">EPEL</a> repository, e.g.
+with <tt>dnf install epel-release</tt>.)</li>
+  <li>(On RHEL 7, use <tt>yum</tt> rather than <tt>dnf</tt>.)</li>
 </ul>
-</li>
 
-<li>RHEL 8 RPMs<ul>
-  <li>Base IMP package (needed for all users):
-<a href="get.php?pkg=2.19.0/download/IMP-2.19.0-1.el8.x86_64.rpm">x86_64</a>
-  </li>
-  <li>IMP-python2 package (needed if you want to use Python 2 rather than 3):
-<a href="get.php?pkg=2.19.0/download/IMP-python2-2.19.0-1.el8.x86_64.rpm">x86_64</a>
-  </li>
-  <li>IMP-mpich package (needed if you want to use the IMP.mpi module):
-<a href="get.php?pkg=2.19.0/download/IMP-mpich-2.19.0-1.el8.x86_64.rpm">x86_64</a>
-  </li>
-  <li>IMP-devel package (needed to compile C++ code using the IMP libraries):
-<a href="get.php?pkg=2.19.0/download/IMP-devel-2.19.0-1.el8.x86_64.rpm">x86_64</a>
-  </li>
-</ul>
-</li>
-
-<li>RHEL 9 RPMs<ul>
-  <li>Base IMP package (needed for all users):
-<a href="get.php?pkg=2.19.0/download/IMP-2.19.0-1.el9.x86_64.rpm">x86_64</a>
-  </li>
-  <li>IMP-mpich package (needed if you want to use the IMP.mpi module):
-<a href="get.php?pkg=2.19.0/download/IMP-mpich-2.19.0-1.el9.x86_64.rpm">x86_64</a>
-  </li>
-  <li>IMP-devel package (needed to compile C++ code using the IMP libraries):
-<a href="get.php?pkg=2.19.0/download/IMP-devel-2.19.0-1.el9.x86_64.rpm">x86_64</a>
-  </li>
-</ul>
-</li>
-</ul>
-<p /></li>
-
-<li>Fedora 38 Linux RPMs<br />
-The easiest way to install these RPMs is to use something like<br /><tt>dnf localinstall IMP-*.rpm</tt>
-<ul>
-  <li>Base IMP package (needed for all users):
-<a href="get.php?pkg=2.19.0/download/IMP-2.19.0-1.fc38.x86_64.rpm">x86_64</a></li>
-  <li>IMP-python2 package (needed if you want to use Python 2 rather than 3):
-<a href="get.php?pkg=2.19.0/download/IMP-python2-2.19.0-1.fc38.x86_64.rpm">x86_64</a></li>
-  <li>IMP-mpich package (needed if you want to use the IMP.mpi module):
-<a href="get.php?pkg=2.19.0/download/IMP-mpich-2.19.0-1.fc38.x86_64.rpm">x86_64</a></li>
-  <li>IMP-devel package (needed to compile C++ code using the IMP libraries):
-<a href="get.php?pkg=2.19.0/download/IMP-devel-2.19.0-1.fc38.x86_64.rpm">x86_64</a></li>
-</ul>
 <p /></li>
 
 <li>Ubuntu LTS (22.04, Jammy Jellyfish; 20.04, Focal Fossa; 18.04, Bionic Beaver)
@@ -90,21 +48,14 @@ and the <tt>imp-dev</tt> package if you need to compile C++ code using the IMP l
 </li>
 </ul>
 
-<h2>Signature</h2>
+<h2>Individual file downloads</h2>
 
-<p>All of the RPMs are signed with
-<a href="//salilab.org/~ben/pubkey256.asc">this GPG key</a>
-(note this is a different key from that used for older IMP versions).
-We recommend
-you check your IMP RPMs for tampering by downloading the key, importing it
-(with <tt>sudo rpm --import pubkey256.asc</tt>), then verifying the RPMs
-(with <tt>rpm -K IMP*.rpm</tt>).</p>
-
-<h2>Source RPMs</h2>
-
-<p>Source RPMs (to rebuild the package for Linux variants not listed above)
-are <a href="2.19.0/download/">also available</a>. See the comments in the
-<tt>IMP.spec</tt> file for building details.</p>
+Each of the RPM and .deb files is <a href="2.19.0/download/">also available</a>,
+as are the source RPMs (to rebuild the package for Linux variants not listed
+above). See the comments in the <tt>IMP.spec</tt> file for building details.
+All of the RPMs are signed with
+<a href="//salilab.org/~ben/pubkey256.asc">this GPG key</a>.
+</p>
 
 <h2>Linuxbrew</h2>
 
