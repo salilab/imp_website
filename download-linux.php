@@ -9,19 +9,22 @@
 IMP 2.19.0 Linux packages</h2>
 
 <ul>
-<li>RPM packages are provided for currently supported versions of
-RedHat Enterprise Linux (RHEL) (or variants, such as CentOS or Rocky Linux)
-and Fedora, for both 64-bit Intel (x86_64) and 64-bit ARM (aarch64), by the
-<a href="https://copr.fedorainfracloud.org/coprs/salilab/salilab/">COPR project</a>.
+<li>RPM packages for currently supported versions of RedHat Enterprise Linux
+(RHEL) (or variants, such as CentOS or Rocky Linux) and Fedora, for both 64-bit
+Intel (x86_64) and 64-bit ARM (aarch64), provided by the
+<a href="https://copr.fedorainfracloud.org/coprs/salilab/salilab/">COPR project</a>
 
 <ul>
   <li>To set up, run<br />
 <tt>dnf copr enable salilab/salilab</tt></li>
   <li>Then simply install the <tt>IMP</tt> package to get IMP itself
-(needed for all users),
-the <tt>IMP-python2</tt> package if you want Python 2 support,
-the <tt>IMP-mpich</tt> package if you want to use the IMP.mpi module,
-and the <tt>IMP-devel</tt> package if you need to compile C++ code using the IMP libraries. (From the command line, use <tt>dnf install IMP</tt>)</li>
+(from the command line, use <tt>dnf install IMP</tt>); this will install the
+IMP command line tools and the Python library (Python 3 on modern systems;
+Python 2 on RHEL 7).</li>
+  <li>Also install the <tt>IMP-devel</tt> package if you need to compile C++
+code using the IMP libraries; the <tt>IMP-python2</tt> package if you want
+Python 2 support (on RHEL 8 or Fedora only); or the <tt>IMP-mpich</tt> package
+if you want to use the IMP.mpi module.
   <li>(Note that on RHEL systems you will first need to activate the
 <a href="https://fedoraproject.org/wiki/EPEL">EPEL</a> repository, e.g.
 with <tt>dnf install epel-release</tt>.)</li>
