@@ -7,6 +7,10 @@
 and its applications.</p>
 
 <ul>
+<li><a href="https://github.com/isblab/IMP_Tutorial/">Slides and other materials
+for the IMP workshop</a> at
+<a href="https://sites.google.com/acads.iiserpune.ac.in/masfe/">MASFE 2023</a>,
+August 2023</li>
 <li><a href="talks/IMP coding intro.pdf">Introduction to writing IMP code</a>, December 2018
 (see the <a href="//integrativemodeling.org/tutorials/coding/">coding tutorial</a> for an updated version)</li>
 <li><a href="talks/IMP intro UCSF Nov 2018.pdf">IMP software introduction and demonstration</a> from a mini workshop at UCSF, November 2018</li>
