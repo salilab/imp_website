@@ -22,7 +22,7 @@ line</p>
 <p><tt>conda config --add channels conda-forge</tt><br />
 <tt>conda install imp</tt></p>
 
-<p>We support recent versions of Python 3 (Python 3.8 through to 3.11 on most
+<p>We support recent versions of Python 3 (Python 3.8 through to 3.12 on most
 platforms). For compatibility with old workflows, we also provide
 a Python 2.7 package for Linux in the <tt>salilab</tt> channel
 (add <tt>conda config --add channels salilab</tt>). Note though that this is
