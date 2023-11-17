@@ -62,7 +62,7 @@ version is tested every night; please check out the
 <a href="nightly/results/">nightly builds results
 page</a> to see if the code is currently stable enough for your purposes.</p>
 
-<p>Binary installers for Windows, Linux (Fedora 38, RHEL 7/8/9,
+<p>Binary installers for Windows, Linux (Fedora 39, RHEL 7/8/9,
 Ubuntu 20.04 LTS/22.04 LTS), and Mac OS X 10.10 or later
 <a href="nightly/download/">are also available</a>
 for the most recent nightly build that compiled successfully.
