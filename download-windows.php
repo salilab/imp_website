@@ -36,7 +36,7 @@ in a directory of your choosing on your Windows machine.</p>
 
 <p>If you want to use the Python interface (e.g. if you want to run any
 of the example Python scripts) you will need to install Python
-3.6, 3.7, 3.8, 3.9, 3.10, or 3.11
+3.7, 3.8, 3.9, 3.10, 3.11, or 3.12
 from <a href="https://www.python.org/">the Python website</a> (if you installed
 the 32-bit version of IMP, you'll need the 32-bit version of Python, and
 likewise for the 64-bit version).
