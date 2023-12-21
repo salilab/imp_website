@@ -6,7 +6,7 @@
 <div id="download">
 
 <h2 class="download_title"><img src="images/linux.svg" alt="Linux logo"/>
-IMP 2.19.0 Linux packages</h2>
+IMP 2.20.0 Linux packages</h2>
 
 <ul>
 <li>RPM packages for currently supported versions of RedHat Enterprise Linux
@@ -33,15 +33,13 @@ with <tt>dnf install epel-release</tt>.)</li>
 
 <p /></li>
 
-<li>Ubuntu LTS (22.04, Jammy Jellyfish; 20.04, Focal Fossa; 18.04, Bionic Beaver)
+<li>Ubuntu LTS (22.04, Jammy Jellyfish; 20.04, Focal Fossa)
 .deb packages<ul>
   <li>Just add the following line to your <tt>/etc/apt/sources.list</tt>:<br />
 <tt>deb https://integrativemodeling.org/latest/download jammy/</tt>
     (<i>for Ubuntu 22.04, Jammy Jellyfish</i>)<br/>
 <tt>deb https://integrativemodeling.org/latest/download focal/</tt>
-    (<i>for Ubuntu 20.04, Focal Fossa</i>)<br/>
-<tt>deb https://integrativemodeling.org/latest/download bionic/</tt>
-    (<i>for Ubuntu 18.04, Bionic Beaver</i>)<br/></li>
+    (<i>for Ubuntu 20.04, Focal Fossa</i>)<br/></li>
   <li>Run <tt>sudo wget -O /etc/apt/trusted.gpg.d/salilab.asc https://salilab.org/~ben/pubkey256.asc</tt> to get the signing key (note this is a different key from that used for older IMP versions).</li>
   <li>Then simply install the <tt>imp</tt> package to get IMP itself
 (needed for all users),
@@ -53,7 +51,7 @@ and the <tt>imp-dev</tt> package if you need to compile C++ code using the IMP l
 
 <h2>Individual file downloads</h2>
 
-Each of the RPM and .deb files is <a href="2.19.0/download/">also available</a>,
+Each of the RPM and .deb files is <a href="2.20.0/download/">also available</a>,
 as are the source RPMs (to rebuild the package for Linux variants not listed
 above). See the comments in the <tt>IMP.spec</tt> file for building details.
 All of the RPMs are signed with

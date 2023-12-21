@@ -6,6 +6,14 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>Dec 21, 2023</dt>
+
+<dd>The <a href="download.html">IMP 2.20.0 release</a> contains
+<a href="https://github.com/salilab/imp/releases/tag/2.20.0">minor updates</a>,
+including improved support for mmCIF files, reduced memory utilization, and
+preliminary support for converting RMF format directly to mmCIF.
+</dd>
+
 <dt>Jun 22, 2023</dt>
 
 <dd>The <a href="download.html">IMP 2.19.0 release</a> contains
