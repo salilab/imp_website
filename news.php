@@ -6,6 +6,15 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>Jan 16, 2024</dt>
+
+<dd>The <a href="download.html">IMP 2.20.1 release</a> is a
+<a href="https://github.com/salilab/imp/releases/tag/2.20.1">minor bugfix release</a>,
+introducing compatibility with Python 3.12 and SWIG 4.2, and fixing a crash in
+the <tt>soap_score</tt> tool when scoring multiple models with an
+orientation-dependent SOAP score.
+</dd>
+
 <dt>Dec 21, 2023</dt>
 
 <dd>The <a href="download.html">IMP 2.20.0 release</a> contains

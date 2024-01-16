@@ -6,7 +6,7 @@
 <div id="download">
 
 <h2 class="download_title"><img src="images/linux.svg" alt="Linux logo"/>
-IMP 2.20.0 Linux packages</h2>
+IMP 2.20.1 Linux packages</h2>
 
 <ul>
 <li>RPM packages for currently supported versions of RedHat Enterprise Linux
@@ -51,7 +51,7 @@ and the <tt>imp-dev</tt> package if you need to compile C++ code using the IMP l
 
 <h2>Individual file downloads</h2>
 
-Each of the RPM and .deb files is <a href="2.20.0/download/">also available</a>,
+Each of the RPM and .deb files is <a href="2.20.1/download/">also available</a>,
 as are the source RPMs (to rebuild the package for Linux variants not listed
 above). See the comments in the <tt>IMP.spec</tt> file for building details.
 All of the RPMs are signed with
