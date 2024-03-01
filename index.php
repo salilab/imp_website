@@ -35,6 +35,14 @@ License (LGPL)</a>. (Some IMP modules are available under the
 </p>
 
 <p>
+<b>Please note:</b> <i>While IMP currently supports both Python 2 and Python 3,
+Python 2 was officially retired several years ago, and we plan to drop support
+for Python 2 in the next IMP stable release after June 30th, 2024.
+If this would cause a lot of issues with your own workflows and for some reason
+you cannot move to Python 3, please <a href="contact.html">let us know</a> or update the relevant <a href="https://github.com/salilab/imp/issues/1092">GitHub issue</a></i>.
+</p>
+
+<p>
 Get started with IMP by <a href="download.html">downloading it</a> and
 checking out the <a href="doc.html">documentation</a>.</p>
 </div>
