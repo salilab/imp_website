@@ -6,6 +6,14 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>Apr 4, 2024</dt>
+
+<dd>The <a href="download.html">IMP 2.20.2 release</a> is a
+<a href="https://github.com/salilab/imp/releases/tag/2.20.2">minor bugfix release</a>,
+correcting build issues with Boost 1.84 and latest SWIG, and adding support 
+for ARM64 .deb packages.
+</dd>
+
 <dt>Jan 16, 2024</dt>
 
 <dd>The <a href="download.html">IMP 2.20.1 release</a> is a
