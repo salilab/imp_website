@@ -33,9 +33,11 @@ with <tt>dnf install epel-release</tt>.)</li>
 
 <p /></li>
 
-<li>Ubuntu LTS (22.04, Jammy Jellyfish; 20.04, Focal Fossa)
+<li>Ubuntu LTS (24.04, Noble Numbat; 22.04, Jammy Jellyfish; 20.04, Focal Fossa)
 .deb packages for 64-bit Intel (x86_64) and 64-bit ARM (aarch64)<ul>
   <li>Just add the following line to your <tt>/etc/apt/sources.list</tt>:<br />
+<tt>deb https://integrativemodeling.org/latest/download noble/</tt>
+    (<i>for Ubuntu 24.04, Noble Numbat</i>)<br/>
 <tt>deb https://integrativemodeling.org/latest/download jammy/</tt>
     (<i>for Ubuntu 22.04, Jammy Jellyfish</i>)<br/>
 <tt>deb https://integrativemodeling.org/latest/download focal/</tt>
