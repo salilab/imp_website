@@ -6,14 +6,14 @@
 <div id="download">
 
 <h2 class="download_title"><img src="images/anaconda-symbol.svg" alt="Anaconda logo"/>
-IMP 2.20.2 Anaconda Python installer</h2>
+IMP 2.21.0 Anaconda Python installer</h2>
 
 <p>IMP is packaged to use with the
 <a href="https://www.anaconda.com/download/">Anaconda scientific
 Python distribution</a> for 64-bit Windows, x86_64 Linux, and Mac (both
 Intel and Apple Silicon). It uses dependencies provided by
 <a href="https://conda-forge.org/">conda-forge</a>
-(unlike previous releases of IMP).</p>
+(unlike older releases of IMP).</p>
 
 <p>
 To install IMP using the 'conda' package manager, simply run from a command
@@ -26,7 +26,7 @@ line</p>
 platforms). For compatibility with old workflows, we also provide
 a Python 2.7 package for Linux in the <tt>salilab</tt> channel
 (add <tt>conda config --add channels salilab</tt>). Note though that this is
-deprecated and will be removed in a future release; we encourage you to
+deprecated and will be removed in the next IMP release; we encourage you to
 move your workflows to Python 3.
 
 <p>(We no longer provide Anaconda packages for 32-bit Windows, as this

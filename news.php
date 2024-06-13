@@ -6,6 +6,15 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>Jun 13, 2024</dt>
+
+<dd>The <a href="download.html">IMP 2.21.0 release</a> is a
+<a href="https://github.com/salilab/imp/releases/tag/2.21.0">minor update and bugfix release</a>,
+adding support for spatiotemporal modeling and nested sampling-based
+optimization of representation. This is also the last version of IMP to
+support Python 2; please port your workflows to Python 3.
+</dd>
+
 <dt>Apr 4, 2024</dt>
 
 <dd>The <a href="download.html">IMP 2.20.2 release</a> is a
