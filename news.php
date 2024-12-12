@@ -6,6 +6,15 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>Dec 12, 2024</dt>
+
+<dd>The <a href="download.html">IMP 2.22.0 release</a> is a
+<a href="https://github.com/salilab/imp/releases/tag/2.22.0">minor update and bugfix release</a>,
+adding the Bayesian Fluorescence Framework and improved mmCIF support.
+As of this release, IMP only supports Python 3; please port any Python 2
+workflows to Python 3.
+</dd>
+
 <dt>Jun 13, 2024</dt>
 
 <dd>The <a href="download.html">IMP 2.21.0 release</a> is a

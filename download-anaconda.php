@@ -6,7 +6,7 @@
 <div id="download">
 
 <h2 class="download_title"><img src="images/anaconda-symbol.svg" alt="Anaconda logo"/>
-IMP 2.21.0 Anaconda Python installer</h2>
+IMP 2.22.0 Anaconda Python installer</h2>
 
 <p>IMP is packaged to use with the
 <a href="https://www.anaconda.com/download/">Anaconda scientific
@@ -23,11 +23,7 @@ line</p>
 <tt>conda install imp</tt></p>
 
 <p>We support recent versions of Python 3 (Python 3.8 through to 3.12 on most
-platforms). For compatibility with old workflows, we also provide
-a Python 2.7 package for Linux in the <tt>salilab</tt> channel
-(add <tt>conda config --add channels salilab</tt>). Note though that this is
-deprecated and will be removed in the next IMP release; we encourage you to
-move your workflows to Python 3.
+platforms; Python 2 is not supported).
 
 <p>(We no longer provide Anaconda packages for 32-bit Windows, as this
 platform has been dropped upstream. For this platform, use the
