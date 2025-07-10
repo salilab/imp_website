@@ -6,7 +6,7 @@
 <div id="download">
 
 <a name="stable"></a>
-<h2>IMP 2.22.0 stable release</h2>
+<h2>IMP 2.23.0 stable release</h2>
 
 <p>This release is recommended for beginners, and should be stable.
 (For the very latest features, use the
@@ -28,24 +28,24 @@
 <h3>Documentation</h3>
 
 <p>Please refer to the
-<a href="2.22.0/doc/manual/">online documentation</a>.
-You can also <a href="2.22.0/download/imp-doc-2.22.0.tar.gz">download the documentation</a>.</p>
+<a href="2.23.0/doc/manual/">online documentation</a>.
+You can also <a href="2.23.0/download/imp-doc-2.23.0.tar.gz">download the documentation</a>.</p>
 
 <a name="source"></a>
 <h3>Source code</h3>
 
 <ul>
-<li><a href="get.php?pkg=2.22.0/download/imp-2.22.0.tar.gz">Source code tarball</a></li>
+<li><a href="get.php?pkg=2.23.0/download/imp-2.23.0.tar.gz">Source code tarball</a></li>
 </ul>
 
 <p>To build IMP from source code, please refer to the
-<a href="2.22.0/doc/manual/installation.html">installation guide</a>.
+<a href="2.23.0/doc/manual/installation.html">installation guide</a>.
 </p>
 
 <h3>Signatures</h3>
 
 <p>Please check the
-<a href="2.22.0/download/SHA256SUM">SHA256SUM</a> file, which in turn is signed
+<a href="2.23.0/download/SHA256SUM">SHA256SUM</a> file, which in turn is signed
 with <a href="//salilab.org/~ben/pubkey256.asc">this GPG key</a>.
 </p>
 
@@ -62,8 +62,8 @@ version is tested every night; please check out the
 <a href="nightly/results/">nightly builds results
 page</a> to see if the code is currently stable enough for your purposes.</p>
 
-<p>Binary installers for Windows, and for Linux (Fedora, RHEL 8/9,
-Ubuntu 20.04 LTS/22.04 LTS/24.04 LTS)
+<p>Binary installers for Windows, and for Linux (Fedora, RHEL 8/9/10,
+Ubuntu 22.04 LTS/24.04 LTS)
 <a href="nightly/download/">are also available</a>
 for the most recent nightly build that compiled successfully.
 <a href="download-anaconda.html">Anaconda packages</a> for 64-bit Linux are

@@ -6,6 +6,14 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>Jul 10, 2025</dt>
+
+<dd>The <a href="download.html">IMP 2.23.0 release</a> is a
+<a href="https://github.com/salilab/imp/releases/tag/2.23.0">minor update and bugfix release</a>,
+adding support for the BinaryCIF format and improving the performance of some
+scoring function terms.
+</dd>
+
 <dt>Dec 12, 2024</dt>
 
 <dd>The <a href="download.html">IMP 2.22.0 release</a> is a

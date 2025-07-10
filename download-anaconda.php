@@ -6,7 +6,7 @@
 <div id="download">
 
 <h2 class="download_title"><img src="images/anaconda-symbol.svg" alt="Anaconda logo"/>
-IMP 2.22.0 Anaconda Python installer</h2>
+IMP 2.23.0 Anaconda Python installer</h2>
 
 <p>IMP is packaged to use with the
 <a href="https://www.anaconda.com/download/">Anaconda scientific
@@ -22,7 +22,7 @@ line</p>
 <p><tt>conda config --add channels conda-forge</tt><br />
 <tt>conda install imp</tt></p>
 
-<p>We support recent versions of Python 3 (Python 3.8 through to 3.12 on most
+<p>We support recent versions of Python 3 (Python 3.9 through to 3.13 on most
 platforms; Python 2 is not supported).
 
 <p>(We no longer provide Anaconda packages for 32-bit Windows, as this

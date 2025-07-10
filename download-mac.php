@@ -6,7 +6,7 @@
 <div id="download">
 
 <h2 class="download_title"><img src="images/apple.svg" alt="Apple logo"/>
-IMP 2.22.0 Mac installer</h2>
+IMP 2.23.0 Mac installer</h2>
 
 <p>
 On the Mac we provide packages using either

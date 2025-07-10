@@ -6,7 +6,7 @@
 <div id="download">
 
 <h2 class="download_title"><img src="images/linux.svg" alt="Linux logo"/>
-IMP 2.22.0 Linux packages</h2>
+IMP 2.23.0 Linux packages</h2>
 
 <ul>
 <li>RPM packages for currently supported versions of RedHat Enterprise Linux
@@ -30,7 +30,7 @@ with <tt>dnf install epel-release</tt>.)</li>
 
 <p /></li>
 
-<li>Ubuntu LTS (24.04, Noble Numbat; 22.04, Jammy Jellyfish; 20.04, Focal Fossa)
+<li>Ubuntu LTS (24.04, Noble Numbat; and 22.04, Jammy Jellyfish)
 .deb packages for 64-bit Intel (x86_64) and 64-bit ARM (aarch64), provided by
 <a href="https://launchpad.net/~salilab/+archive/ubuntu/ppa">Ubuntu PPA</a>:
 
@@ -51,7 +51,7 @@ to remove any references to <tt>https://integrativemodeling.org</tt>.)</li>
 
 <h2>Individual file downloads</h2>
 
-Each of the RPM and .deb files is <a href="2.22.0/download/">also available</a>,
+Each of the RPM and .deb files is <a href="2.23.0/download/">also available</a>,
 as are the source RPMs (to rebuild the package for Linux variants not listed
 above). See the comments in the <tt>IMP.spec</tt> file for building details.
 All of the RPMs are signed with
