@@ -14,8 +14,14 @@ It sends out an email every time code is changed in the RMF git repository.
 <span class="e-mail">listserv at listsrv.ucsf.edu | listserv@listsrv.ucsf.edu</span>.
 Leave the Subject field blank and remove your signature from the email.
 In the body of the message, enter just:
-<tt>subscribe rmf-commits firstname lastname</tt> where <tt>firstname</tt>
+<tt>SUBSCRIBE rmf-commits firstname lastname</tt> where <tt>firstname</tt>
 is your first name and <tt>lastname</tt> your last name.</p>
+
+<p>Other listserv commands can be sent in the same way to the same email
+address. For example, <tt>SIGNOFF rmf-commits</tt> will cancel your
+subscription to the list, while <tt>SET rmf-commits SUBJ</tt> will add the
+prefix <tt>[RMF-commits]</tt> to the subject of each email to the list.
+See the <a href="https://www.lsoft.com/manuals/16.0/htmlhelp/list%20subscribers/LSCommands.html">LISTSERV manual</a> for more information.</p>
 
 </div>
 
