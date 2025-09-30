@@ -35,9 +35,7 @@ be notified if they break the build.</p>
 list sends out an email every time code is changed in the IMP git repository.
 It can be a high traffic list, and is only recommended for developers that
 want to keep an eye on new developments.
-(There are similar
-<a href="//salilab.org/mm/postorius/lists/rmf-commits.salilab.org/">RMF-commits</a>
-and
+(There are similar <a href="rmf-commits.html">RMF-commits</a> and
 <a href="////salilab.org/mm/postorius/lists/pmi-commits.salilab.org/">PMI-commits</a>
 lists for <a href="https://integrativemodeling.org/rmf/nightly/doc/">RMF</a>
 and <a href="https://integrativemodeling.org/nightly/doc/ref/namespaceIMP_1_1pmi.html">PMI</a>
