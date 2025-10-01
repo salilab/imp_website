@@ -12,7 +12,8 @@ FILES=${WEB}/groups.html ${WEB}/index.html ${WEB}/imp.css ${WEB}/pygments.css \
       ${WEB}/download-linux.html ${WEB}/about.html ${WEB}/news.html \
       ${WEB}/libTAU.html ${WEB}/contact.html ${WEB}/talks.html \
       ${WEB}/old-versions.html ${WEB}/download-anaconda.html \
-      ${WEB}/rmf-commits.html ${WEB}/pmi-commits.html
+      ${WEB}/rmf-commits.html ${WEB}/pmi-commits.html \
+      ${WEB}/imp-commits.html ${WEB}/imp-build.html
 
 include ${TOPDIR}/Makefile.include
 

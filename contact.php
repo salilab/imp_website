@@ -26,12 +26,12 @@ instead. Prior postings are also
 <a href="//salilab.org/mm/hyperkitty/list/imp-dev@salilab.org/latest">archived</a>
 and can be searched.</p>
 
-<p>The <a href="//salilab.org/mm/postorius/lists/imp-build.salilab.org/">imp-build</a>
+<p>The <a href="imp-build.html">imp-build</a>
 list sends out an email every morning with the results of the nightly builds
 of IMP. All developers are encouraged to subscribe to this list, so they can
 be notified if they break the build.</p>
 
-<p>The <a href="//salilab.org/mm/postorius/lists/imp-commits.salilab.org/">imp-commits</a>
+<p>The <a href="imp-commits.html">imp-commits</a>
 list sends out an email every time code is changed in the IMP git repository.
 It can be a high traffic list, and is only recommended for developers that
 want to keep an eye on new developments.
