@@ -20,8 +20,7 @@ is your first name and <tt>lastname</tt> your last name.</p>
 
 <p>Other listserv commands can be sent in the same way to the same email
 address. For example, <tt>SIGNOFF imp-build</tt> will cancel your
-subscription to the list, while <tt>SET imp-build SUBJ</tt> will add the
-prefix <tt>[IMP-build]</tt> to the subject of each email to the list.
+subscription to the list.
 See the <a href="https://www.lsoft.com/manuals/16.0/htmlhelp/list%20subscribers/LSCommands.html">LISTSERV manual</a> for more information.</p>
 
 </div>
