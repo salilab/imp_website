@@ -9,22 +9,12 @@
 <p>We provide several mailing lists for discussion on using and
 developing IMP.</p>
 
-<p>The <a href="//salilab.org/mm/postorius/lists/imp-users.salilab.org/">imp-users</a>
-mailing list is provided for <i>users</i> of IMP. It is for discussion of and
-help with the use of IMP. Both users and developers are encouraged to subscribe
-to the list. Prior postings are also
-<a href="//salilab.org/mm/hyperkitty/list/imp-users@salilab.org/latest">archived</a>
-and can be searched.</p>
-
-<p>The <a href="//salilab.org/mm/postorius/lists/imp-dev.salilab.org/">imp-dev</a>
-mailing list is provided for <i>developers</i> of IMP. It is for technical
-discussion of the development of new features in IMP, such as the design of
-new C++ or Python classes. Developers are encouraged to subscribe, but regular
-users are encouraged to use the
-<a href="//salilab.org/mm/postorius/lists/imp-users.salilab.org/">imp-users</a> list
-instead. Prior postings are also
-<a href="//salilab.org/mm/hyperkitty/list/imp-dev@salilab.org/latest">archived</a>
-and can be searched.</p>
+<p>The <a href="imp-users.html">imp-users</a>
+mailing list is provided for users of IMP. It is for discussion of and
+help with the use of IMP, as well as for discussion of the development of new
+features in IMP, such as the design of new C++ or Python classes. Prior
+postings are archived and can be searched. All users and developers of IMP
+are encouraged to subscribe to this list.</p>
 
 <p>The <a href="imp-build.html">imp-build</a>
 list sends out an email every morning with the results of the nightly builds

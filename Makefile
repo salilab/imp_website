@@ -14,7 +14,7 @@ FILES=${WEB}/groups.html ${WEB}/index.html ${WEB}/imp.css ${WEB}/pygments.css \
       ${WEB}/search-imp-users.html ${WEB}/search-imp-dev.html \
       ${WEB}/old-versions.html ${WEB}/download-anaconda.html \
       ${WEB}/rmf-commits.html ${WEB}/pmi-commits.html \
-      ${WEB}/imp-commits.html ${WEB}/imp-build.html
+      ${WEB}/imp-commits.html ${WEB}/imp-build.html ${WEB}/imp-users.html
 
 include ${TOPDIR}/Makefile.include
 
