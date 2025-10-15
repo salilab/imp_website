@@ -38,7 +38,7 @@ respectively.)</p>
 
 <h2>Website admin</h2>
 <p>To report problems with this website, you can also contact the
-<span class="e-mail">imp at salilab.org | IMP website admin</span>.</p>
+<span class="e-mail">salilab-system at ucsf.edu | IMP website admin</span>.</p>
 
 </div>
 
