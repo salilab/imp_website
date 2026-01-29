@@ -6,6 +6,15 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>Jan 29, 2026</dt>
+
+<dd>The <a href="download.html">IMP 2.24.0 release</a> is a
+<a href="https://github.com/salilab/imp/releases/tag/2.24.0">minor update and bugfix release</a>,
+adding a method for assigning amino acid residue sequence to backbone fragments
+traced in an input cryo-electron microscopy map, and introducing preliminary
+support for the JAX Python library.
+</dd>
+
 <dt>Jul 10, 2025</dt>
 
 <dd>The <a href="download.html">IMP 2.23.0 release</a> is a
