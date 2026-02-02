@@ -22,7 +22,7 @@ line</p>
 <p><tt>conda config --add channels conda-forge</tt><br />
 <tt>conda install imp</tt></p>
 
-<p>We support recent versions of Python 3 (Python 3.9 through to 3.13 on most
+<p>We support recent versions of Python 3 (Python 3.9 through to 3.14 on most
 platforms; Python 2 is not supported).
 
 <p>(We no longer provide Anaconda packages for 32-bit Windows, as this
