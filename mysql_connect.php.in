@@ -1,9 +1,9 @@
 <?php
 
   function connect_db() {
-    $db = mysql_connect('localhost', 'impusers', 'MYSQL-PASSWORD');
-    if (!$db) { return NULL; }
-    if (!mysql_select_db('impusers', $db)) { return NULL; }
+    $db = new mysqli('localhost', 'impusers', 'MYSQL-PASSWORD');
+    if (mysqli_connect_errno()) { return NULL; }
+    if (!$db->select_db('impusers')) { return NULL; }
     return $db;
   }
 
