@@ -40,15 +40,6 @@ checking out the <a href="doc.html">documentation</a>.</p>
 </div>
 
 <div class="pagesection">
-<a href="http://www.ncdir.org/">
-<img src="images/NCDIR.png" class="ncdir" alt="NCDIR logo" />
-</a>
-<p class="ncdir">The IMP software is used as part of the
-<a href="http://www.ncdir.org/">National Center for Dynamic Interactome Research</a> (NCDIR).
-</p>
-</div>
-
-<div class="pagesection">
 <a href="//salilab.org/sea">
 <img class="rightimg" src="images/sea.png"
 title="Model of the SEA complex"
