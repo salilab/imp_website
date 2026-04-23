@@ -30,7 +30,7 @@ with <tt>dnf install epel-release</tt>.)</li>
 
 <p /></li>
 
-<li>Ubuntu LTS (24.04, Noble Numbat; and 22.04, Jammy Jellyfish)
+<li>Ubuntu LTS (26.04, Resolute Raccoon; 24.04, Noble Numbat; and 22.04, Jammy Jellyfish)
 .deb packages for 64-bit Intel (x86_64) and 64-bit ARM (aarch64), provided by
 <a href="https://launchpad.net/~salilab/+archive/ubuntu/ppa">Ubuntu PPA</a>:
 
