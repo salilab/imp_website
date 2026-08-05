@@ -6,6 +6,15 @@
 <div id="news">
 
 <dl class="newslist">
+<dt>Aug 5, 2026</dt>
+
+<dd>The <a href="download.html">IMP 2.25.0 release</a> is a
+<a href="https://github.com/salilab/imp/releases/tag/2.25.0">minor update and
+bugfix release</a>, that improves integration with the JAX Python library, adds
+support for OpenCV 5, and introduces model vector attributes such as rigid body
+quaternions and torque.
+</dd>
+
 <dt>Jan 29, 2026</dt>
 
 <dd>The <a href="download.html">IMP 2.24.0 release</a> is a
