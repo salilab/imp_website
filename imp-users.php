@@ -26,14 +26,14 @@ In the body of the message, enter just:
 <tt>SUBSCRIBE imp-users firstname lastname</tt> where <tt>firstname</tt>
 is your first name and <tt>lastname</tt> your last name.</p>
 
-<p>To post to the list, send email to
-<span class="e-mail">imp-users at listsrv.ucsf.edu | imp-users@listsrv.ucsf.edu</span>
-(only subscribers can post).</p>
-
 <p>Other listserv commands can be sent in the same way to the same email
 address. For example, <tt>SIGNOFF imp-users</tt> will cancel your
 subscription to the list.
 See the <a href="https://www.lsoft.com/manuals/16.0/htmlhelp/list%20subscribers/LSCommands.html">LISTSERV manual</a> for more information.</p>
+
+<p>To post to the list, send email to
+<span class="e-mail">imp-users at listsrv.ucsf.edu | imp-users@listsrv.ucsf.edu</span>
+(only subscribers can post).</p>
 
 </div>
 
