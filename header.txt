@@ -5,6 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
 <meta name="description" content="IMP Community site for the development of an Integrative Modeling Platform" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="keywords" content="IMP, Integrative, Modeling, Platform" />
 <title>$title</title>
 <link href="@TOPDIR@imp.css" rel="stylesheet" type="text/css"/>
